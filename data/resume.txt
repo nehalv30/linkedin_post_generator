@@ -1,0 +1,43 @@
+# PASTE YOUR RESUME HERE
+# Replace everything below with your actual resume in plain text.
+# Include: Name, Contact Info, Summary, Work Experience, Education, Skills, Projects, Certifications.
+
+---
+
+FULL NAME
+Phone: +1 (XXX) XXX-XXXX | Email: you@email.com | LinkedIn: linkedin.com/in/yourprofile
+Location: City, State | GitHub: github.com/yourhandle | Portfolio: yourportfolio.com
+
+PROFESSIONAL SUMMARY
+[2-3 sentences: who you are, what you do, what you're looking for]
+
+WORK EXPERIENCE
+
+Job Title | Company Name | City, State | Month Year – Month Year
+- [Key achievement with impact/numbers]
+- [Key achievement with impact/numbers]
+- [Key achievement with impact/numbers]
+
+Job Title | Company Name | City, State | Month Year – Month Year
+- [Key achievement with impact/numbers]
+- [Key achievement with impact/numbers]
+
+EDUCATION
+
+Degree, Major | University Name | City, State | Graduation Year
+GPA: X.XX/4.0 | Relevant Coursework: Course1, Course2, Course3
+
+SKILLS
+Technical: [Languages, frameworks, tools, platforms]
+Soft Skills: [Leadership, communication, etc.]
+
+PROJECTS
+
+Project Name | [Link]
+[What you built, stack used, impact/results]
+
+Project Name | [Link]
+[What you built, stack used, impact/results]
+
+CERTIFICATIONS
+- Certification Name | Issuing Organization | Year

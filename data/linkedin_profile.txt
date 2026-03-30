@@ -1,0 +1,31 @@
+# PASTE YOUR LINKEDIN PROFILE INFO HERE
+# Copy the text from each section of your LinkedIn profile.
+# The more detail you add here, the more personalized your posts will be.
+
+---
+
+HEADLINE:
+[e.g. "Software Engineer | Python | React | Open to Work"]
+
+ABOUT / SUMMARY SECTION:
+[Paste your full LinkedIn About section — this captures your voice and tone]
+
+TOP SKILLS (as shown on LinkedIn):
+[Skill 1], [Skill 2], [Skill 3], [Skill 4], [Skill 5]
+
+FEATURED POSTS / ARTICLES:
+[List titles or paste text of any featured content on your profile]
+
+RECOMMENDATIONS RECEIVED:
+[Paste text of recommendations — great for social proof angles in posts]
+
+VOLUNTEER / EXTRACURRICULAR:
+[Any volunteer work, clubs, leadership roles listed on LinkedIn]
+
+LANGUAGES:
+[Language — Proficiency Level]
+
+TARGET ROLES & INDUSTRIES:
+Target Job Titles: [e.g. Software Engineer, Data Scientist, Product Manager]
+Target Industries: [e.g. Fintech, SaaS, Healthcare Tech]
+Dream Companies: [e.g. Google, Stripe, Notion — optional]
