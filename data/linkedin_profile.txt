@@ -1,31 +1,41 @@
-# PASTE YOUR LINKEDIN PROFILE INFO HERE
-# Copy the text from each section of your LinkedIn profile.
-# The more detail you add here, the more personalized your posts will be.
-
----
-
 HEADLINE:
-[e.g. "Software Engineer | Python | React | Open to Work"]
+Senior Data Analyst | Analytics Engineering & Decision Systems (SQL, Python) | Product & Finance Analytics
+
+LOCATION: New York City Metropolitan Area
 
 ABOUT / SUMMARY SECTION:
-[Paste your full LinkedIn About section — this captures your voice and tone]
+I work as a Senior Data Analyst, helping product and finance teams make sense of complex data and use it to make better decisions.
+
+Most of my work involves getting the fundamentals right. Building and maintaining SQL- and Python-based data pipelines, defining metrics teams can trust, and making sure analytics doesn't break once it's being used day to day.
+
+I've worked across fintech, enterprise analytics, and large consulting environments. At HCLTech, I've supported clients like Fiserv, as well as teams in the Microsoft and Google ecosystem, where I worked on improving data pipelines, reducing query latency, and making data more consistent and usable across teams.
+
+My journey hasn't been linear. I started with applied analytics and machine learning work early in my career, moved into fintech credit risk and backend analytics, and later worked on operational and product analytics in consumer businesses. Over time, I learned that strong data work isn't just about technical skill — it's about understanding how decisions get made and where data actually helps.
+
+Before HCLTech, I worked at Universal Orlando Resort, where I built analytics solutions that gave operations teams clearer visibility into what was driving results, contributing to a 30% improvement in efficiency. In fintech roles at Rapipay, I worked on data systems that reduced analytics handling costs by around 35% and supported automated decisioning.
+
+I bring a solid technical background in SQL, Python, and data modeling, along with experience working closely with product, engineering, and business teams. I enjoy turning unclear questions into something concrete that people can use.
+
+I'm especially interested in teams building data-driven products in product, fintech, or enterprise environments, where getting the data right really matters.
 
 TOP SKILLS (as shown on LinkedIn):
-[Skill 1], [Skill 2], [Skill 3], [Skill 4], [Skill 5]
+IT Business Analysis, Statistical Data Analysis, Agile Methodologies, SQL, Python, Data Pipelines, Power BI, Tableau, Azure, AWS
 
-FEATURED POSTS / ARTICLES:
-[List titles or paste text of any featured content on your profile]
-
-RECOMMENDATIONS RECEIVED:
-[Paste text of recommendations — great for social proof angles in posts]
-
-VOLUNTEER / EXTRACURRICULAR:
-[Any volunteer work, clubs, leadership roles listed on LinkedIn]
-
-LANGUAGES:
-[Language — Proficiency Level]
+CERTIFICATIONS ON LINKEDIN:
+- Microsoft Certified: Azure AI Fundamentals
+- Professional Scrum Master
+- Career Management
+- Microsoft Data Fundamentals
 
 TARGET ROLES & INDUSTRIES:
-Target Job Titles: [e.g. Software Engineer, Data Scientist, Product Manager]
-Target Industries: [e.g. Fintech, SaaS, Healthcare Tech]
-Dream Companies: [e.g. Google, Stripe, Notion — optional]
+Target Job Titles: Senior Data Analyst, Analytics Engineer, Data Engineer, Business Intelligence Engineer, Product Analyst, Finance Analytics Lead
+Target Industries: Fintech, Enterprise SaaS, Tech Consulting, Consumer Tech, Healthcare Tech
+Dream Companies: Stripe, Plaid, Robinhood, Snowflake, Databricks, Google, Microsoft, Meta, Capital One, JPMorgan Chase
+
+TONE & VOICE NOTES:
+- Thoughtful and grounded — not flashy or self-promotional
+- Values getting the fundamentals right over chasing trends
+- Non-linear career path is a strength, not a weakness
+- Cares deeply about how data connects to real decisions
+- Has worked at the intersection of engineering and business
+- International background (India → US), currently based in NYC

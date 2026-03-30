@@ -1,43 +1,78 @@
-# PASTE YOUR RESUME HERE
-# Replace everything below with your actual resume in plain text.
-# Include: Name, Contact Info, Summary, Work Experience, Education, Skills, Projects, Certifications.
-
----
-
-FULL NAME
-Phone: +1 (XXX) XXX-XXXX | Email: you@email.com | LinkedIn: linkedin.com/in/yourprofile
-Location: City, State | GitHub: github.com/yourhandle | Portfolio: yourportfolio.com
+NEHAL VARSHNEY
+Phone: 224-424-8416 | Email: nehalvarshney3@gmail.com
+LinkedIn: https://www.linkedin.com/in/nehal-varshney/
+Portfolio: https://nehal-varshney.com/
+Location: United States
 
 PROFESSIONAL SUMMARY
-[2-3 sentences: who you are, what you do, what you're looking for]
+Senior Data Analyst and Analytics Engineer with 4+ years of experience across fintech, enterprise consulting, and consumer analytics. Currently at HCLTech supporting clients like Fiserv, Microsoft, and Google. Expertise in building SQL/Python data pipelines, fraud detection systems, executive dashboards, and scalable data infrastructure. Passionate about turning complex data into decisions that drive real business outcomes.
 
 WORK EXPERIENCE
 
-Job Title | Company Name | City, State | Month Year – Month Year
-- [Key achievement with impact/numbers]
-- [Key achievement with impact/numbers]
-- [Key achievement with impact/numbers]
+Data Analytics Engineer | HCLTech | New York City Metropolitan Area | Jun 2024 – Present
+Clients: Fiserv, Microsoft, Google
+- Constructed SQL fact and dimension tables in dbt with incremental loads and data quality tests, harmonizing 100+ datasets and reducing downstream corrections by 20% for banking clients.
+- Built end-to-end data quality layer for fraud scoring: standardized 30+ JSON transaction attributes and developed 12 Python checks (NumPy/Pandas) across millions of records, resolving ~10% of downstream data issues surfaced via Power BI dashboards.
+- Engineered near-real-time ingestion pipelines consuming Kafka and REST APIs using AWS Glue to transform data and load optimized Redshift tables for fraud detection across 100+ banks.
+- Structured star-schema tenant datasets in Azure Synapse using SQL with partitioning and indexing, enabling scalable reporting of license cost, regional spend, and workload usage across 500+ Microsoft 365 enterprise tenants.
+- Designed 4+ executive Power BI dashboards segmenting tenants by region, workload, and spend tier, uncovering adoption gaps that guided license optimization and renewal negotiations.
+- Segmented tenant billing data in Azure Synapse using SQL and PySpark to quantify Microsoft 365 product revenue contributions, reducing monthly reporting time by 40%.
+- Automated financial data validation using Python integrated into Cloud Composer (Airflow) pipelines, reducing data defects by ~50% and saving ~80 hours of manual QA per month.
+- Implemented custom BigQuery UDFs for reusable business logic (e.g., fiscal month calculations), improving consistency across 6+ reporting pipelines.
+- Created Looker dashboards to monitor 6 internal chatbot performances by integrating Python-based sentiment analysis and intent classification models, visualizing user satisfaction scores, drop-off rates, and resolution accuracy.
+- Enabled retrieval-augmented AI workflows by modeling gold-layer customer and transaction datasets in SQL and PySpark for downstream ML and analytics systems.
+- Spearheaded advanced data pipeline development using Python, resulting in 40% increase in data processing speed.
+- Optimized SQL queries to improve database performance by 25%, significantly reducing query execution time.
 
-Job Title | Company Name | City, State | Month Year – Month Year
-- [Key achievement with impact/numbers]
-- [Key achievement with impact/numbers]
+Data Analyst Co-op | Universal Studios Resorts (Universal Orlando Resort) | Orlando, FL | May 2023 – Sept 2023
+- Curated interactive Tableau dashboards to monitor guest flow and ride occupancy across park zones, enabling real-time crowd management decisions and a 20% increase in visitor satisfaction.
+- Analyzed 15 years of park attendance, ride throughput, and customer survey data using Python and SQL to uncover peak-traffic patterns and guest preferences, streamlining the dataset by ~60%.
+- Developed Power BI and Tableau dashboards that increased operational efficiency by 30%.
+- Designed Power Apps that reduced data collection time by 20% while enhancing data accuracy by 30% through process automation.
+- Collaborated with cross-functional teams to improve reporting capabilities and streamline workflows across departments.
+
+DevOps Analytics Engineer | Rapipay Fintech | India | Sept 2021 – Jul 2022
+- Redesigned backend data retrieval logic across Oracle, MySQL, and MongoDB, reducing user account verification delays and data handling costs by 35%.
+- Pioneered a credit risk modeling framework using Python and SQL Server, contributing to a 25% increase in automated loan approval rate.
+- Engineered scalable data pipelines using Hadoop, Spark, Hive, and HBase to process 2M+ daily financial transactions.
+- Partnered with product and engineering teams to improve data reliability and analytics performance.
+
+Research Analyst | Wadhwani Foundation | Mar 2021 – Sept 2021
+- Developed the Wadhwani case study portal using ML and AI, increasing operational efficiency across departments by 25%.
+- Spearheaded data mining and ETL initiatives, enhancing stakeholder decision-making capabilities by 40%.
+- Created Power BI and Looker Studio dashboards, improving data accessibility by 30%.
+
+Applied Analytics Engineer | DRDO (Defence Research and Development Laboratory) | Jan 2020 – Dec 2020
+- Developed an RNN-based deep learning model to validate cryptographic strength of AES and PICO encryption on military data, achieving 95% accuracy in confirming resistance to model-based decryption attacks.
+- Conducted EDA on 1M+ rows of operational and logistics data using Python, contributing findings to a published defense research report.
+- Executed statistical analyses using R, SAS, and C++, achieving a 10% improvement in forecasting accuracy for operational metrics.
+- Built Power BI dashboards presenting statistical analysis to senior researchers for data-driven decision making.
 
 EDUCATION
 
-Degree, Major | University Name | City, State | Graduation Year
-GPA: X.XX/4.0 | Relevant Coursework: Course1, Course2, Course3
+Master's in Business Analytics | Northeastern University | Sept 2022 – Dec 2023
 
-SKILLS
-Technical: [Languages, frameworks, tools, platforms]
-Soft Skills: [Leadership, communication, etc.]
+Bachelor of Technology, Computer Engineering | Bennett University | Jul 2018 – Jul 2022
 
-PROJECTS
-
-Project Name | [Link]
-[What you built, stack used, impact/results]
-
-Project Name | [Link]
-[What you built, stack used, impact/results]
+TECHNICAL SKILLS
+Programming: Python, R, C++, SAS
+Databases: Oracle, Snowflake, PostgreSQL, MongoDB, MySQL
+Cloud: Azure (Synapse, Data Factory), AWS (Glue, Redshift), GCP (BigQuery, Cloud Composer)
+Big Data: Hadoop, Spark, Hive, HBase, Kafka
+ML/AI: Scikit-learn, TensorFlow, PyTorch, NLP, Deep Learning, RNN
+Visualization: Tableau, Power BI, Looker, Looker Studio
+Workflow/Orchestration: Airflow (Cloud Composer), dbt, Apache Kafka
+Methodologies: Agile, Waterfall, SDLC
+Other: SQL (advanced), PySpark, NumPy, Pandas, REST APIs
 
 CERTIFICATIONS
-- Certification Name | Issuing Organization | Year
+- Microsoft Certified: Azure Data Fundamentals
+- Microsoft Certified: Azure AI Fundamentals (AI + Gen AI)
+- AI Container & Kubernetes Essentials — IBM
+- AWS Cloud Foundations
+- Professional Scrum Master
+- Android Full Stack Development — IIT Kanpur
+
+ACADEMIC PROJECTS
+- Safety-Kleen (Clean Harbors) Capstone: Led data-driven pricing optimization using SQL, Python (pandas/scikit-learn), and Power BI, analyzing customer sales data for price elasticity, product mix, geography, and churn patterns to recommend pricing and marketing strategies.
+- Apple EV Launch Marketing: Prepared a launch-analytics case study for Apple EV using Google Analytics campaign data to study audience behavior, segment target cohorts, and refine messaging to boost pre-launch engagement.
