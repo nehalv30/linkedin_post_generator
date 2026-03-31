@@ -5,22 +5,22 @@ from datetime import date
 from email.message import EmailMessage
 from pathlib import Path
 
+import anthropic
 from dotenv import load_dotenv
-from google import genai
 
 load_dotenv()
 
-API_KEY = os.getenv("GEMINI_API_KEY")
+API_KEY = os.getenv("ANTHROPIC_API_KEY")
 EMAIL_FROM = os.getenv("EMAIL_FROM")
 EMAIL_TO = os.getenv("EMAIL_TO")
 EMAIL_APP_PASSWORD = os.getenv("EMAIL_APP_PASSWORD")
 
 if not API_KEY:
-    raise ValueError("GEMINI_API_KEY not found in .env file")
+    raise ValueError("ANTHROPIC_API_KEY not found in .env file")
 if not EMAIL_FROM or not EMAIL_TO or not EMAIL_APP_PASSWORD:
     raise ValueError("Email settings (EMAIL_FROM, EMAIL_TO, EMAIL_APP_PASSWORD) missing in .env file")
 
-client = genai.Client(api_key=API_KEY)
+client = anthropic.Anthropic(api_key=API_KEY)
 
 BASE_DIR = Path(__file__).resolve().parent
 DATA_DIR = BASE_DIR / "data"
@@ -203,13 +203,14 @@ OUTPUT FORMAT:
 Return ONLY the LinkedIn post — ready to copy and paste. No explanations, no "Here's the post:", no preamble. Just the post itself followed by the hashtags.
 """
 
-print("Generating post with Gemini...")
-response = client.models.generate_content(
-    model="gemini-2.0-flash",
-    contents=prompt,
+print("Generating post with Claude Sonnet 4.5...")
+response = client.messages.create(
+    model="claude-sonnet-4-5",
+    max_tokens=1024,
+    messages=[{"role": "user", "content": prompt}],
 )
 
-post_text = response.text.strip()
+post_text = response.content[0].text.strip()
 
 print("\n" + "=" * 60)
 print("TODAY'S LINKEDIN POST")

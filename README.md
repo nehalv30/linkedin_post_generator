@@ -15,7 +15,7 @@ Fill in these two files with your actual content:
 Copy `.env.example` to `.env` and fill in:
 
 ```
-GEMINI_API_KEY=      # Get from https://aistudio.google.com/app/apikey
+ANTHROPIC_API_KEY=   # Get from https://console.anthropic.com/
 EMAIL_FROM=          # Your Gmail address
 EMAIL_TO=            # Where to send the posts (can be the same Gmail)
 EMAIL_APP_PASSWORD=  # Gmail App Password (not your regular password)
