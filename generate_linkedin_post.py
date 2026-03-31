@@ -96,145 +96,195 @@ TONES = [
 
 
 # ─── TOPICS ───────────────────────────────────────────────────────────────────
-# 15 topics drawn specifically from Nehal's real experience and domain.
-# Generic topics have been removed — every topic is grounded in his actual work.
+# Domain topics for a senior data/analytics professional.
+# NOT resume bullet points — these are things a smart person in this field
+# would organically post about. The resume is only used for voice + credibility.
 
 POST_TOPICS = [
     {
-        "name": "The pipeline that lied",
+        "name": "Why most data pipelines fail silently",
         "angle": (
-            "Write about the reality of data pipelines in production — they look clean until they don't. "
-            "Draw from Nehal's experience building ingestion pipelines with Kafka, AWS Glue, and Redshift for fraud detection across 100+ banks. "
-            "What does it actually take to trust your data? What breaks? What do most teams skip? "
-            "Make this feel like hard-won knowledge, not a tutorial."
+            "The scariest data bugs aren't the ones that crash — they're the ones that pass silently and corrupt downstream. "
+            "Write about why silent pipeline failures are so common, what patterns cause them, "
+            "and the practical things you can do to actually catch them before a stakeholder does. "
+            "Keep it specific to real pipeline work — Kafka, Airflow, batch jobs, whatever fits naturally."
         ),
     },
     {
-        "name": "Fraud detection is a data problem before it's a model problem",
+        "name": "The problem with how companies hire data people",
         "angle": (
-            "Nehal built fraud scoring data quality layers at Fiserv — standardizing 30+ JSON transaction attributes, "
-            "writing 12 Python checks across millions of records. "
-            "Most people think fraud detection is about ML models. The real bottleneck is almost always the data underneath. "
-            "Write about this — what the data work actually looks like before a single model is trained."
+            "Most data job interviews test the wrong things. LeetCode SQL puzzles don't predict whether someone can "
+            "actually model a business problem or communicate findings to a non-technical team. "
+            "Write a sharp take on what the data hiring process gets wrong and what good hiring actually looks like. "
+            "Be specific. Be willing to name the dysfunction."
         ),
     },
     {
-        "name": "What working for Microsoft, Google, and Fiserv as a consultant taught me",
+        "name": "Everyone says they're data-driven. Almost nobody is.",
         "angle": (
-            "Nehal supports multiple enterprise clients simultaneously through HCLTech. "
-            "Each client (Fiserv = banking/fraud, Microsoft = enterprise tenants/M365, Google = chatbot analytics) has radically different data maturity. "
-            "Write about what this cross-client view reveals — patterns in how good vs bad data teams operate, "
-            "what enterprise clients actually need vs what they ask for, what most in-house analysts never see."
+            "Companies love saying they're data-driven. In practice, most decisions still get made on gut feel "
+            "and the data gets used to justify the conclusion that was already reached. "
+            "Write an honest post about what actually blocks data-driven culture — "
+            "not tools, not talent, but the organizational patterns that make data decorative."
         ),
     },
     {
-        "name": "The dashboard nobody uses",
+        "name": "SQL patterns most analysts get wrong",
         "angle": (
-            "Nehal has built executive Power BI dashboards, Looker dashboards, Tableau dashboards. "
-            "Most dashboards die. They get built, presented, and then nobody opens them again. "
-            "Write about why this happens and how to build dashboards that people actually use. "
-            "This should feel like a confession and a solution at the same time."
+            "Pick one or two SQL patterns that look correct but produce subtly wrong results — "
+            "things like NULL handling in aggregations, window function frame defaults, JOIN behavior with duplicates, "
+            "or COUNT(*) vs COUNT(col). Write it as a practical teaching post with a concrete example. "
+            "Make it feel like something you wish someone had told you earlier."
         ),
     },
     {
-        "name": "Career path: DRDO → fintech → Universal Studios → HCLTech",
+        "name": "Dashboards don't drive decisions — here's what does",
         "angle": (
-            "Nehal's path is genuinely unusual: military cryptography research in India → fintech credit risk → "
-            "theme park guest analytics in Orlando → senior consulting for Microsoft and Google in NYC. "
-            "Write about what this non-linear path actually taught him — skills that transferred unexpectedly, "
-            "moments of starting over, and why weird career paths often produce better analysts. "
-            "Don't make it a resume recap. Make it a story."
+            "Most dashboards get built, get presented, and then quietly die. "
+            "The reason isn't the tool. It's that dashboards answer questions nobody was asking, "
+            "or answer them too late, or require too much interpretation. "
+            "Write about what actually drives decisions in organizations and how analytics can plug into that. "
+            "Give people something they can change on Monday morning."
         ),
     },
     {
-        "name": "SQL is not a commodity skill",
+        "name": "The real difference between a junior and senior data analyst",
         "angle": (
-            "Everyone claims SQL on their resume. Very few people can actually model data well. "
-            "Nehal has built star schemas in Azure Synapse, dbt fact/dimension tables, BigQuery UDFs, optimized Redshift tables. "
-            "Write about the difference between knowing SQL syntax and actually understanding data modeling — "
-            "what separates junior SQL from senior SQL in the real world."
+            "It's not SQL speed. It's not Python. It's not the number of tools on the resume. "
+            "Write about what actually separates junior from senior in data work — "
+            "how they frame problems, handle ambiguity, communicate uncertainty, push back on bad requests. "
+            "Make it concrete. Give examples of junior behavior vs senior behavior on the same situation."
         ),
     },
     {
-        "name": "Saving 80 hours of manual QA with a Python script",
+        "name": "Hot take on dbt",
         "angle": (
-            "Nehal automated financial data validation using Python checks integrated into Airflow pipelines, "
-            "reducing data defects by ~50% and saving ~80 hours of manual QA per month. "
-            "Write about this specifically — what the manual process looked like, what the automation actually did, "
-            "and the broader lesson about where automation creates the most leverage in data work."
+            "dbt has become the default for analytics engineering. "
+            "Write an honest, opinionated take on it — what it genuinely solves, where the hype outpaces the reality, "
+            "what problems it creates that people don't talk about. "
+            "Not a hit piece, not a fan post — a real take from someone who has used it in production."
         ),
     },
     {
-        "name": "What I saw analyzing 15 years of theme park data at Universal Studios",
+        "name": "What Snowflake, Databricks, and BigQuery don't tell you",
         "angle": (
-            "Nehal analyzed 15 years of park attendance, ride throughput, and guest survey data at Universal Orlando. "
-            "This is genuinely interesting — the patterns in crowd behavior, peak traffic, ride preferences. "
-            "Write about one surprising insight from this work (invent a plausible one grounded in the domain). "
-            "Frame it as: 'here's what 15 years of data says about how people behave' — "
-            "everyone loves data stories about places they've been."
+            "The modern data stack has incredible marketing. The gap between the demo and production reality is enormous. "
+            "Write about the things you only learn after actually running a data warehouse at scale — "
+            "cost surprises, performance gotchas, the stuff the documentation buries. "
+            "Be specific and practical. This is the post someone saves for when they're about to make a vendor decision."
         ),
     },
     {
-        "name": "The honest job search post",
+        "name": "Python for data analysts — what to actually learn",
         "angle": (
-            "Write a confident, magnetic, non-desperate open-to-work post for Nehal. "
-            "Not 'I'm looking for opportunities' energy — more like 'here's exactly what I've built and what I want next.' "
-            "Include specific things he's proud of, the type of team he thrives in, and a clear CTA. "
-            "Should make a recruiter at Stripe, Snowflake, or a fintech feel like they'd be lucky to have him."
+            "Everyone tells analysts to learn Python. Almost nobody tells them what to actually focus on. "
+            "Write a clear, opinionated guide on the Python skills that actually matter for data work — "
+            "and explicitly call out the things that are overhyped or irrelevant for most analysts. "
+            "Make it actionable enough that someone can start this weekend."
         ),
     },
     {
-        "name": "dbt changed how I think about data — but not in the way you'd expect",
+        "name": "The data quality problem nobody wants to own",
         "angle": (
-            "Nehal builds dbt models with incremental loads, data quality tests, and fact/dimension tables for banking clients. "
-            "Write about what working with dbt at scale actually revealed — not the marketing pitch, "
-            "but the real lessons about data modeling, team collaboration, and where dbt genuinely helps vs where it creates new problems. "
-            "Give the honest take."
+            "Data quality is everyone's problem and nobody's responsibility. "
+            "Engineering says it's analytics' job. Analytics says it's engineering's job. "
+            "The business doesn't care whose job it is — they just see wrong numbers in the report. "
+            "Write about how this dynamic plays out and what actually fixes it. "
+            "Be direct about the organizational reality, not just the technical solution."
         ),
     },
     {
-        "name": "From 2 million transactions a day to zero trust in the data",
+        "name": "When ML makes things worse",
         "angle": (
-            "At Rapipay, Nehal engineered pipelines processing 2M+ daily financial transactions using Hadoop, Spark, Hive, HBase. "
-            "Write about what operating at that scale teaches you about data reliability — "
-            "the silent failures, the aggregations that lie, the moment you realize your 'clean' data isn't. "
-            "Make it visceral and specific."
+            "Machine learning gets applied to problems where a simple rule or a SQL query would do the job better. "
+            "Write about the situations where ML is the wrong call — overcomplicated, opaque, expensive to maintain, "
+            "and worse than a well-thought-out heuristic. "
+            "This isn't an anti-ML post — it's a pro-thinking post. When should you not reach for the model?"
         ),
     },
     {
-        "name": "Power BI vs Tableau — I've used both for years. Here's my real take.",
+        "name": "What fintech data actually looks like",
         "angle": (
-            "Nehal has used both Power BI and Tableau extensively across clients. "
-            "Write a sharp, opinionated comparison — not a feature list, but when each one actually wins, "
-            "which one enterprise clients default to and why, and which one produces better insights in practice. "
-            "Be specific and willing to pick a side."
+            "People outside fintech imagine clean transaction tables. "
+            "The reality is nested JSON, inconsistent schemas across banks, missing fields, duplicate events, "
+            "and timing issues that make aggregations lie. "
+            "Write about what financial data is really like in the wild — the mess, the edge cases, the gotchas — "
+            "and how to actually work with it reliably."
         ),
     },
     {
-        "name": "What RNN-based cryptography research taught me about data quality",
+        "name": "Airflow is not the answer to your pipeline problems",
         "angle": (
-            "At DRDO, Nehal built an RNN model to validate AES and PICO encryption on military data — achieving 95% accuracy. "
-            "This is a genuinely unusual experience. Write about what working with highly sensitive, high-stakes data taught him "
-            "about data integrity, validation, and what 'good enough' means when the consequences are real. "
-            "Connect it to what he does now in financial data."
+            "Airflow gets adopted as the solution to messy pipelines. "
+            "Often it just turns messy pipelines into messy Airflow DAGs. "
+            "Write about what Airflow actually solves, where teams misuse it, "
+            "and what questions you should ask before reaching for an orchestration tool. "
+            "Practical and specific — for people who have felt this pain."
         ),
     },
     {
-        "name": "The metric nobody tracks but should",
+        "name": "The metric that actually tells you if your data team is working",
         "angle": (
-            "Based on Nehal's experience across banking, enterprise SaaS, and consumer analytics — "
-            "write about one underrated metric or measurement that most data teams ignore but that reveals a huge amount. "
-            "Could be about pipeline freshness, dashboard engagement, data team ROI, or something domain-specific. "
-            "Make it feel like insider knowledge from someone who's seen a lot of dashboards."
+            "Most data teams track output: dashboards shipped, queries written, models deployed. "
+            "None of those measure whether the data team is actually useful to the business. "
+            "Write about what metrics or signals actually indicate a healthy, impactful data function — "
+            "things you can observe without a big measurement framework."
         ),
     },
     {
-        "name": "Masters in Business Analytics — was it worth it?",
+        "name": "Moving from India to the US for a data career",
         "angle": (
-            "Nehal did a Master's in Business Analytics at Northeastern University, moving from India to the US. "
-            "Write an honest take on the MBA/MSBA question — what he actually learned vs what he expected, "
-            "what the degree opened up, what he wishes he'd done differently, and whether he'd recommend it. "
-            "Keep it honest — not a Northeastern ad, not a 'degrees are useless' take either. Just real."
+            "Write an honest post about what the transition is actually like — "
+            "the gap between what you expect and what the job market, culture, and day-to-day work actually look like. "
+            "What skills transferred well? What had to be relearned? What would you tell someone considering the same move? "
+            "Keep it grounded and real — not a success story, not a warning. Just the truth."
+        ),
+    },
+    {
+        "name": "Kafka is overkill for most companies",
+        "angle": (
+            "Real-time streaming is exciting to build and often unnecessary to run. "
+            "Write about when Kafka (or any streaming infrastructure) is genuinely the right call "
+            "vs when a well-designed batch job would do the same job at a fraction of the complexity. "
+            "Give people a framework for making this call, not just an opinion."
+        ),
+    },
+    {
+        "name": "What good stakeholder communication looks like in data roles",
+        "angle": (
+            "Most data training is technical. The skill that actually determines career growth is communication — "
+            "knowing how to present uncertainty, push back on bad requests, translate findings for non-technical audiences, "
+            "and manage expectations when the data doesn't have a clean answer. "
+            "Write about what this looks like in practice. Give concrete examples."
+        ),
+    },
+    {
+        "name": "The honest take on Azure vs AWS vs GCP for data",
+        "angle": (
+            "Every cloud has a different strengths story. The real differences only show up when you've used them. "
+            "Write an opinionated but fair comparison of the three for data workloads specifically — "
+            "not a feature matrix, but actual working experience: "
+            "which ecosystem is most mature, where the pricing gets you, what the developer experience is actually like."
+        ),
+    },
+    {
+        "name": "Stop building data models nobody asked for",
+        "angle": (
+            "Analytics engineers love clean, well-modeled data. Business stakeholders love answers to their questions. "
+            "These are not always the same thing. "
+            "Write about the trap of over-engineering data models that are technically beautiful and practically unused — "
+            "and how to stay connected to what the business actually needs. "
+            "Be direct about where the disconnect usually comes from."
+        ),
+    },
+    {
+        "name": "What I'd do differently if I started my data career today",
+        "angle": (
+            "Write a reflective, practical post about what a person entering data today should prioritize — "
+            "and what most people waste time on. "
+            "Not another 'learn Python and SQL' post — go deeper. "
+            "What mental models, habits, or skills would actually compound over a career? "
+            "Make it feel like advice from someone a few years ahead, not a course ad."
         ),
     },
 ]
@@ -260,6 +310,12 @@ SYSTEM_PROMPT = """You are writing LinkedIn posts for Nehal Varshney — a Senio
 Your job is to write posts that feel like they were written by a real human being who is smart, experienced, and has opinions — not by a content marketing team or an AI.
 
 YOU ARE NEHAL. Write in first person as him.
+
+IMPORTANT — USE THE RESUME FOR VOICE, NOT CONTENT:
+The resume and LinkedIn profile are provided so you understand who Nehal is, how he thinks, and what his credibility is.
+Do NOT write posts that are obviously about specific resume bullet points or name-drop clients and employers directly.
+Write about the TOPIC as any thoughtful senior data professional would — using his background to inform the perspective, not to show off the CV.
+The post should feel like something he'd write on a Sunday afternoon because he cares about the topic, not like a LinkedIn humble-brag.
 
 VOICE:
 - Thoughtful but direct. He's seen a lot, he has opinions, he's earned them.
