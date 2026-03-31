@@ -37,59 +37,91 @@ def load_file(path: Path) -> str:
     return text
 
 
+# ─── LENGTHS ──────────────────────────────────────────────────────────────────
+# Rotates independently so the feed has natural variety — not every post is
+# the same length.
+
+LENGTHS = [
+    {
+        "name": "Short",
+        "instruction": (
+            "Write a SHORT post: 60–100 words max, not counting hashtags. "
+            "One sharp idea, fully expressed. No fluff, no build-up. "
+            "Think of it like a really good tweet that deserved more space. "
+            "Every single sentence must earn its place. If a line can be cut, cut it."
+        ),
+    },
+    {
+        "name": "Medium",
+        "instruction": (
+            "Write a MEDIUM post: 130–200 words, not counting hashtags. "
+            "Enough room for a setup, a point, and a landing. "
+            "Don't pad it out — stop as soon as the idea is complete."
+        ),
+    },
+    {
+        "name": "Long",
+        "instruction": (
+            "Write a LONG post: 250–350 words, not counting hashtags. "
+            "This can be a story, a structured breakdown, or a deep observation. "
+            "Use the length to go deeper — not to repeat yourself. "
+            "Short paragraphs throughout. The extra length should feel earned, not padded."
+        ),
+    },
+]
+
+
 # ─── TONES ────────────────────────────────────────────────────────────────────
-# Each post gets a TOPIC + a TONE. They rotate independently so the same topic
-# never hits twice in the same emotional register.
+# 4 tones as specified. Rotate independently from topic and length.
 
 TONES = [
     {
-        "name": "Useful / Teach something",
+        "name": "Funny / Witty",
         "instruction": (
-            "This post should genuinely teach the reader something they can use. "
-            "Make it specific — not 'SQL is important' but 'here is the exact pattern most analysts get wrong in SQL and why.' "
-            "Think: someone reads this and immediately learns one thing they didn't know before. "
-            "Tone is confident, clear, zero fluff. Like a smart colleague explaining something at a whiteboard."
+            "Write something funny or witty about an observation, a thought, or an insight in the data/analytics domain. "
+            "The humor must be SPECIFIC — not generic jokes, but the exact absurdity that only people in this field experience. "
+            "Examples of the right energy: the stakeholder who wants 'just one more filter', the pipeline that breaks at 5 PM on Friday, "
+            "the dashboard that took 3 weeks to build and got opened twice, the data model that's technically perfect and completely useless. "
+            "Write it like a sharp observation from someone who has seen too much. "
+            "Dry wit works better than punchlines. The funniest posts make people say 'this is so real' before they laugh. "
+            "End with something that invites others to share their own version of this pain."
         ),
     },
     {
-        "name": "Hot Take / Contrarian",
+        "name": "Relatable",
         "instruction": (
-            "Write a bold opinion that goes against what most people in data/analytics believe. "
-            "Something that will make half the readers nod and half want to argue in the comments. "
-            "Back it with a real observation from Nehal's experience. "
-            "Tone is direct and unapologetic — not rude, but not hedging either. "
-            "Example energy: 'Everyone talks about dbt. Nobody talks about the 80% of problems dbt creates downstream.' "
-            "This is the tone. Match it to the topic."
+            "Write something that fellow data analysts, data engineers, and analytics professionals will immediately recognise as their own experience. "
+            "Not funny — just deeply, painfully, accurately true. "
+            "The kind of post where someone tags a coworker and says 'this is literally us.' "
+            "Could be about: the gap between what a dashboard shows and what's actually happening, "
+            "the meeting where someone questions the data instead of the decision, "
+            "writing a query that works perfectly and having no idea why, "
+            "the slow creep of technical debt in a pipeline nobody wants to touch. "
+            "Stay grounded in the real day-to-day of the job. No lessons, no takeaways — just the truth of it. "
+            "End with a question like 'anyone else?' or 'tell me I'm not alone.'"
         ),
     },
     {
-        "name": "Funny / Relatable",
+        "name": "Something I learned / observed / did at work",
         "instruction": (
-            "Write something that makes data professionals laugh because it's painfully true. "
-            "The humor comes from specificity — not generic jokes, but the exact absurdity of real analytics work. "
-            "Think: a dashboard that nobody used, a pipeline that broke Friday at 5 PM, a stakeholder asking to 'just add one more filter.' "
-            "Keep it light and self-aware. The post should feel like a tweet that accidentally went viral. "
-            "End with something that invites people to share their own horror stories."
+            "Write as if Nehal is sharing something he noticed, learned, or did recently in his work as a data analyst or data engineer. "
+            "It should feel like a genuine, unpolished work reflection — not a thought leadership piece. "
+            "The energy is: 'I was doing X this week and realised Y, and I figured I'd share it.' "
+            "It can be a small thing — a SQL trick, a way of framing a problem, something a stakeholder said that changed how he thought about the work. "
+            "First-person and present-tense where it fits. Specific over general, always. "
+            "No grand conclusions. Just a real moment from real work that other data people will find useful or interesting."
         ),
     },
     {
-        "name": "Personal / Story",
+        "name": "Credible Insight / Domain Authority",
         "instruction": (
-            "Write a personal story from Nehal's career — a real moment of doubt, failure, unexpected win, or turning point. "
-            "The non-linear path (DRDO → fintech → theme parks → consulting for Microsoft/Google) is gold — use it. "
-            "Make the reader feel something. Vulnerability is strength here. "
-            "The lesson should emerge naturally from the story — never state it as a moral. "
-            "Tone: warm, honest, human. Like a conversation over coffee, not a TED talk."
-        ),
-    },
-    {
-        "name": "Practical / Tactical",
-        "instruction": (
-            "Write a numbered or structured post that gives the reader a framework, checklist, or process they can apply immediately. "
-            "Based on something Nehal actually does — how he approaches data quality, pipeline design, stakeholder reporting, fraud detection, etc. "
-            "Make it feel like insider knowledge, not a textbook. "
-            "Tone: efficient and direct. Every line earns its place. "
-            "This type gets saved and shared — optimize for that."
+            "Write a post that makes Nehal sound like someone who really knows this field — not by listing credentials, "
+            "but by saying something genuinely insightful that only someone with deep experience would say. "
+            "The kind of post that makes a recruiter or senior engineer think: 'this person actually gets it.' "
+            "Could be a non-obvious pattern he's observed across projects, a counterintuitive truth about data work, "
+            "a framework for thinking about a common problem, or a sharp take on where the industry is getting something wrong. "
+            "No buzzwords. No 'thought leadership' energy. Just a smart person sharing something worth knowing. "
+            "Tone: calm, confident, authoritative without being arrogant."
         ),
     },
 ]
@@ -291,16 +323,20 @@ POST_TOPICS = [
 
 
 # ─── DAILY SELECTION ──────────────────────────────────────────────────────────
-# Use date as seed so the combo is consistent within a day but rotates daily.
-# Topics and tones rotate independently — same topic won't get the same tone
-# for a long time, keeping the feed varied.
+# Topic, tone, and length rotate independently using different seeds so the
+# same combination doesn't repeat for a long time.
 
-rng = random.Random(date.today().toordinal())
-topic = rng.choice(POST_TOPICS)
-tone = rng.choice(TONES)
+rng_topic  = random.Random(date.today().toordinal())
+rng_tone   = random.Random(date.today().toordinal() + 1000)
+rng_length = random.Random(date.today().toordinal() + 2000)
 
-print(f"Today's topic : {topic['name']}")
-print(f"Today's tone  : {tone['name']}")
+topic  = rng_topic.choice(POST_TOPICS)
+tone   = rng_tone.choice(TONES)
+length = rng_length.choice(LENGTHS)
+
+print(f"Today's topic  : {topic['name']}")
+print(f"Today's tone   : {tone['name']}")
+print(f"Today's length : {length['name']}")
 
 resume = load_file(RESUME_FILE)
 profile = load_file(PROFILE_FILE)
@@ -337,9 +373,9 @@ STRUCTURE RULES:
 - Short paragraphs. 1–3 lines max. LinkedIn is not a blog.
 - White space is your friend. Empty lines between paragraphs.
 - End with either a question that invites a real response, or a CTA that feels natural.
-- 3–6 emojis max, placed where they add meaning not decoration.
-- 4–6 hashtags at the very end, mix of broad and niche for his field.
-- 150–280 words in the post body (not counting hashtags).
+- 3–5 emojis max. Only where they genuinely add something. Never at the start of every line.
+- 4–5 hashtags at the very end on their own line. Mix broad and niche for data/analytics.
+- LENGTH IS SET PER POST — follow the length instruction exactly. Do not default to medium every time.
 
 OUTPUT: Return only the post. No preamble, no "Here's the post", no explanation. Just the post."""
 
@@ -355,6 +391,9 @@ USER_PROMPT = f"""=== NEHAL'S RESUME ===
 === TODAY'S TONE: {tone['name']} ===
 {tone['instruction']}
 
+=== TODAY'S LENGTH: {length['name']} ===
+{length['instruction']}
+
 Write the post now."""
 
 print("Generating post with Claude Sonnet 4.5...")
@@ -368,7 +407,7 @@ response = client.messages.create(
 post_text = response.content[0].text.strip()
 
 print("\n" + "=" * 60)
-print(f"TODAY'S LINKEDIN POST  [{tone['name']}]")
+print(f"TODAY'S LINKEDIN POST  [{length['name']} · {tone['name']}]")
 print("=" * 60)
 print(post_text)
 print("=" * 60 + "\n")
@@ -376,13 +415,14 @@ print("=" * 60 + "\n")
 # Send email
 msg = EmailMessage()
 msg["Subject"] = (
-    f"LinkedIn Post — {topic['name']} [{tone['name']}] · {date.today().strftime('%b %d, %Y')}"
+    f"LinkedIn Post — {topic['name']} [{length['name']} · {tone['name']}] · {date.today().strftime('%b %d, %Y')}"
 )
 msg["From"] = EMAIL_FROM
 msg["To"] = EMAIL_TO
 msg.set_content(
     f"Topic  : {topic['name']}\n"
     f"Tone   : {tone['name']}\n"
+    f"Length : {length['name']}\n"
     f"Date   : {date.today().strftime('%B %d, %Y')}\n\n"
     f"{'─' * 60}\n\n"
     f"{post_text}\n\n"
