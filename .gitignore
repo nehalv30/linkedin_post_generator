@@ -4,3 +4,4 @@ __pycache__/
 *.pyo
 .DS_Store
 output/
+# logs/ is intentionally tracked — do not add it here

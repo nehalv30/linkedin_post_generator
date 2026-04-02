@@ -457,3 +457,19 @@ with smtplib.SMTP_SSL("smtp.gmail.com", 465) as smtp:
     smtp.send_message(msg)
 
 print(f"Post emailed to {EMAIL_TO}")
+
+# Write to post log so GitHub sees repo activity every day (keeps scheduled workflow reliable)
+LOG_FILE = BASE_DIR / "logs" / "posts.md"
+LOG_FILE.parent.mkdir(exist_ok=True)
+
+log_entry = (
+    f"## {date.today().strftime('%B %d, %Y')}\n"
+    f"**Topic:** {topic['name']}\n"
+    f"**Tone:** {tone['name']} | **Length:** {length['name']}\n\n"
+    f"{post_text}\n\n"
+    f"---\n\n"
+)
+
+existing = LOG_FILE.read_text(encoding="utf-8") if LOG_FILE.exists() else ""
+LOG_FILE.write_text(log_entry + existing, encoding="utf-8")
+print(f"Post logged to {LOG_FILE}")
