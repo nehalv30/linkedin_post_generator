@@ -326,16 +326,20 @@ POST_TOPICS = [
 
 
 # ─── DAILY SELECTION ──────────────────────────────────────────────────────────
-# Topic, tone, and length rotate independently using different seeds so the
-# same combination doesn't repeat for a long time.
+# Use day index to cycle through topics/tones/lengths in order so nothing
+# repeats until the full list is exhausted. Topics cycle every 20 days,
+# tones every 4, lengths every 3 — all out of phase so combinations stay fresh.
 
-rng_topic  = random.Random(date.today().toordinal())
-rng_tone   = random.Random(date.today().toordinal() + 1000)
-rng_length = random.Random(date.today().toordinal() + 2000)
+day_index = date.today().toordinal()
 
-topic  = rng_topic.choice(POST_TOPICS)
-tone   = rng_tone.choice(TONES)
-length = rng_length.choice(LENGTHS)
+# Shuffle each list with a fixed seed so the order is consistent but not obvious
+topic_order  = random.Random(42).sample(range(len(POST_TOPICS)), len(POST_TOPICS))
+tone_order   = random.Random(43).sample(range(len(TONES)), len(TONES))
+length_order = random.Random(44).sample(range(len(LENGTHS)), len(LENGTHS))
+
+topic  = POST_TOPICS[topic_order[day_index % len(POST_TOPICS)]]
+tone   = TONES[tone_order[day_index % len(TONES)]]
+length = LENGTHS[length_order[day_index % len(LENGTHS)]]
 
 print(f"Today's topic  : {topic['name']}")
 print(f"Today's tone   : {tone['name']}")
