@@ -1,0 +1,30 @@
+name: Daily LinkedIn Post
+
+on:
+  schedule:
+    - cron: "0 13 * * 1-5"  # 9 AM EST (UTC-4) on weekdays. Change to "0 14 * * 1-5" in winter (EST = UTC-5)
+  workflow_dispatch:         # also lets you trigger it manually from GitHub any time
+
+jobs:
+  generate-and-send:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Generate and email post
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
+          EMAIL_TO: ${{ secrets.EMAIL_TO }}
+          EMAIL_APP_PASSWORD: ${{ secrets.EMAIL_APP_PASSWORD }}
+        run: python generate_linkedin_post.py
