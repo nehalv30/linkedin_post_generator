@@ -1,3 +1,35 @@
+## April 06, 2026
+**Topic:** Stop building data models nobody asked for
+**Tone:** Funny / Witty | **Length:** Long
+
+You spend three weeks building the most beautiful data model you've ever made.
+
+Star schema. Perfect naming conventions. Slowly changing dimensions that actually work. Incremental loads. Tests on every join. Documentation that uses real sentences instead of table names as explanations.
+
+You ship it. You send the email. You wait for someone to use it.
+
+Two months later a stakeholder messages you asking for "quick data pull". They want to know the thing your model literally calculates. You send them the dashboard link. They say thanks but could you just send it in Excel. They never open the dashboard.
+
+Or worse. They do open it. Once. Then they email you asking if you can add a filter. Then another filter. Then they ask if the data can update hourly instead of daily. Then they stop using it entirely and build their own pivot table from a CSV export they found on Sharepoint.
+
+And you realize the model you were so proud of is now just sitting there. Humming along. Refreshing every night. Calculating metrics no one looks at. Using cloud compute that costs actual money.
+
+The problem is not that the model is bad. The problem is that you built the model you wanted to build, not the model anyone actually needed.
+
+I have done this. Multiple times. I got excited about the technical problem and forgot to ask the boring questions. Like who is actually going to use this. And for what. And how often. And could they just do it themselves in SQL if we gave them a clean base table instead.
+
+Analytics engineers love building things that are elegant and scalable and reusable. Business stakeholders love getting an answer to the question they asked yesterday. Sometimes those overlap. A lot of times they do not.
+
+The disconnect usually comes from this: we think in systems, they think in questions. We want to build once and serve many use cases. They want an answer to one question right now and maybe a different question next week.
+
+Not saying we should stop building good models. Just saying maybe we should confirm someone will actually open the thing before we spend two weeks on dimension history tracking.
+
+Anyone else have a model that is technically perfect and completely ignored.
+
+#DataAnalytics #AnalyticsEngineering #DataModeling #BusinessIntelligence #DataStrategy
+
+---
+
 ## April 03, 2026
 **Topic:** The honest take on Azure vs AWS vs GCP for data
 **Tone:** Relatable | **Length:** Long
