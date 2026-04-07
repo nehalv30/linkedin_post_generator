@@ -1,3 +1,23 @@
+## April 07, 2026
+**Topic:** Kafka is overkill for most companies
+**Tone:** Relatable | **Length:** Medium
+
+Most companies don't need Kafka.
+
+I know that sounds boring. Real-time pipelines are fun to build. Streaming architecture looks great on a resume. But needing sub-second latency is rarer than LinkedIn makes it seem.
+
+If your business can wait 15 minutes for the data, you don't need Kafka. If decisions happen once a day, you don't need Kafka. If the person reading the dashboard refreshes it twice a week, you really don't need Kafka.
+
+A cron job running a Python script at 3am will handle most of what people are streaming. It's less impressive. It's also way easier to debug when it breaks.
+
+Kafka makes sense when you actually can't wait. Fraud detection, live bidding, stock trades. Real consequences for delays measured in seconds. Outside of that, you're trading simplicity for a feature no one asked for.
+
+Before you spin up a streaming platform, ask if anyone would notice if the data showed up 10 minutes later. If the answer is no, save yourself the trouble.
+
+#DataEngineering #Analytics #Kafka #DataPipelines #RealTimeData
+
+---
+
 ## April 06, 2026
 **Topic:** Stop building data models nobody asked for
 **Tone:** Funny / Witty | **Length:** Long
