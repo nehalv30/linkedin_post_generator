@@ -1,3 +1,19 @@
+## April 08, 2026
+**Topic:** The metric that actually tells you if your data team is working
+**Tone:** Credible Insight / Domain Authority | **Length:** Short
+
+The best sign your data team is working: how many times people ask you to fix the *same* metric instead of building a new one.
+
+If stakeholders keep coming back to argue about definitions, your team is shipping dashboards, not decisions.
+
+When the same people stop asking "can you add this field" and start saying "according to the dashboard", you know the work landed.
+
+Not glamorous. But it's the difference between being a ticket queue and being infrastructure.
+
+#DataAnalytics #DataEngineering #AnalyticsEngineering #DataTeams #BusinessIntelligence
+
+---
+
 ## April 07, 2026
 **Topic:** Kafka is overkill for most companies
 **Tone:** Relatable | **Length:** Medium
