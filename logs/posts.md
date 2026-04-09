@@ -1,3 +1,35 @@
+## April 09, 2026
+**Topic:** The data quality problem nobody wants to own
+**Tone:** Something I learned / observed / did at work | **Length:** Long
+
+I'm working on a fraud detection pipeline this week. We're pulling transaction data from APIs, transforming it, running checks, loading it into Redshift. The schema looks clean. The tests pass. The dashboard updates every hour.
+
+And then someone in fraud ops sends me a message.
+
+"Why are 300 transactions showing null for merchant_category?"
+
+I check the data. The field is there. It's just empty for about 10% of records. Not because the pipeline broke. Because upstream, the source system sometimes doesn't send it. And nobody caught it until someone tried to segment transactions by category.
+
+So I ping engineering. They say the API is working as designed. If the merchant doesn't have a category on file, it returns null. That's expected behavior.
+
+I ping the product team. They say analytics should handle nulls in reporting. That's just data hygiene.
+
+I ping fraud ops. They say they need the category to route high-risk transactions. If it's missing, the rule doesn't fire.
+
+Everyone is right. And the data is still wrong.
+
+Nobody owns the gap between "the system works" and "the data is usable." Engineering owns the pipeline. Analytics owns the dashboard. The business owns the decision. But the space in between, where a null becomes a problem, that's nobody's job.
+
+What actually fixes it is boring. You add a validation step that flags nulls before they hit the warehouse. You set up a Slack alert when the null rate crosses 5%. You add a fallback in the SQL that maps nulls to "Unknown" so the dashboard doesn't break. You document what the field actually means and when it's expected to be missing.
+
+And then you put one person's name next to it. Not as blame. As ownership.
+
+Because if everyone is responsible, nobody checks. And the business keeps seeing bad numbers until someone gets annoyed enough to ask why.
+
+#DataQuality #DataEngineering #Analytics #DataPipelines #AnalyticsEngineering
+
+---
+
 ## April 08, 2026
 **Topic:** The metric that actually tells you if your data team is working
 **Tone:** Credible Insight / Domain Authority | **Length:** Short
