@@ -1,3 +1,27 @@
+## April 10, 2026
+**Topic:** Dashboards don't drive decisions — here's what does
+**Tone:** Funny / Witty | **Length:** Medium
+
+You know what's wild?
+
+Every team I've worked with has at least one dashboard that took three weeks to build, got presented in a big meeting, and was never opened again.
+
+It has everything. Filters by region, product, time period. Three different chart types. A calculated field that took two days to get right.
+
+Nobody uses it.
+
+Because the VP still makes decisions based on the conversation they had with a customer last week. Or the thing their friend at another company is doing. Or just vibes.
+
+The dashboards that actually matter? They're the ones someone checks every Monday morning because they need to know if something broke. Or the one metric that goes straight into someone's bonus calculation. Or the report that answers "should we do this thing or not" with a number everyone agrees to trust.
+
+The rest is furniture.
+
+Anyone else have a beautifully designed dashboard just sitting there, looking expensive and ignored?
+
+#DataAnalytics #BusinessIntelligence #DataDrivenDecisions #AnalyticsEngineering #DataScience
+
+---
+
 ## April 09, 2026
 **Topic:** The data quality problem nobody wants to own
 **Tone:** Something I learned / observed / did at work | **Length:** Long
