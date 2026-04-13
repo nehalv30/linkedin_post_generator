@@ -1,3 +1,23 @@
+## April 13, 2026
+**Topic:** What I'd do differently if I started my data career today
+**Tone:** Something I learned / observed / did at work | **Length:** Medium
+
+I've been doing this for a few years now and if I had to start over, I wouldn't touch a tutorial for the first month.
+
+I'd find one dataset. Something real. Maybe public transit data, restaurant inspections, anything messy. And I'd just try to answer questions nobody asked me to answer.
+
+How many inspections failed in winter vs summer? Which neighborhoods had the weirdest patterns? What happens if I group this five different ways?
+
+Most people learn syntax. That's fine. But the real skill is knowing what question to ask next. And you can't learn that from a course. You learn it by staring at data until something looks off, then figuring out why.
+
+I've worked with people who can write perfect SQL but freeze when you ask them what's actually worth measuring. And I've worked with people who barely know pandas but always seem to find the one thing that matters.
+
+The second group gets promoted faster.
+
+#DataAnalytics #DataScience #CareerAdvice #SQL #Python
+
+---
+
 ## April 10, 2026
 **Topic:** Dashboards don't drive decisions — here's what does
 **Tone:** Funny / Witty | **Length:** Medium
