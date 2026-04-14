@@ -1,3 +1,23 @@
+## April 14, 2026
+**Topic:** SQL patterns most analysts get wrong
+**Tone:** Funny / Witty | **Length:** Short
+
+I spent two hours debugging a query yesterday because someone used COUNT(column_name) instead of COUNT(*).
+
+The difference? COUNT(column_name) ignores NULLs.
+
+Which means their "total customer count" was actually "customers who remembered to fill in the optional field."
+
+Nobody noticed for three months. The dashboard looked fine. The numbers just kept going up.
+
+Turns out half the company has been making decisions based on accidentally filtered data.
+
+Anyway, I fixed it. Now the numbers look worse and everyone's asking why the metrics suddenly changed.
+
+#DataAnalytics #SQL #DataEngineering #Analytics #DataQuality
+
+---
+
 ## April 13, 2026
 **Topic:** What I'd do differently if I started my data career today
 **Tone:** Something I learned / observed / did at work | **Length:** Medium
