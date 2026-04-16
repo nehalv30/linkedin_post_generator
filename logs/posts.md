@@ -1,3 +1,29 @@
+## April 16, 2026
+**Topic:** Python for data analysts — what to actually learn
+**Tone:** Credible Insight / Domain Authority | **Length:** Medium
+
+Most analysts don't need to master Python. They need to master five things in Python.
+
+Pandas. Learn to filter, group, merge, and pivot dataframes. That's 80% of what you'll actually do.
+
+SQL through Python. Learn how to write queries in SQLAlchemy or just pass raw SQL through connectors. You're not replacing SQL. You're extending it.
+
+Basic functions and loops. Enough to automate boring stuff. You don't need to architect systems.
+
+Simple visualizations. Matplotlib or Plotly. Just enough to check your work before it goes into Tableau.
+
+Reading and writing files. CSV, JSON, parquet. That's it.
+
+You don't need Django. You don't need async. You don't need to build APIs or understand decorators or care about PEP standards.
+
+Everyone acts like Python is this whole universe you need to conquer. It's not. It's a tool to move data around faster than Excel and more flexibly than SQL alone.
+
+Start with pandas. Everything else can wait.
+
+#DataAnalytics #Python #DataScience #AnalyticsEngineering #SQL
+
+---
+
 ## April 14, 2026
 **Topic:** SQL patterns most analysts get wrong
 **Tone:** Funny / Witty | **Length:** Short
