@@ -1,3 +1,19 @@
+## April 17, 2026
+**Topic:** What Snowflake, Databricks, and BigQuery don't tell you
+**Tone:** Something I learned / observed / did at work | **Length:** Short
+
+I tried moving a 50M row table from Redshift to BigQuery last week because "serverless sounds easier."
+
+BigQuery scanned 8TB to run one join I didn't partition right. $40 in ten seconds.
+
+Redshift needed me to vacuum and tune dist keys for two hours but at least the bill was predictable.
+
+No platform saves you from understanding how it charges you. The demos skip that part.
+
+#DataEngineering #BigQuery #Redshift #Analytics #DataStack
+
+---
+
 ## April 16, 2026
 **Topic:** Python for data analysts — what to actually learn
 **Tone:** Credible Insight / Domain Authority | **Length:** Medium
