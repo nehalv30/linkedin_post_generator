@@ -1,3 +1,19 @@
+## April 20, 2026
+**Topic:** What fintech data actually looks like
+**Tone:** Credible Insight / Domain Authority | **Length:** Short
+
+Most people think fintech data is just rows of clean transactions.
+
+It's not.
+
+It's nested JSON where field names change depending on which bank sent it. It's duplicate events because retry logic fired twice. It's timestamps that don't match because systems in three time zones all logged the same thing differently.
+
+The hard part isn't writing SQL. It's knowing which version of the transaction amount is the real one.
+
+#DataEngineering #Fintech #Analytics #DataQuality
+
+---
+
 ## April 17, 2026
 **Topic:** What Snowflake, Databricks, and BigQuery don't tell you
 **Tone:** Something I learned / observed / did at work | **Length:** Short
