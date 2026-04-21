@@ -1,3 +1,35 @@
+## April 21, 2026
+**Topic:** The problem with how companies hire data people
+**Tone:** Something I learned / observed / did at work | **Length:** Long
+
+I ran a data interview last week and the candidate absolutely crushed the SQL case. Window functions, CTEs, clean logic. Perfect.
+
+Then I asked him to walk me through how he would explain his query results to a product manager who doesn't speak SQL.
+
+He froze.
+
+Not because he didn't know the answer. Because no one had ever asked him to do that in an interview before.
+
+This keeps happening. We've built a hiring process that tests whether someone can solve a contrived aggregation problem in 45 minutes but doesn't check if they can actually do the job.
+
+The job is not writing clever SQL. The job is figuring out what question the business is actually asking, translating that into something a database can answer, and then translating the output back into a sentence a human can act on.
+
+Most data interviews skip two of those three steps.
+
+I've sat through rounds where the entire evaluation was LeetCode-style problems and system design questions pulled from software engineering playbooks. Which is fine if you're hiring someone to build distributed systems. Less useful if you're hiring someone to model revenue or build a dashboard that finance will actually use.
+
+Good hiring for data roles should include: a take-home that mimics real work (messy data, unclear requirements, space to make decisions), a live conversation where the candidate explains their work to someone non-technical, and at least one question about a time they had to say no to a stakeholder or clarify a bad metric.
+
+Not because those things are hard to fake. But because the candidates who have actually done the work will have specific answers. The ones who have only done interview prep will not.
+
+We say we want people who can bridge technical and business work. Then we interview like we're hiring backend engineers.
+
+And then we wonder why half the data hires don't work out.
+
+#DataAnalytics #Hiring #AnalyticsEngineering #DataScience #SQL
+
+---
+
 ## April 20, 2026
 **Topic:** What fintech data actually looks like
 **Tone:** Credible Insight / Domain Authority | **Length:** Short
