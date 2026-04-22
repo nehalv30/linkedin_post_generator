@@ -1,3 +1,25 @@
+## April 22, 2026
+**Topic:** When ML makes things worse
+**Tone:** Funny / Witty | **Length:** Medium
+
+We had a stakeholder who wanted to predict customer churn using ML. Fair enough. The data scientist spent three weeks building a gradient boosting model, tuning hyperparameters, explaining SHAP values to people who did not care.
+
+Accuracy was solid. Deployed it. Everyone felt smart.
+
+Two months later someone ran a query. Turns out 91% of the customers flagged as high churn risk had not logged in for 60 days and had an expired payment method on file.
+
+That's it. That was the signal.
+
+We could have written that rule in ten minutes. Put it in a SQL view. Called it a day. Instead we built a model that needed retraining, monitoring, and a data scientist to explain why it worked.
+
+I'm not anti ML. I've built models. But sometimes the right answer is just a well placed WHERE clause and the discipline to not overcomplicate it because it feels too simple.
+
+Anyone else seen a model get built when an IF statement would have done the job?
+
+#DataScience #MachineLearning #Analytics #DataEngineering #MLOps
+
+---
+
 ## April 21, 2026
 **Topic:** The problem with how companies hire data people
 **Tone:** Something I learned / observed / did at work | **Length:** Long
