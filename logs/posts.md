@@ -1,3 +1,19 @@
+## April 23, 2026
+**Topic:** The honest take on Azure vs AWS vs GCP for data
+**Tone:** Relatable | **Length:** Short
+
+AWS has the most stuff. Azure talks to Excel better than anyone admits. GCP has the cleanest docs but half the features are still in beta.
+
+Pricing? They all get you. Just in different ways.
+
+The real difference is this: AWS assumes you know what you're doing. Azure assumes you're already using Microsoft for something else. GCP assumes you're Google and will figure it out.
+
+I've used all three. Still can't tell you which one is "best." Just which one hurts less for the specific thing you're trying to do.
+
+#DataEngineering #CloudComputing #AWS #Azure #GCP
+
+---
+
 ## April 22, 2026
 **Topic:** When ML makes things worse
 **Tone:** Funny / Witty | **Length:** Medium
