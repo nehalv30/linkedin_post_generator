@@ -1,3 +1,33 @@
+## April 27, 2026
+**Topic:** Kafka is overkill for most companies
+**Tone:** Relatable | **Length:** Long
+
+Most companies don't need Kafka. They just think they do.
+
+I've seen this a few times now. Someone hears "real-time data" in a meeting and suddenly there's a push to set up Kafka or some other streaming platform. The pitch is always the same. We need instant insights. We need to react faster. Our competitors are doing it.
+
+Then six months later you have a streaming pipeline that five people understand, costs more to run than anyone expected, and handles data that gets looked at once a day in a dashboard.
+
+Here's the thing. Streaming infrastructure is not inherently better than batch. It's just different. And it comes with real costs. More complexity. More things that can break. More specialized knowledge to keep it running.
+
+So when does it actually make sense?
+
+If you're doing fraud detection and you need to block a transaction before it clears, that's real-time. If you're running a trading platform and milliseconds matter, that's real-time. If you're processing sensor data from devices and the value of that data drops off after seconds, that's real-time.
+
+But if you're updating a dashboard that gets reviewed in the morning, that's not real-time. That's batch with a cron job.
+
+If you're syncing data between systems overnight and nobody notices the delay, that's not real-time either. That's also batch.
+
+Most of the "real-time" requirements I've seen are actually "I want this data faster than we have it now" requirements. And faster doesn't always mean streaming. Sometimes it just means fixing the batch job that takes four hours when it should take twenty minutes.
+
+The framework is simple. Ask what happens if the data is thirty minutes late. If the answer is nothing, you don't need Kafka. If the answer is we lose money or someone gets hurt, then maybe you do.
+
+Streaming is not a status symbol. It's a tool. And like most tools, it's overkill until it's not.
+
+#DataEngineering #Kafka #Analytics #DataPipelines #RealTimeData
+
+---
+
 ## April 24, 2026
 **Topic:** Airflow is not the answer to your pipeline problems
 **Tone:** Credible Insight / Domain Authority | **Length:** Long
