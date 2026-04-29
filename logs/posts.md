@@ -1,3 +1,17 @@
+## April 29, 2026
+**Topic:** The data quality problem nobody wants to own
+**Tone:** Something I learned / observed / did at work | **Length:** Short
+
+I fixed a data quality bug this week. Took me an hour. Then I spent three hours figuring out who was supposed to own the process that created the bug in the first place.
+
+Engineering said it's a business rule issue. Analytics said it's a source system problem. The business just wanted to know why last quarter's revenue was wrong in the dashboard.
+
+Nobody wants to own data quality until someone asks about it in a meeting.
+
+#DataQuality #DataAnalytics #AnalyticsEngineering #DataEngineering #DataOps
+
+---
+
 ## April 27, 2026
 **Topic:** Kafka is overkill for most companies
 **Tone:** Relatable | **Length:** Long
