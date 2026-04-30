@@ -1,3 +1,37 @@
+## April 30, 2026
+**Topic:** Dashboards don't drive decisions — here's what does
+**Tone:** Funny / Witty | **Length:** Long
+
+I've built exactly one dashboard that actually changed a decision.
+
+It wasn't the most technically impressive one. It definitely wasn't the prettiest. But it was the only one where someone looked at it and then did something different the next day.
+
+The rest? Built, presented, bookmarked, forgotten.
+
+Here's what I've noticed.
+
+Most dashboards die because they answer questions nobody was asking. Someone thinks visibility equals action. So you build 12 charts showing everything that happened last month. Everyone nods. Nobody changes anything. The dashboard becomes homework.
+
+Some die because they answer the right question too late. By the time you've built it, cleaned the data, added the five extra filters the stakeholder requested on Thursday afternoon, the decision already got made in a meeting you weren't in.
+
+And some die because they require too much interpretation. You hand someone a chart and expect them to figure out what it means, what to do, and who should do it. That almost never happens. People are busy. If the dashboard makes them work to extract the insight, they just won't.
+
+The one dashboard that worked? It had three numbers on it. It updated every morning. It told the product team exactly which feature was underperforming and by how much. No storytelling required. They saw it, they knew what it meant, they adjusted the roadmap.
+
+That's it. Three numbers.
+
+Dashboards don't drive decisions. Dashboards that remove friction from decisions drive decisions. If someone has to think hard about what your dashboard is telling them, you've already lost.
+
+So maybe the question isn't "how do I make this dashboard better." Maybe it's "does this dashboard remove a real obstacle from a decision someone is actually trying to make."
+
+Because if it doesn't, it's just expensive wallpaper.
+
+Anyone else have a dashboard graveyard tab somewhere they're too guilty to close?
+
+#DataAnalytics #BusinessIntelligence #DataDriven #AnalyticsEngineering #DataStrategy
+
+---
+
 ## April 29, 2026
 **Topic:** The data quality problem nobody wants to own
 **Tone:** Something I learned / observed / did at work | **Length:** Short
