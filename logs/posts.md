@@ -1,3 +1,25 @@
+## May 01, 2026
+**Topic:** Moving from India to the US for a data career
+**Tone:** Relatable | **Length:** Medium
+
+Nobody told me the hardest part of moving here for data work would be unlearning what 'good' looks like.
+
+In India, I had shipped models, worked across databases, built pipelines. I thought that would be enough.
+
+Then I got here and realized the work itself wasn't the gap. It was everything around it.
+
+The way you're expected to frame a problem before solving it. How much time you spend explaining what you did versus just doing it. The fact that being right about the data doesn't matter if you can't get the room to care about it.
+
+I had to relearn how to talk about my work. Not simpler. Just differently.
+
+The technical stuff transferred fine. SQL is SQL. Python is Python. But knowing when to push back on a bad metric, or how to say 'this dashboard won't solve that problem' without sounding difficult? That took longer than I expected.
+
+If you're thinking about making the move, the skill gap isn't the part that will surprise you.
+
+#DataAnalytics #CareerTransition #DataCareers #AnalyticsEngineering #ImmigrantInTech
+
+---
+
 ## April 30, 2026
 **Topic:** Dashboards don't drive decisions — here's what does
 **Tone:** Funny / Witty | **Length:** Long
