@@ -1,3 +1,23 @@
+## May 04, 2026
+**Topic:** SQL patterns most analysts get wrong
+**Tone:** Funny / Witty | **Length:** Medium
+
+I spent three hours debugging a query last week because someone was using COUNT(column_name) instead of COUNT(*).
+
+The dashboard showed 847 records. The stakeholder swore there were at least 900. Turns out COUNT(column_name) skips NULLs. COUNT(*) doesn't.
+
+So we had 53 rows with NULL in that specific column, and the whole metric was just quietly wrong for six months. Nobody noticed because it was close enough.
+
+Here's the thing. SQL will let you write something that looks completely correct and produces a number that seems reasonable. It won't warn you. It won't throw an error. It'll just give you 847 instead of 900 and let you put it in front of executives.
+
+Same thing happens with window functions. Most people don't realize the default frame is RANGE BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW, which behaves weird with ties. Or that LEFT JOINs with duplicate keys can explode your row count without you noticing.
+
+Anyone else lose hours to something that compiled fine but was just wrong?
+
+#DataAnalytics #SQL #AnalyticsEngineering #DataScience #DataEngineering
+
+---
+
 ## May 01, 2026
 **Topic:** Moving from India to the US for a data career
 **Tone:** Relatable | **Length:** Medium
