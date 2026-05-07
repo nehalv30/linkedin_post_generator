@@ -1,3 +1,23 @@
+## May 07, 2026
+**Topic:** What Snowflake, Databricks, and BigQuery don't tell you
+**Tone:** Something I learned / observed / did at work | **Length:** Medium
+
+I spent four hours yesterday hunting down why our Redshift cluster was suddenly burning through credits like it was in a hurry.
+
+Turned out someone had added a VARCHAR(MAX) column to a fact table six weeks ago. No one noticed until query times started creeping up. Vacuuming the table barely helped. The column was storing JSON strings that averaged 12 characters.
+
+This is the kind of thing the Snowflake vs Databricks vs BigQuery comparison posts never mention. They talk about autoscaling and compute separation and how easy it is to onboard. They don't tell you that one careless column definition will quietly ruin your month.
+
+Or that your costs can triple because someone forgot to add a cluster key. Or that the optimizer works great until you hit a certain table size and then it just... doesn't.
+
+The demos always work. Production is where you find out what actually matters.
+
+And it's almost never the thing the sales deck spent 40 slides explaining.
+
+#DataEngineering #DataAnalytics #CloudDataWarehouse #Redshift #AnalyticsEngineering
+
+---
+
 ## May 04, 2026
 **Topic:** SQL patterns most analysts get wrong
 **Tone:** Funny / Witty | **Length:** Medium
