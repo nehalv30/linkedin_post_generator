@@ -1,3 +1,27 @@
+## May 08, 2026
+**Topic:** What good stakeholder communication looks like in data roles
+**Tone:** Funny / Witty | **Length:** Short
+
+Last week a stakeholder asked me to add "just one quick filter" to a dashboard.
+
+I added it. Took 10 minutes.
+
+Two days later: "Can we also break this down by region?"
+
+Sure. Another filter.
+
+Then: "Actually, can we see this by month AND quarter?"
+
+Then product line. Then customer tier. Then fiscal vs calendar year.
+
+The dashboard now has 47 filters. Nobody uses 46 of them. The one they actually use could have been a pivot table in Excel.
+
+Anyone else just living in filter purgatory?
+
+#DataAnalytics #DataScience #BusinessIntelligence #Analytics #DataLife
+
+---
+
 ## May 07, 2026
 **Topic:** What Snowflake, Databricks, and BigQuery don't tell you
 **Tone:** Something I learned / observed / did at work | **Length:** Medium
