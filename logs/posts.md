@@ -1,3 +1,21 @@
+## May 11, 2026
+**Topic:** The problem with how companies hire data people
+**Tone:** Something I learned / observed / did at work | **Length:** Short
+
+I had three interviews last week where the first round was SQL on HackerRank.
+
+All three companies then asked me in round two: "So walk us through how you'd structure a reporting layer for this business problem."
+
+Why not just start there.
+
+The hardest part of data work isn't writing a window function. It's figuring out what to build when the ask is unclear and the stakeholder doesn't know what they actually need yet.
+
+Test for that.
+
+#DataAnalytics #Hiring #SQL #AnalyticsEngineering #DataCareers
+
+---
+
 ## May 08, 2026
 **Topic:** What good stakeholder communication looks like in data roles
 **Tone:** Funny / Witty | **Length:** Short
