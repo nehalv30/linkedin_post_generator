@@ -1,3 +1,35 @@
+## May 12, 2026
+**Topic:** When ML makes things worse
+**Tone:** Funny / Witty | **Length:** Long
+
+Last year, a team spent three months building a machine learning model to predict which transactions were likely fraud.
+
+It had all the buzzwords. Gradient boosted trees. Feature engineering pipelines. A tuning process that probably cost more in compute than the fraud it caught.
+
+When I looked at the output, I noticed something. The model was mostly flagging transactions over $5,000 from new accounts created in the last 48 hours.
+
+You know what else would have caught those? A SQL query with two WHERE clauses.
+
+I see this a lot. Someone has a problem. The problem is solvable. But instead of solving it, they reach for ML because it sounds better in a slide deck.
+
+The fraud model gets deployed. Now you need someone to maintain it. Retrain it when drift happens. Explain to the compliance team why it flagged this transaction but not that one. Debug it when the feature pipeline breaks at 2am.
+
+Meanwhile, the SQL rule would have run forever. Anyone on the team could read it. You could adjust it in five minutes. And if someone asked why a transaction got flagged, you could actually tell them.
+
+I'm not anti-ML. I've built models. Some of them were even useful. But a model is not free. It costs time, interpretability, and ongoing maintenance. And if you can get 90% of the way there with a heuristic, you should probably just do that.
+
+The other thing is, a lot of problems that look like ML problems are actually data quality problems. Or definition problems. Or someone not wanting to make a decision, so they outsource it to an algorithm.
+
+If you can't explain the logic in plain sentences, a model won't fix that. It will just make it harder to see what's broken.
+
+I think the test is simple. If you removed the model and replaced it with rules written by someone who understands the problem, would anyone notice? If the answer is no, you didn't need the model.
+
+Anyone else spent months on a model that a CASE WHEN could have replaced?
+
+#DataScience #MachineLearning #DataEngineering #Analytics #SQL
+
+---
+
 ## May 11, 2026
 **Topic:** The problem with how companies hire data people
 **Tone:** Something I learned / observed / did at work | **Length:** Short
