@@ -1,3 +1,25 @@
+## May 15, 2026
+**Topic:** Hot take on dbt
+**Tone:** Something I learned / observed / did at work | **Length:** Long
+
+We've been using dbt in production for about eight months now. It solved some things. It created others.
+
+What it actually fixed: version control for transformations. Before, our SQL lived in a mix of Airflow DAGs, stored procedures, and random scripts in someone's laptop. Now it's in one repo. You can trace lineage. You can see what depends on what. That part is legitimately better.
+
+The testing framework is good when you use it right. Data quality checks that run every time a model builds. Caught a bunch of upstream changes we would have missed otherwise. But here's the thing. People treat tests like documentation. They add them because best practices say so, not because they know what failure actually means. We had a test that checked for uniqueness on a key that was never supposed to be unique. It failed every run for two weeks before someone turned it off.
+
+The hype problem is around "analytics engineering" as if writing modular SQL is some new discipline. It's not. It's just SQL with better tooling and a git workflow. The real work is still the same. Understanding the data. Knowing what the business actually needs. Modeling it in a way that doesn't fall apart when requirements change.
+
+And the thing no one talks about: dbt makes it really easy to build a giant mess. Incremental models that sort of work until they don't. Macros that three people understand. Fifty staging tables because someone watched a YouTube video about medallion architecture. We hit a point where our DAG was taking 90 minutes to run and half of it was redundant transformations we forgot we didn't need anymore.
+
+It's a good tool. But it's still just a tool. It doesn't fix unclear requirements. It doesn't fix bad data models. It doesn't make someone a better analyst.
+
+It just makes the SQL easier to manage. Which is worth something. Just not everything people claim.
+
+#DataEngineering #AnalyticsEngineering #dbt #DataAnalytics #SQL
+
+---
+
 ## May 14, 2026
 **Topic:** Airflow is not the answer to your pipeline problems
 **Tone:** Credible Insight / Domain Authority | **Length:** Short
