@@ -1,3 +1,35 @@
+## May 18, 2026
+**Topic:** The metric that actually tells you if your data team is working
+**Tone:** Credible Insight / Domain Authority | **Length:** Long
+
+The best signal that your data team is working isn't the number of dashboards you ship.
+
+It's how often people ask follow-up questions.
+
+If someone looks at a report and never comes back, that tells you something. Either they didn't understand it, or it didn't actually help them make a decision, or they went around it entirely.
+
+If they come back and ask "okay but what about this segment" or "can we break this down by region" or "does this change if we exclude Q4", you know the first answer landed. Now they want to go deeper.
+
+I've worked across enough clients to notice a pattern. The teams where data feels useful have a different rhythm. People ask clarifying questions before you build something. They push back when a definition feels off. They come back after a launch and ask what changed.
+
+The teams where data feels like a checkbox do the opposite. They ask for a dashboard. You build it. They say thanks. You never hear about it again. Six months later someone asks for the same thing worded slightly differently because nobody remembered the first one existed.
+
+That's not a dashboard problem. It's a trust problem.
+
+When people trust the data, they use it to argue. They reference it in meetings. They ask you to pressure-test their assumptions. They want the data to be right because they're actually relying on it.
+
+When they don't, they ask for it because it's expected, then make the decision the way they were going to make it anyway.
+
+You can't measure this with a ticket count or a survey. You just notice it. Are people coming back? Are they asking harder questions? Are they annoyed when something breaks because they were actually using it?
+
+If the answer is yes, your data team is working. If the answer is no, you're shipping into a void.
+
+Most teams don't track this. They probably should.
+
+#DataAnalytics #AnalyticsEngineering #DataTeams #BusinessIntelligence #DataStrategy
+
+---
+
 ## May 15, 2026
 **Topic:** Hot take on dbt
 **Tone:** Something I learned / observed / did at work | **Length:** Long
