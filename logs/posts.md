@@ -1,3 +1,23 @@
+## May 19, 2026
+**Topic:** The data quality problem nobody wants to own
+**Tone:** Something I learned / observed / did at work | **Length:** Medium
+
+I spent two hours last week fixing a dashboard that broke because someone changed a field name upstream. No heads up. No documentation. Just a broken query and confused stakeholders asking why the numbers looked wrong.
+
+The business blamed analytics. Analytics blamed engineering. Engineering said it was a reasonable refactor.
+
+Everyone was right, and that's the problem.
+
+Data quality isn't a technical issue. It's an ownership issue. And in most orgs, nobody actually owns it.
+
+What worked for us: we set up automated schema checks that flag upstream changes before they hit production. Not perfect, but it catches the obvious breaks. We also started running a weekly 15 minute sync where engineering walks analytics through what changed. Sounds basic, but it stopped the fire drills.
+
+The fix isn't better tools. It's getting the right people in a room often enough that they stop treating each other like black boxes.
+
+#DataQuality #DataAnalytics #AnalyticsEngineering #DataOps #DataGovernance
+
+---
+
 ## May 18, 2026
 **Topic:** The metric that actually tells you if your data team is working
 **Tone:** Credible Insight / Domain Authority | **Length:** Long
