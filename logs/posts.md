@@ -1,3 +1,23 @@
+## May 20, 2026
+**Topic:** Dashboards don't drive decisions — here's what does
+**Tone:** Funny / Witty | **Length:** Short
+
+I've built maybe 30 dashboards in the last two years. Want to know how many actually changed a decision?
+
+Four.
+
+The rest are refrigerator art. Someone asks for it, you build it, they look at it once, say "this is great", and then keep doing exactly what they were doing before.
+
+The ones that worked? Someone already knew what they wanted to do. They just needed a number to back it up.
+
+Dashboards don't drive decisions. Decisions drag dashboards behind them.
+
+Anyone else just building extremely sophisticated permission slips?
+
+#DataAnalytics #BusinessIntelligence #DataScience #AnalyticsEngineering #DataDrivenDecisions
+
+---
+
 ## May 19, 2026
 **Topic:** The data quality problem nobody wants to own
 **Tone:** Something I learned / observed / did at work | **Length:** Medium
