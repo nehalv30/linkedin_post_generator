@@ -1,3 +1,35 @@
+## May 21, 2026
+**Topic:** Moving from India to the US for a data career
+**Tone:** Relatable | **Length:** Long
+
+I moved to the US in 2022 for my master's. Before that, I had worked in India for about two years. Analytics roles, fintech, decent experience for someone early in their career.
+
+I thought the transition would be about adapting to new tools or different work culture. It wasn't.
+
+The tools are the same. SQL is SQL. Python is Python. A lot of the technical work I did in India prepared me fine for what I do now.
+
+What actually changed was how decisions get made around data.
+
+In India, at least in the places I worked, analytics was expected to provide answers. You built the model, ran the numbers, put together a recommendation. That was the job.
+
+Here, analytics is expected to facilitate decisions. You provide the data, explain the trade-offs, and then someone else decides. Sometimes that person doesn't even look at your work until the meeting. Sometimes they challenge the methodology instead of using the output.
+
+It took me a while to stop being frustrated by that.
+
+The other thing is how much communication matters. I don't mean English fluency. I mean the constant expectation to explain your work in a way that makes non-technical people comfortable. To walk through assumptions. To defend why you chose one method over another when both would have worked fine.
+
+In India, I could send over a dashboard or a query result and that was enough. Here, if you can't talk someone through it, the work doesn't land.
+
+The job market was harder than I expected. Not because of skill gaps. Because everyone wants US experience, even when the work itself is identical to what I had already done. It took longer to get that first role than I thought it would.
+
+Would I do it again? Yes. But I'd tell anyone considering it that the adjustment isn't technical. It's everything around the technical work. How you position your work. How you talk about it. How you sit in a room with people who have no idea what a join is and make them feel like they understand anyway.
+
+The work is the same. The job is different.
+
+#DataAnalytics #CareerTransition #AnalyticsEngineering #DataCareers #WorkingInTech
+
+---
+
 ## May 20, 2026
 **Topic:** Dashboards don't drive decisions — here's what does
 **Tone:** Funny / Witty | **Length:** Short
