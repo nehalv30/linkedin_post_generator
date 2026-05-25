@@ -1,3 +1,27 @@
+## May 25, 2026
+**Topic:** Why most data pipelines fail silently
+**Tone:** Relatable | **Length:** Medium
+
+The scariest bug I ever shipped didn't throw an error.
+
+It just quietly sent the wrong data to the dashboard for three weeks.
+
+No alert fired. No pipeline failed. The job ran on time every morning. Stakeholders saw numbers that looked reasonable. We only found it because someone manually cross-checked a metric and the totals didn't match.
+
+Turned out a Kafka topic schema changed upstream. Our consumer still worked. It just started pulling nulls for a field we were aggregating on. So the counts looked fine, the percentages looked fine, everything looked fine.
+
+Except it was all wrong.
+
+Most pipeline failures don't crash. They just degrade. A join drops 2% of rows because someone added a new status code you didn't account for. An incremental load misses records because the updated_at timestamp doesn't get set on deletes. A partition key changes format and your job keeps running on yesterday's data.
+
+You find out when someone asks why the numbers feel off.
+
+Anyone else just slightly paranoid now about every pipeline that runs clean?
+
+#DataEngineering #Analytics #DataQuality #SQL #DataPipelines
+
+---
+
 ## May 22, 2026
 **Topic:** The real difference between a junior and senior data analyst
 **Tone:** Credible Insight / Domain Authority | **Length:** Medium
