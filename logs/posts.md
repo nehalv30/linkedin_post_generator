@@ -1,3 +1,21 @@
+## May 26, 2026
+**Topic:** Python for data analysts — what to actually learn
+**Tone:** Credible Insight / Domain Authority | **Length:** Short
+
+Most analysts learning Python waste time on the wrong stuff.
+
+You don't need classes. You don't need decorators. You don't need to understand generators unless you're processing files that don't fit in memory.
+
+What you actually need: pandas for reshaping data, datetime for cleaning timestamps, and basic functions to stop repeating yourself.
+
+That's it. That's the whole foundation.
+
+The rest you can learn when you hit a real problem that needs it.
+
+#DataAnalytics #Python #DataScience #AnalyticsEngineering #DataAnalyst
+
+---
+
 ## May 25, 2026
 **Topic:** Why most data pipelines fail silently
 **Tone:** Relatable | **Length:** Medium
