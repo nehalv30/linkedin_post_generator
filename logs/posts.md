@@ -1,3 +1,25 @@
+## May 27, 2026
+**Topic:** What Snowflake, Databricks, and BigQuery don't tell you
+**Tone:** Something I learned / observed / did at work | **Length:** Long
+
+I've been running pipelines across Snowflake, BigQuery, and Databricks for the last couple years. The sales demos are flawless. The real thing is not.
+
+Here's what nobody mentions until you're six months in and the bill arrives.
+
+Snowflake's credit consumption is deceptive. You spin up a warehouse, run a query, warehouse auto-suspends. Looks efficient. But if your BI tool is set to refresh every 15 minutes, that warehouse wakes up every time. 96 times a day. Each wake costs you a few credits. We burned through our monthly budget in three weeks because nobody realized Tableau was pinging the cluster constantly. The fix was annoying: batch the refreshes, cache aggressively, rethink what actually needs to be live.
+
+BigQuery's pricing model sounds simple until you hit it. Queries are billed by bytes scanned. Fine. Except partition pruning doesn't always work the way you expect. We had a query scanning 2TB every run because someone used a function on the partition column in the WHERE clause. BigQuery couldn't prune. That query cost $10 every time it ran. Multiply that across dozens of downstream reports. The fix was rewriting the logic to filter before applying the function. Obvious in hindsight. Expensive lesson.
+
+Databricks clusters are fast but the defaults are a trap. Auto-scaling sounds great until you realize it scales up aggressively and scales down slowly. We had jobs finishing in 10 minutes but clusters staying warm for 30 because of the cooldown period. Paying for 20 minutes of idle compute per job. Tuning those settings requires actually reading the docs, not just clicking through setup.
+
+The other thing: all three platforms bury their query optimizers. You don't get real visibility into why something is slow until you dig into execution plans. And even then, it's not always clear. Sometimes the answer is just "this join order is bad" or "your data is skewed."
+
+Not saying these tools are bad. They're powerful. But the gap between the demo and production is real. If you're about to pick one, budget extra time for learning how it actually bills you.
+
+#DataEngineering #Snowflake #BigQuery #Databricks #DataAnalytics
+
+---
+
 ## May 26, 2026
 **Topic:** Python for data analysts — what to actually learn
 **Tone:** Credible Insight / Domain Authority | **Length:** Short
