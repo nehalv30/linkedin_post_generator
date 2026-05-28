@@ -1,3 +1,27 @@
+## May 28, 2026
+**Topic:** What good stakeholder communication looks like in data roles
+**Tone:** Funny / Witty | **Length:** Medium
+
+You know what nobody teaches you in data school?
+
+How to tell a VP that the answer to their question is "we don't actually track that" without making it sound like you're bad at your job.
+
+Or how to explain that correlation isn't causation to someone who already decided what the data should say before you ran the query.
+
+Or the skill of saying "this dashboard will take two weeks" when you know they're expecting it by Thursday.
+
+Most data training is technical. Write better SQL. Learn dbt. Build pipelines. All necessary.
+
+But the thing that actually separates people who stagnate from people who grow is stakeholder communication. Knowing how to present uncertainty. Push back on bad requests without sounding difficult. Translate findings for someone who thinks a join is something you do on LinkedIn.
+
+The hardest part isn't building the model. It's the meeting after, when someone asks "but can we slice it one more way" and you have to decide if you're going to rebuild the entire thing or explain why that dimension doesn't exist.
+
+Anyone else spend more time managing expectations than writing code?
+
+#DataAnalytics #StakeholderManagement #AnalyticsEngineering #DataScience #TechCareers
+
+---
+
 ## May 27, 2026
 **Topic:** What Snowflake, Databricks, and BigQuery don't tell you
 **Tone:** Something I learned / observed / did at work | **Length:** Long
