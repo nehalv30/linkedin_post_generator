@@ -1,3 +1,19 @@
+## May 29, 2026
+**Topic:** Everyone says they're data-driven. Almost nobody is.
+**Tone:** Relatable | **Length:** Short
+
+Everyone says they're data-driven until the data says something they don't like.
+
+Then suddenly it's "let's dig deeper" or "the data's not capturing the full picture" or my favorite, "this doesn't pass the gut check."
+
+The problem isn't tools or talent. It's that most orgs use data to confirm what they already decided, not to challenge it.
+
+You don't have a dashboard problem. You have a culture problem.
+
+#DataAnalytics #DataDriven #Analytics #DataScience #BusinessIntelligence
+
+---
+
 ## May 28, 2026
 **Topic:** What good stakeholder communication looks like in data roles
 **Tone:** Funny / Witty | **Length:** Medium
