@@ -1,3 +1,21 @@
+## June 01, 2026
+**Topic:** When ML makes things worse
+**Tone:** Funny / Witty | **Length:** Short
+
+Not everything needs a neural net.
+
+I've seen teams spend three months building a churn model that a three-line SQL query could've solved. The model needs retraining, debugging, version control, someone to explain it to legal. The query just runs.
+
+A decent heuristic you can explain beats a black box you can't every time.
+
+Unless you're trying to look impressive in a slide deck. Then by all means, throw a gradient boosted tree at it.
+
+Anyone else killed a project by asking "but what if we just used a filter?"
+
+#DataScience #MachineLearning #Analytics #DataEngineering #SQL
+
+---
+
 ## May 29, 2026
 **Topic:** Everyone says they're data-driven. Almost nobody is.
 **Tone:** Relatable | **Length:** Short
