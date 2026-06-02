@@ -1,3 +1,23 @@
+## June 02, 2026
+**Topic:** The honest take on Azure vs AWS vs GCP for data
+**Tone:** Relatable | **Length:** Long
+
+I've worked in all three clouds at this point. Azure with Microsoft enterprise clients, AWS with fintech fraud systems, GCP with internal Google tools. Same role, same kind of work. Different flavor of pain every time.
+
+AWS feels the most complete if you're doing anything serious with data. Redshift has its quirks but it works. Glue is clunky but you can script around it. The documentation actually exists. You will spend money you didn't expect to spend, but at least the tooling is there. It's like working with something that was built by people who had to use it themselves.
+
+GCP has BigQuery, and BigQuery is genuinely great. Fast, simple pricing, you write SQL and it just runs. But the second you step outside of BigQuery, you're in this half-finished ecosystem. Cloud Composer is Airflow with extra steps. Dataflow is powerful if you want to spend three days figuring out why your job won't start. The console UI feels like it was designed by someone who has never had to click through it under pressure. If your entire pipeline is just SQL in BigQuery, it's perfect. The moment it's not, you're duct taping things together.
+
+Azure is the one that makes the least sense until you realize it was built for enterprises that already bought into Microsoft everything. Synapse is three products wearing a trench coat. Data Factory works but has the charm of doing your taxes. If you're already in the Microsoft world and your company has a standing agreement, it's fine. You won't love it but you'll get the work done. If you're starting fresh and you pick Azure, I have questions.
+
+The real answer is it depends on what you're stuck with. Most of the time you don't get to choose. You show up, they hand you an environment, and you make it work.
+
+Anyone else just inherit whatever cloud the last team picked and spend six months learning its specific version of broken?
+
+#CloudComputing #DataEngineering #AWS #Azure #GCP
+
+---
+
 ## June 01, 2026
 **Topic:** When ML makes things worse
 **Tone:** Funny / Witty | **Length:** Short
