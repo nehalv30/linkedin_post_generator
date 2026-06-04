@@ -1,3 +1,17 @@
+## June 04, 2026
+**Topic:** Hot take on dbt
+**Tone:** Something I learned / observed / did at work | **Length:** Short
+
+I've been using dbt for a year now and honestly, it solves one thing really well: version control for transformations. That's it. That's the whole value.
+
+The rest is just Jinja and YAML. Which is fine until you're debugging macros at 4pm and realize you've reinvented a config file format that's somehow worse than both code and SQL.
+
+It works. But the hype makes it sound like it fixed analytics engineering when really it just gave us git for models.
+
+#DataEngineering #AnalyticsEngineering #dbt #DataAnalytics
+
+---
+
 ## June 03, 2026
 **Topic:** Airflow is not the answer to your pipeline problems
 **Tone:** Credible Insight / Domain Authority | **Length:** Medium
