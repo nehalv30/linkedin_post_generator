@@ -1,3 +1,35 @@
+## June 05, 2026
+**Topic:** Stop building data models nobody asked for
+**Tone:** Funny / Witty | **Length:** Long
+
+You know what nobody tells you when you start building data models?
+
+That you can spend three weeks designing a star schema with perfect surrogate keys, type-2 slowly changing dimensions, and incremental refresh logic that runs like a dream.
+
+And then watch exactly zero people use it.
+
+I've seen this happen more times than I want to admit. Someone on the team (fine, sometimes me) gets excited about building the "right" data model. The one that is flexible. That is scalable. That follows best practices. That will support any question the business could possibly ask six months from now.
+
+So you model it. You write the dbt tests. You add documentation. You set up monitoring. You feel good about it because the lineage graph looks beautiful and the code reviews say "this is really clean work."
+
+Then someone from marketing asks a question that your perfect model can't answer without three extra joins. Or finance needs a metric that doesn't map cleanly to how you defined the grain. Or the PM just wants last month's numbers in a Google Sheet and doesn't care about your dimension tables.
+
+And you realize you built a data model for a problem the business didn't actually have.
+
+I think the trap is that we fall in love with the structure. It feels good to organize messy data into something logical. To impose order. To make it technically correct.
+
+But correctness and usefulness aren't the same thing. And a model that nobody asked for is just technical debt with good documentation.
+
+The fix isn't to stop modeling data well. It's to start with the question, not the schema. Build the thing that answers what people are actually asking today. Then refactor it into something more general when you see the same question five more times.
+
+You can't predict what the business will need. But you can build something they'll actually use right now and iterate from there.
+
+Anyone else ever spend a week building a table that got queried twice and then forgotten?
+
+#DataEngineering #Analytics #DataModeling #AnalyticsEngineering #SQL
+
+---
+
 ## June 04, 2026
 **Topic:** Hot take on dbt
 **Tone:** Something I learned / observed / did at work | **Length:** Short
