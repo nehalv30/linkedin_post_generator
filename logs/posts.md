@@ -1,3 +1,33 @@
+## June 08, 2026
+**Topic:** The data quality problem nobody wants to own
+**Tone:** Something I learned / observed / did at work | **Length:** Long
+
+I spent Thursday morning in a meeting where the VP of ops was looking at a report, trying to figure out why the fraud scores looked wrong.
+
+Nobody could explain it. Engineering said the data looked fine on their end. Analytics said the pipeline passed all checks. The business was just staring at numbers that didn't match what happened last week.
+
+This happens a lot. And the reason is pretty simple. Nobody owns data quality.
+
+Engineering builds the pipelines. They make sure data moves from A to B without breaking. But they don't always know what "correct" actually looks like in a business sense. So they build checks for schema, for nulls, for format. But not for logic.
+
+Analytics builds the reports. They know what the business needs. But they usually don't control the source systems or the ingestion layer. So when something upstream is wrong, they just see the result. By the time it shows up in a dashboard, it's already too late.
+
+The business doesn't care whose fault it is. They just know the report is wrong. And the next time you send them something, they trust it a little less.
+
+What actually fixes this is not better tools. It's clarity about who is responsible for what.
+
+In the projects where data quality worked, it was because someone owned the full path. Not just the pipeline. Not just the dashboard. The whole thing. They could trace a number from the source system, through the transformations, into the report. And when something broke, they knew where to look.
+
+That person is usually not in engineering and not in analytics. They sit somewhere in between. Sometimes it's called analytics engineering. Sometimes it's just called "the person who actually cares."
+
+I have been that person on a few projects now. It is not glamorous. It is a lot of SQL, a lot of logic checks, a lot of meetings where you explain why a number changed. But it is the only thing I have seen work.
+
+You cannot outsource accountability. Either someone owns it or nobody does.
+
+#DataQuality #AnalyticsEngineering #DataAnalytics #DataEngineering #DataPipelines
+
+---
+
 ## June 05, 2026
 **Topic:** Stop building data models nobody asked for
 **Tone:** Funny / Witty | **Length:** Long
