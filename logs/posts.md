@@ -1,3 +1,27 @@
+## June 09, 2026
+**Topic:** Dashboards don't drive decisions — here's what does
+**Tone:** Funny / Witty | **Length:** Medium
+
+I've built dashboards that got presented to senior leadership, bookmarked by half the team, and referenced exactly twice in six months.
+
+The problem wasn't the dashboard. It was that by the time someone needed an answer, they didn't want to filter by region, hover over tooltips, and squint at a trend line. They just asked someone.
+
+Dashboards don't drive decisions. Timing does. Trust does. Inertia does.
+
+The decision was already half-made before anyone opened the BI tool. They just needed a number to confirm it, or defend it in a meeting.
+
+The stuff that actually moves things? A Slack message with the answer before they ask. A single metric everyone agrees means something. A dataset clean enough that people stop second-guessing it.
+
+Most dashboards are built like someone's going to sit there and explore. Nobody explores. They look once, get confused, and go back to asking you directly.
+
+So now I just send the table.
+
+Anyone else spend a week building something beautiful that gets beaten by a spreadsheet?
+
+#DataAnalytics #BusinessIntelligence #DataScience #Analytics #DataEngineering
+
+---
+
 ## June 08, 2026
 **Topic:** The data quality problem nobody wants to own
 **Tone:** Something I learned / observed / did at work | **Length:** Long
