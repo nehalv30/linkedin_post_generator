@@ -1,3 +1,21 @@
+## June 10, 2026
+**Topic:** Moving from India to the US for a data career
+**Tone:** Relatable | **Length:** Short
+
+I thought moving to the US would mean better tools, cleaner data, more automation.
+
+It does. Sometimes.
+
+What actually changed was everything around the work. How feedback is given. How stakeholders phrase requests. What "done" means. The speed people expect you to move at.
+
+The SQL still works the same. The people part had to be relearned from scratch.
+
+If you're thinking about making the move, get good at reading between the lines. That matters more than you think.
+
+#DataAnalytics #CareerTransition #DataEngineering #TechCareers #Immigration
+
+---
+
 ## June 09, 2026
 **Topic:** Dashboards don't drive decisions — here's what does
 **Tone:** Funny / Witty | **Length:** Medium
