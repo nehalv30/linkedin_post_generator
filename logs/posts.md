@@ -1,3 +1,43 @@
+## June 11, 2026
+**Topic:** The real difference between a junior and senior data analyst
+**Tone:** Credible Insight / Domain Authority | **Length:** Long
+
+I've watched junior analysts spend three hours perfecting a dashboard. Senior analysts spend three hours figuring out if the dashboard should exist at all.
+
+That's the difference.
+
+Junior analyst gets a request: "Can you show me conversion by region for the last six months?"
+
+They fire up SQL, pull the data, build the chart, format it nicely, send it over. Request completed.
+
+Senior analyst gets the same request. They ask: "What decision are you trying to make?"
+
+Turns out the stakeholder wants to know if they should shift budget from the Northeast to the West. The dashboard won't answer that. It'll just show them numbers. What they actually need is a cohort analysis that isolates regional performance from seasonal effects and product mix changes.
+
+The junior analyst did good work. The senior analyst did useful work.
+
+Here's another one. A product manager comes in with a vague question: "Why did signups drop last week?"
+
+Junior analyst pulls signup data, makes a time series chart, points to the drop. "It happened here."
+
+Senior analyst knows that question is unanswerable as stated. They push back gently. "Do you mean total signups, or signups that converted to paid? Was there a deployment? A marketing campaign that ended? Are we comparing to a holiday week?"
+
+They reframe the question into something that can actually be investigated. Then they go investigate it.
+
+Junior analysts treat every request like it's clear and correct. Senior analysts know most requests are the first draft of a question. Your job is to help them get to the second draft.
+
+It's not about being difficult. It's about not wasting time answering the wrong question really well.
+
+The other big one is uncertainty. Junior analysts hedge everything. "The data suggests there might be a possible trend."
+
+Senior analysts are comfortable saying "I don't know yet" or "The data can't tell us that" or "We'd need to run a test to know for sure."
+
+They've learned that clarity about what you don't know builds more trust than fake confidence about what you do.
+
+#DataAnalytics #AnalyticsEngineering #DataStrategy #BusinessIntelligence #CareerGrowth
+
+---
+
 ## June 10, 2026
 **Topic:** Moving from India to the US for a data career
 **Tone:** Relatable | **Length:** Short
