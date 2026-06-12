@@ -1,3 +1,23 @@
+## June 12, 2026
+**Topic:** What I'd do differently if I started my data career today
+**Tone:** Something I learned / observed / did at work | **Length:** Medium
+
+I was explaining a data model to a PM this week and realized halfway through that I was losing her.
+
+Not because the logic was complicated. Because I kept saying what the data was instead of what it could answer.
+
+So I stopped and asked her what decisions she was trying to make. She listed three. I mapped each one to a table or a metric we already had. Suddenly the whole thing made sense to her.
+
+Most of the friction I see between data teams and everyone else comes from this. We describe schemas and pipelines when people just want to know if they can answer their question.
+
+I've started doing this differently now. Before I explain how something works, I ask what they're trying to figure out. Then I show them the answer first, and only go into the structure if they ask.
+
+Turns out people care a lot less about star schemas when they can actually see the number they need.
+
+#DataAnalytics #ProductAnalytics #DataEngineering #AnalyticsEngineering #DataStrategy
+
+---
+
 ## June 11, 2026
 **Topic:** The real difference between a junior and senior data analyst
 **Tone:** Credible Insight / Domain Authority | **Length:** Long
