@@ -1,3 +1,31 @@
+## June 15, 2026
+**Topic:** Python for data analysts — what to actually learn
+**Tone:** Credible Insight / Domain Authority | **Length:** Medium
+
+Most analysts learning Python waste time on the wrong things.
+
+You don't need classes. You don't need decorators. You definitely don't need to understand async.
+
+Here's what actually matters:
+
+Pandas for data manipulation. Learn filtering, groupby, merge, and pivot. That covers 80% of what you'll do daily.
+
+Basic SQL integration. Being able to pull from a database using a Python script and write the result back is more useful than any machine learning tutorial.
+
+List comprehensions and basic loops. Not because they're fancy. Because you'll need to clean messy API responses or iterate through files constantly.
+
+String manipulation and regex. Half of real data work is fixing inconsistent text fields.
+
+Writing functions. Not for elegance. Just so you stop copy-pasting the same 20 lines of code everywhere.
+
+What you can skip for now: anything related to web scraping unless your job explicitly needs it, matplotlib beyond basic plots (use your BI tool), and scikit-learn unless you're actually building models.
+
+Start with one real task. Automate something annoying. The rest will follow.
+
+#DataAnalytics #Python #DataScience #AnalyticsEngineering #SQL
+
+---
+
 ## June 12, 2026
 **Topic:** What I'd do differently if I started my data career today
 **Tone:** Something I learned / observed / did at work | **Length:** Medium
