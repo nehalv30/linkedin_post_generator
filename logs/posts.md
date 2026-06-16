@@ -1,3 +1,21 @@
+## June 16, 2026
+**Topic:** What Snowflake, Databricks, and BigQuery don't tell you
+**Tone:** Something I learned / observed / did at work | **Length:** Short
+
+Spent the week troubleshooting a Snowflake cost spike. Turned out someone left auto-clustering on for a staging table that gets rewritten daily.
+
+$2,300 in three days. For a table that doesn't even need clustering.
+
+The UI makes it one checkbox. The invoice makes it very real.
+
+Nobody warns you that the defaults aren't always sane. Or that compute can quietly balloon while your queries run the same. You find out when finance emails you.
+
+Now I just check the cost dashboards every Monday.
+
+#DataEngineering #Snowflake #DataAnalytics #CloudCosts #AnalyticsEngineering
+
+---
+
 ## June 15, 2026
 **Topic:** Python for data analysts — what to actually learn
 **Tone:** Credible Insight / Domain Authority | **Length:** Medium
