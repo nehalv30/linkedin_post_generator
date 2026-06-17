@@ -1,3 +1,45 @@
+## June 17, 2026
+**Topic:** What good stakeholder communication looks like in data roles
+**Tone:** Funny / Witty | **Length:** Long
+
+Someone once asked me to build a dashboard with filters for region, product, time period, customer segment, and sales rep.
+
+I did.
+
+Then they asked for one more filter. For account type.
+
+Fine. Added it.
+
+Then they wanted another one. For deal size.
+
+Added that too.
+
+Two weeks later, they asked for a version without any filters. Just the top level number. Because "it's too complicated now and no one knows what they're looking at."
+
+So I built the whole thing backwards. Started with the one number they actually wanted. Put it at the top. Made it big. Then hid the rest behind a toggle.
+
+That dashboard has been live for eight months. The toggle has been clicked exactly four times. I know because I log these things now.
+
+Good stakeholder communication in data is not about being polite or clear or structured. It's about knowing when to ask "what decision does this support" before you write a single line of SQL.
+
+Because here's what they don't teach you. The stakeholder doesn't always know what they need. They know what they think they need, which is usually the last thing someone else showed them in a different meeting.
+
+Your job is not to build what they asked for. Your job is to figure out what problem they're trying to solve, and then decide if data can even solve it.
+
+Sometimes the answer is no. That's the hardest thing to say. Especially when you're early in your career and you think saying yes to everything is how you prove value.
+
+But the best data people I know are the ones who can say "I can build that, but I don't think it'll answer your question" without sounding like they're being difficult.
+
+They're the ones who show up to the kickoff call and say "before we start, what happens if the data says X" and then watch the room realize they haven't thought that far ahead.
+
+Technical skills get you the job. Communication skills determine whether anyone actually uses your work.
+
+Anyone else spent a month on something that got glanced at once and then forgotten?
+
+#DataAnalytics #AnalyticsEngineering #DataStrategy #StakeholderManagement #DataCommunication
+
+---
+
 ## June 16, 2026
 **Topic:** What Snowflake, Databricks, and BigQuery don't tell you
 **Tone:** Something I learned / observed / did at work | **Length:** Short
