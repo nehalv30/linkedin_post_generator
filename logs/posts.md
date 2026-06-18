@@ -1,3 +1,25 @@
+## June 18, 2026
+**Topic:** Everyone says they're data-driven. Almost nobody is.
+**Tone:** Relatable | **Length:** Medium
+
+Everyone says they're data-driven until the data disagrees with them.
+
+Then suddenly the dashboard is wrong. Or the metric doesn't capture the full picture. Or we need to look at it by a different segment. Or last quarter was an outlier.
+
+I've sat in enough meetings to notice the pattern. Data gets pulled to support the decision someone already made. Not to inform it. To justify it.
+
+The real blocker isn't tooling. It's not talent. It's that being data-driven means being willing to be wrong. And most org cultures aren't built for that.
+
+So you end up with dashboards no one checks unless they need ammunition. Models that predict things people ignore. Pipelines feeding reports that get glanced at once a quarter.
+
+The data is there. It's clean. It's accessible. It just doesn't matter because no one actually wants to change their mind.
+
+You can't fix that with better SQL.
+
+#DataAnalytics #DataDriven #Analytics #DataCulture #DataStrategy
+
+---
+
 ## June 17, 2026
 **Topic:** What good stakeholder communication looks like in data roles
 **Tone:** Funny / Witty | **Length:** Long
