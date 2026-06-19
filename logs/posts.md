@@ -1,3 +1,19 @@
+## June 19, 2026
+**Topic:** What fintech data actually looks like
+**Tone:** Credible Insight / Domain Authority | **Length:** Short
+
+Most people think fintech data looks like clean transaction tables.
+
+It doesn't.
+
+It's nested JSON with different schemas for every bank. Fields that exist sometimes and vanish other times. Duplicate events timestamped seconds apart. Amounts that round differently depending on who sent them.
+
+The hard part isn't writing queries. It's knowing which version of "transaction_id" actually means something today.
+
+#DataEngineering #Fintech #DataQuality #Analytics
+
+---
+
 ## June 18, 2026
 **Topic:** Everyone says they're data-driven. Almost nobody is.
 **Tone:** Relatable | **Length:** Medium
