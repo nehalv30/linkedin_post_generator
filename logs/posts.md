@@ -1,3 +1,19 @@
+## June 22, 2026
+**Topic:** The honest take on Azure vs AWS vs GCP for data
+**Tone:** Relatable | **Length:** Short
+
+AWS has the most tooling. Azure makes sense if your company already lives in Microsoft. GCP has the cleanest interfaces.
+
+None of that matters until you see the bill.
+
+AWS nickel-and-dimes you on data transfer. Azure's pricing docs read like legal paperwork. GCP is straightforward until you hit quota limits you didn't know existed.
+
+The real decider isn't features. It's which one your company already paid for and which certification your manager wants you to get.
+
+#DataEngineering #CloudComputing #AWS #Azure #GCP
+
+---
+
 ## June 19, 2026
 **Topic:** What fintech data actually looks like
 **Tone:** Credible Insight / Domain Authority | **Length:** Short
