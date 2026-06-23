@@ -1,3 +1,36 @@
+## June 23, 2026
+**Topic:** Airflow is not the answer to your pipeline problems
+**Tone:** Credible Insight / Domain Authority | **Length:** Long
+
+Airflow is not the reason your pipelines are broken.
+
+I've seen this pattern at three different clients now. Team has messy SQL scripts running on cron. Someone goes to a conference, comes back excited about orchestration. Six months later they have messy SQL scripts running in Airflow DAGs.
+
+The tooling changed. The problems didn't.
+
+Airflow is an orchestrator. It tells things when to run and in what order. It does not fix bad logic. It does not make your transformations idempotent. It does not magically turn a 400 line stored procedure into something maintainable.
+
+What it does do is make dependencies visible. If job C needs job A and job B to finish first, Airflow handles that. If a task fails at 3am, you get an alert instead of discovering it during a stakeholder meeting. That's valuable. But only if the tasks themselves are worth orchestrating.
+
+The teams that get value out of Airflow are the ones who cleaned up their logic first. They broke monolithic scripts into smaller, testable pieces. They made transformations rerun-safe. They decided what actually needed to run and when. Then they used Airflow to coordinate it.
+
+The teams that struggle are the ones who thought Airflow would do that work for them.
+
+Before you adopt any orchestration tool, ask these:
+Can my transformations run twice without breaking things?
+Do I actually know what depends on what?
+Are my tasks small enough that a failure doesn't take down the entire pipeline?
+
+If the answer to any of those is no, adding Airflow just gives you a nicer UI to watch things fail.
+
+I'm not saying don't use it. I use it. It's a solid tool. But it solves coordination problems, not design problems. If your pipeline is a mess, fix the pipeline. Then orchestrate it.
+
+Most pipeline problems are logic problems dressed up as tooling problems. Airflow just makes that more obvious.
+
+#DataEngineering #Airflow #DataPipelines #Analytics #DataInfrastructure
+
+---
+
 ## June 22, 2026
 **Topic:** The honest take on Azure vs AWS vs GCP for data
 **Tone:** Relatable | **Length:** Short
