@@ -1,3 +1,21 @@
+## June 24, 2026
+**Topic:** Hot take on dbt
+**Tone:** Something I learned / observed / did at work | **Length:** Medium
+
+I've been using dbt for the last six months across three different client stacks and I get why people love it. The version control, the documentation, the lineage — all genuinely useful when you're building pipelines with a team.
+
+But it's also created a weird new category of problems. We now have hundreds of .sql files doing transformations that used to live in stored procs or ETL scripts. Which is fine, except debugging a failing model now means stepping through 12 layers of CTEs and ref() calls to figure out where the logic broke.
+
+And the tests. Everyone says "just add tests" like it's free. But maintaining tests on 80+ models across shifting schemas is real work. Tests fail, someone comments them out, two months later no one knows what's actually being validated.
+
+The other thing no one mentions: it's made junior analysts way more confident in shipping bad SQL. The tooling is so smooth that people forget to actually think about what the query is doing.
+
+It's a good tool. Just not the miracle some teams think it is.
+
+#DataEngineering #Analytics #dbt #DataPipelines #AnalyticsEngineering
+
+---
+
 ## June 23, 2026
 **Topic:** Airflow is not the answer to your pipeline problems
 **Tone:** Credible Insight / Domain Authority | **Length:** Long
