@@ -1,3 +1,21 @@
+## June 25, 2026
+**Topic:** Stop building data models nobody asked for
+**Tone:** Funny / Witty | **Length:** Short
+
+spent two weeks building a star schema so clean it could be in a textbook. documented every join path. added tests for data quality. felt really good about it.
+
+stakeholders asked for a pivot table in Excel.
+
+they are still using the old spreadsheet someone built three years ago. they love that spreadsheet. they trust it. they know where everything is.
+
+my beautiful model? untouched. sitting there like furniture no one needs but everyone said they wanted.
+
+anyone else built the data equivalent of that treadmill in your basement?
+
+#DataAnalytics #AnalyticsEngineering #DataModeling #DataEngineering #BusinessIntelligence
+
+---
+
 ## June 24, 2026
 **Topic:** Hot take on dbt
 **Tone:** Something I learned / observed / did at work | **Length:** Medium
