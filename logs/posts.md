@@ -1,3 +1,33 @@
+## June 26, 2026
+**Topic:** Kafka is overkill for most companies
+**Tone:** Relatable | **Length:** Long
+
+Most companies don't need Kafka.
+
+They think they do. Because real-time sounds important. Because the job posting mentioned streaming infrastructure. Because someone on the engineering team read a Netflix blog post.
+
+But needing real-time and wanting real-time are not the same thing.
+
+I have built streaming pipelines. I have also watched teams build them when a nightly batch job would have done the exact same thing at a tenth of the operational cost. The difference is not always obvious until you are six months in and the infra is held together with monitoring alerts and someone's deep knowledge of offset commits.
+
+Here is the actual question: what breaks if this data is 15 minutes old? Or an hour old? Or until tomorrow morning?
+
+If the answer is "nothing breaks, we just want fresher data" then you probably don't need Kafka. You need a well-designed batch pipeline with reasonable SLAs and maybe a faster cadence. Run it every hour if you want. That is still not streaming.
+
+Kafka makes sense when latency actually matters. Fraud detection where you need to block a transaction before it clears. Inventory systems where stock counts change fast enough that stale data costs you money. Real-time bidding. Monitoring and alerting infrastructure. Things where the value of the data degrades measurably within minutes.
+
+But a dashboard that updates overnight? A weekly executive report? Customer segmentation that feeds a marketing campaign three days later? Batch is fine. Batch is often better. It is easier to debug, easier to backfill, easier to test, and way easier to hand off when you leave.
+
+I have seen more projects fail because they picked the exciting architecture than because they picked the boring one.
+
+If you can't explain why you need sub-minute latency in a sentence, you probably don't need it.
+
+Anyone else seen a Kafka cluster get built for something that updates twice a day?
+
+#DataEngineering #AnalyticsEngineering #DataPipelines #RealTimeData #Kafka
+
+---
+
 ## June 25, 2026
 **Topic:** Stop building data models nobody asked for
 **Tone:** Funny / Witty | **Length:** Short
