@@ -1,3 +1,35 @@
+## June 29, 2026
+**Topic:** Dashboards don't drive decisions — here's what does
+**Tone:** Funny / Witty | **Length:** Long
+
+I built a fraud detection dashboard last year that flagged suspicious transactions in near real time. SQL pipelines, proper data modeling, clean UI, the whole thing. Took six weeks.
+
+The stakeholder who requested it loved it. Called it "critical infrastructure." Said it would transform how they monitor risk.
+
+Then we launched it and nothing happened.
+
+Not because it didn't work. It worked fine. It just turned out the team already had a process. They had a guy. His name was Brian. Brian had a spreadsheet he updated every morning. He'd been doing it for four years. Everyone trusted Brian's spreadsheet.
+
+So the dashboard sat there. Accurate. Real time. Ignored.
+
+This happens more than anyone admits. You build the thing people ask for, they nod along in every review meeting, and then it goes live and you realize the actual decision was always going to happen in a different room with different people using a different tool.
+
+The dashboard wasn't plugged into the way decisions actually got made. It answered the right question but at the wrong time in the wrong format for the wrong audience. Meanwhile Brian kept updating his spreadsheet because that was the artifact everyone knew how to argue about in the Monday morning meeting.
+
+I've seen this play out across fraud ops, finance reporting, product analytics. The tools that actually drive decisions are not always the ones that look the best or run the fastest. They're the ones that show up in the room where the decision happens. The ones people can edit or interrogate or forward to their boss without a login and three clicks.
+
+Dashboards work when they replace something people were already doing poorly. They die when they add a new step to a process that already has inertia.
+
+So now before I build anything I ask: who makes this decision today, what do they look at when they make it, and will this thing I'm building actually get opened when that moment comes.
+
+Sometimes the answer is no. And that's fine. Better to know that in week one than week six.
+
+Anyone else ever lost to Brian's spreadsheet.
+
+#DataAnalytics #AnalyticsEngineering #DataStrategy #BusinessIntelligence #DataDriven
+
+---
+
 ## June 26, 2026
 **Topic:** Kafka is overkill for most companies
 **Tone:** Relatable | **Length:** Long
