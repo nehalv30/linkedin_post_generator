@@ -1,3 +1,25 @@
+## June 30, 2026
+**Topic:** Moving from India to the US for a data career
+**Tone:** Relatable | **Length:** Medium
+
+I came to the US thinking the hard part would be getting the visa and the job.
+
+Turned out that was the easy part.
+
+The actual adjustment was learning how to work here. In India, I was used to figuring things out on my own, Googling until something worked, asking for help only when I was completely stuck. Here, people expect you to ask questions early. They get confused if you don't.
+
+The other thing: meetings. So many meetings where nothing gets decided but everyone nods. I still don't fully understand what some of them are for.
+
+What transferred well: SQL, Python, the technical stuff. What I had to relearn: how to talk about my work. In interviews, in standups, in casual conversations. I was decent at the work. I was terrible at explaining why it mattered.
+
+If you're considering the move, the job market is real. It's harder than it looks from the outside. But the work itself isn't harder. It's just different in ways no one tells you about.
+
+Anyone else feel this when they moved?
+
+#DataAnalytics #CareerTransition #DataJobs #Analytics #TechCareers
+
+---
+
 ## June 29, 2026
 **Topic:** Dashboards don't drive decisions — here's what does
 **Tone:** Funny / Witty | **Length:** Long
