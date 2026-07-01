@@ -1,3 +1,19 @@
+## July 01, 2026
+**Topic:** The real difference between a junior and senior data analyst
+**Tone:** Credible Insight / Domain Authority | **Length:** Short
+
+A junior analyst gets a vague request and starts writing SQL.
+
+A senior analyst gets a vague request and asks what decision this is supposed to inform.
+
+Most of the time, the person asking doesn't actually know. They just know they need data. The senior analyst helps them figure out what they're really trying to decide, then builds something useful.
+
+The SQL part is the easy part.
+
+#DataAnalytics #Analytics #DataScience #CareerAdvice #DataAnalyst
+
+---
+
 ## June 30, 2026
 **Topic:** Moving from India to the US for a data career
 **Tone:** Relatable | **Length:** Medium
