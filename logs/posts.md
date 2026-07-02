@@ -1,3 +1,37 @@
+## July 02, 2026
+**Topic:** What I'd do differently if I started my data career today
+**Tone:** Something I learned / observed / did at work | **Length:** Long
+
+I've been thinking about what I'd actually tell someone starting out in data today.
+
+Not the usual stuff. Everyone knows you need SQL and Python. That's table stakes.
+
+What I'd focus on instead: learning to ask better questions before you write any code.
+
+Most of the time I've wasted in my career has been building the wrong thing really well. A dashboard no one opens. A model that answers a question no one actually cares about. A pipeline that loads data faster but doesn't change how anyone works.
+
+The skill that compounds over time is figuring out what problem you're actually solving. And that means talking to people. A lot.
+
+When I first started, I thought my job was to be good at tools. Write clean SQL. Build fast pipelines. Make nice charts. And sure, that matters. But the real work is understanding what decision someone is trying to make, what they already know, and what would actually change if the data said something different.
+
+If the answer to that last question is "nothing", you're building the wrong thing.
+
+Here's what I'd prioritize if I started over:
+
+Spend more time with the people using your work. Sit in on product reviews. Join sales calls. Ask finance why they care about this metric and not that one. You'll learn more about what good data work looks like in a week of that than in a month of courses.
+
+Get comfortable being wrong in public. Most insights come from showing someone a half-baked analysis and letting them tell you what's missing. If you wait until it's perfect, you've already wasted time.
+
+Build things people actually open. A simple dashboard someone checks daily beats a complex model no one trusts.
+
+And maybe the biggest one: learn to write clearly. If you can't explain what you found in two sentences, you probably haven't figured it out yet. Most of my job is translation. Data to English. Technical to business. Building to using.
+
+The tools change every few years. The ability to figure out what matters doesn't.
+
+#DataAnalytics #AnalyticsEngineering #CareerAdvice #DataScience #DataStrategy
+
+---
+
 ## July 01, 2026
 **Topic:** The real difference between a junior and senior data analyst
 **Tone:** Credible Insight / Domain Authority | **Length:** Short
