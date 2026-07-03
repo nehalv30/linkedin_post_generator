@@ -1,3 +1,25 @@
+## July 03, 2026
+**Topic:** SQL patterns most analysts get wrong
+**Tone:** Funny / Witty | **Length:** Medium
+
+NULL is not zero.
+
+You'd think people know this. Then you watch someone filter WHERE account_balance != 0 and wonder why 10,000 rows vanished.
+
+Or they run SUM(refund_amount) and celebrate a 15% improvement until you point out that half the refunds are NULL and got silently excluded.
+
+My favorite is COUNT(user_id) vs COUNT(*). They look identical until one column has NULLs and suddenly your metrics are off by 20%. And nobody notices for three months because the dashboard still loads.
+
+The other one that gets people is LEFT JOIN with duplicates on the right side. You join orders to promotions, expecting one row per order. You get back 47,000 rows. Turns out promo_code isn't unique. Congrats, your revenue just doubled on paper.
+
+I learned this stuff the hard way. Shipped a report, got a Slack message two weeks later asking why the numbers didn't match finance. Turned out I was counting NULLs as zeros in a CASE statement.
+
+Anyone else have a NULL story that still keeps them up at night?
+
+#DataAnalytics #SQL #DataEngineering #Analytics #DataScience
+
+---
+
 ## July 02, 2026
 **Topic:** What I'd do differently if I started my data career today
 **Tone:** Something I learned / observed / did at work | **Length:** Long
