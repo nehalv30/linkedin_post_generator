@@ -1,3 +1,25 @@
+## July 06, 2026
+**Topic:** What Snowflake, Databricks, and BigQuery don't tell you
+**Tone:** Something I learned / observed / did at work | **Length:** Medium
+
+I've been setting up data pipelines across Snowflake, BigQuery, and Redshift this year, and the cost surprises are real.
+
+The demos show you instant scaling and subsecond queries. What they don't tell you is how fast costs can spiral if you're not careful.
+
+BigQuery charged us for a full table scan because someone forgot to partition on date. $400 for one analytics query that a stakeholder ran six times while troubleshooting a dashboard.
+
+Snowflake's auto-suspend sounds great until you realize every dashboard refresh can wake up a warehouse. We had 12 small warehouses running because no one turned them off after testing. That added up.
+
+Redshift needs you to vacuum and analyze tables yourself. Skip it for a few weeks and watch your queries slow to a crawl, even on the same data volume.
+
+The tools are powerful. But they assume you know what you're doing. And the documentation buries the expensive mistakes in page 47 of the optimization guide.
+
+None of this is in the sales deck.
+
+#DataEngineering #Analytics #Snowflake #BigQuery #CloudComputing
+
+---
+
 ## July 03, 2026
 **Topic:** SQL patterns most analysts get wrong
 **Tone:** Funny / Witty | **Length:** Medium
