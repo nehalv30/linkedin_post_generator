@@ -1,3 +1,27 @@
+## July 07, 2026
+**Topic:** What good stakeholder communication looks like in data roles
+**Tone:** Funny / Witty | **Length:** Short
+
+You spend three weeks building a stakeholder dashboard.
+
+Clean metrics. Clear visuals. Reliable refresh schedule.
+
+Launch meeting goes great. Everyone loves it.
+
+Two weeks later you check the usage logs.
+
+17 views. 9 of them are you testing it.
+
+But somehow you're still getting Slack messages asking for the exact numbers that are literally on row 3.
+
+I'm convinced some stakeholders think dashboards are decorative.
+
+Anyone else built something that immediately became invisible?
+
+#DataAnalytics #DataEngineering #Analytics #BusinessIntelligence
+
+---
+
 ## July 06, 2026
 **Topic:** What Snowflake, Databricks, and BigQuery don't tell you
 **Tone:** Something I learned / observed / did at work | **Length:** Medium
