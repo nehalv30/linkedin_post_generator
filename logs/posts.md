@@ -1,3 +1,39 @@
+## July 08, 2026
+**Topic:** Everyone says they're data-driven. Almost nobody is.
+**Tone:** Relatable | **Length:** Long
+
+Everyone says they're data-driven.
+
+But most companies use data the way a lawyer uses evidence. The decision is already made. The data just needs to cooperate.
+
+I've sat in enough meetings to know the pattern. Someone senior says what they think should happen. Then they turn to analytics and ask for the numbers. Not to inform the decision. To support it.
+
+If the data agrees, great. If it doesn't, suddenly we're talking about sample sizes or questioning the methodology or wondering if we're measuring the right thing.
+
+The problem isn't tools. It's not talent either. Most places have decent infrastructure and people who know what they're doing.
+
+The problem is organizational.
+
+Data-driven culture dies when:
+
+The person with the loudest opinion outranks the person with the analysis. When someone can override a dashboard with 'I just don't think that's right' and everyone nods and moves on.
+
+Data work only gets resourced after the decision timeline. You get two days to analyze something that needed two weeks. So you pull what you can, add a bunch of caveats, and everyone ignores the caveats.
+
+The metric changes when it tells the wrong story. Revenue is great until it's not growing fast enough, then we're talking about engagement. Engagement is great until that flattens, then we're talking about NPS. The goal is always moving.
+
+The data team reports to someone who doesn't use data. So requests get prioritized by who asks loudest, not by what actually matters. And when something breaks, it's not urgent until the VP notices.
+
+I'm not saying gut feel is bad. Some of the best operators I know trust their instincts. But they also change their mind when the data says they're wrong.
+
+Most people don't. They just ask for different data.
+
+Anyone else spend more time defending the numbers than actually discussing what they mean?
+
+#DataAnalytics #Analytics #DataStrategy #BusinessIntelligence #DataCulture
+
+---
+
 ## July 07, 2026
 **Topic:** What good stakeholder communication looks like in data roles
 **Tone:** Funny / Witty | **Length:** Short
