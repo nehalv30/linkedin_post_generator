@@ -1,3 +1,25 @@
+## July 09, 2026
+**Topic:** What fintech data actually looks like
+**Tone:** Credible Insight / Domain Authority | **Length:** Medium
+
+Most people think fintech data looks like a clean Postgres table with timestamps and amounts.
+
+It doesn't.
+
+You get nested JSON where account numbers live three layers deep. Transaction status codes that mean different things depending on which bank sent them. Duplicate events because retry logic fired twice and now your aggregations are off by 40%. Timezone fields that exist but are wrong.
+
+I've spent months just building normalization layers. Not modeling interesting things. Just making the data usable.
+
+The real work isn't fancy ML or dashboards. It's writing parsers that handle 47 slightly different JSON structures from 47 different banks. Building deduplication logic that doesn't break when the same transaction shows up with two different IDs. Adding flags for "this timestamp is probably lies."
+
+Nobody warns you that half your job is accounting for the fact that financial systems were built by 12 different vendors over 20 years and nobody agreed on what "pending" means.
+
+You get good at fintech data when you stop expecting it to make sense and start planning for every edge case.
+
+#DataEngineering #Fintech #DataAnalytics #SQL #AnalyticsEngineering
+
+---
+
 ## July 08, 2026
 **Topic:** Everyone says they're data-driven. Almost nobody is.
 **Tone:** Relatable | **Length:** Long
