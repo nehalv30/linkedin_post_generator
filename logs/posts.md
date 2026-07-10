@@ -1,3 +1,19 @@
+## July 10, 2026
+**Topic:** The problem with how companies hire data people
+**Tone:** Something I learned / observed / did at work | **Length:** Short
+
+I just got rejected after a 90-minute SQL screening where I had to optimize queries I would never write in production.
+
+No one asked me how I'd figure out what metric a product team actually needs. Or how I'd explain margin analysis to someone in finance. Or what I do when the data is just wrong.
+
+They tested trivia. Not judgment.
+
+The best data people I know aren't the fastest at window functions. They're the ones who ask better questions before writing any code.
+
+#DataAnalytics #Hiring #DataScience #Analytics #SQL
+
+---
+
 ## July 09, 2026
 **Topic:** What fintech data actually looks like
 **Tone:** Credible Insight / Domain Authority | **Length:** Medium
