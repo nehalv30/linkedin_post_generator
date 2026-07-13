@@ -1,3 +1,19 @@
+## July 13, 2026
+**Topic:** Airflow is not the answer to your pipeline problems
+**Tone:** Credible Insight / Domain Authority | **Length:** Short
+
+Airflow doesn't fix broken pipelines. It just schedules them more consistently.
+
+If your data quality is bad, your dependencies are unclear, or you don't know what should run when, adding orchestration won't solve that. You'll just get the same mess, now wrapped in YAML and cron expressions.
+
+Before you spin up Airflow, ask: do I actually have a scheduling problem, or do I just have unclear logic that needs to be rewritten?
+
+Most teams need better SQL and clearer transformations. Not another tool to manage.
+
+#DataEngineering #Analytics #DataPipelines #Airflow #DataInfrastructure
+
+---
+
 ## July 10, 2026
 **Topic:** The problem with how companies hire data people
 **Tone:** Something I learned / observed / did at work | **Length:** Short
