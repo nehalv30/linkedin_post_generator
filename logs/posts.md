@@ -1,3 +1,23 @@
+## July 14, 2026
+**Topic:** Hot take on dbt
+**Tone:** Something I learned / observed / did at work | **Length:** Long
+
+I've been using dbt for about eight months now at HCLTech. It's definitely good at what it does. But I'm also starting to notice where it stops being helpful.
+
+What dbt actually solves is really simple. Before dbt, every team had their own way of writing SQL transformations, putting them in some random script folder, and hoping nothing broke. dbt gave us version control, testing, and documentation in one place. That part is real. We have 100+ datasets harmonized across banking clients now and the fact that I can trace lineage and see what breaks when I change something is not nothing.
+
+But here's what nobody talks about. dbt introduces a different kind of mess. You now have models calling other models, plus macros, plus packages, plus YAML files for tests and docs. When something breaks, you're not just debugging SQL. You're debugging the structure of your dbt project. I spent two hours yesterday figuring out why a test was failing and it turned out a macro I didn't write was silently casting a field to the wrong type five models upstream.
+
+Also, dbt makes you write SQL the way dbt wants you to write SQL. Which is fine if your logic is straightforward. But the second you need to do something slightly weird, you end up wrapping it in a macro or writing Jinja inside your SELECT statement and now your SQL looks like code soup. I get why it's designed that way. I'm just saying it has a cost.
+
+The other thing is that dbt is really good for batch transformations and terrible for anything near real time. We had to build a separate layer with Glue and Kafka for fraud detection because dbt just wasn't built for that. So now we have two systems. One for the clean semantic layer. One for the stuff that actually needs to happen fast.
+
+I still use dbt. I think it's worth it most of the time. But it's not magic. It trades one set of problems for another. And if your team doesn't have the discipline to keep the project organized, you just end up with a different kind of technical debt.
+
+#DataEngineering #Analytics #dbt #SQL #DataInfrastructure
+
+---
+
 ## July 13, 2026
 **Topic:** Airflow is not the answer to your pipeline problems
 **Tone:** Credible Insight / Domain Authority | **Length:** Short
