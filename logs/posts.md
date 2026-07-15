@@ -1,3 +1,25 @@
+## July 15, 2026
+**Topic:** Stop building data models nobody asked for
+**Tone:** Funny / Witty | **Length:** Medium
+
+Last week I spent three days building a perfectly normalized star schema with proper SCD Type 2 dimensions, incremental loads, and data quality tests at every layer.
+
+You know how many times it got queried? Zero.
+
+The VP just wanted to know which customers bought last quarter. That's it. One WHERE clause. Could have done it in a single query and called it Tuesday.
+
+But I was busy making sure the grain was consistent and the surrogate keys were sequential and the fact table had proper foreign key constraints.
+
+Here's the thing. Nobody wakes up wanting a beautiful data model. They wake up with a question. If your model doesn't make answering that question faster or easier, you built it for yourself.
+
+I've done this enough times now to recognize the signs. If you're excited about the technical elegance and nobody has asked for the dashboard yet, you're probably solving the wrong problem.
+
+Anyone else have a data asset that is architecturally gorgeous and completely ignored?
+
+#DataEngineering #Analytics #DataModeling #AnalyticsEngineering #DataStrategy
+
+---
+
 ## July 14, 2026
 **Topic:** Hot take on dbt
 **Tone:** Something I learned / observed / did at work | **Length:** Long
