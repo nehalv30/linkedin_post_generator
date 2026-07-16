@@ -1,3 +1,19 @@
+## July 16, 2026
+**Topic:** Kafka is overkill for most companies
+**Tone:** Relatable | **Length:** Short
+
+Most companies don't need real-time data. They need yesterday's data, on time, without errors.
+
+I've seen teams spend six months building Kafka pipelines for dashboards that refresh once a day. The streaming part was technically impressive. It was also completely pointless.
+
+If your business logic doesn't change in seconds, batch is fine. Cheaper to run, easier to debug, way less likely to wake you up at 3am.
+
+Real-time is for fraud detection and trading systems. Not for marketing reports.
+
+#DataEngineering #Kafka #Analytics #DataPipelines #RealTimeData
+
+---
+
 ## July 15, 2026
 **Topic:** Stop building data models nobody asked for
 **Tone:** Funny / Witty | **Length:** Medium
