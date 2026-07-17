@@ -1,3 +1,31 @@
+## July 17, 2026
+**Topic:** The metric that actually tells you if your data team is working
+**Tone:** Credible Insight / Domain Authority | **Length:** Long
+
+Most data teams measure output. Dashboards shipped. Queries written. Models deployed.
+
+None of that tells you if your data team is actually working.
+
+The real signal is simpler. It's how long it takes someone outside the data team to get an answer they trust.
+
+Not just any answer. A trustworthy one. One they can make a decision with.
+
+I've worked across fintech, enterprise analytics, consumer operations. The pattern is consistent. When a data team is working, people outside of it stop asking the data team basic questions. They know where the data lives. They know what it means. They pull it themselves. And when they do escalate something, it's because the question is genuinely hard, not because the last three dashboards gave conflicting numbers.
+
+When a data team isn't working, everything becomes a ticket. Every question becomes a meeting. Every meeting surfaces a data quality issue that someone thought was fixed two months ago. People stop trusting the dashboards. They start building their own Excel models. You end up with three different definitions of revenue.
+
+The other signal is who asks for your opinion. If the product team is looping you into roadmap conversations before they finalize anything, that's a good sign. If finance is asking you to validate their model assumptions, good sign. If you only hear from people when a report is broken, that's the signal.
+
+Output metrics make leadership feel like the data team is busy. But busy doesn't mean useful. I've seen teams ship ten dashboards a quarter that nobody opens. I've also seen teams ship two dashboards that completely change how a business prioritizes its work.
+
+The difference isn't volume. It's whether people outside your team would notice if you stopped showing up.
+
+If they wouldn't, you're not measuring the right thing.
+
+#DataAnalytics #DataStrategy #AnalyticsEngineering #BusinessIntelligence #DataTeams
+
+---
+
 ## July 16, 2026
 **Topic:** Kafka is overkill for most companies
 **Tone:** Relatable | **Length:** Short
