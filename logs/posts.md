@@ -1,3 +1,29 @@
+## July 20, 2026
+**Topic:** Moving from India to the US for a data career
+**Tone:** Relatable | **Length:** Long
+
+I moved to the US for grad school thinking the biggest adjustment would be the weather or maybe the cost of living.
+
+Turns out the hardest part was realizing that the work itself looks completely different here.
+
+In India, I was building things. Writing backend queries that touched millions of records. Working on models that went into production. Fixing pipelines that broke at 2am. The job was technical and it felt urgent.
+
+When I got here, the first thing I noticed was how much of the role is actually about alignment. You spend half your time making sure people agree on what a metric means before you even write the query. You sit in meetings where the same dashboard gets debated for three weeks because two teams define "active user" differently.
+
+The technical work is still there, but it is wrapped in so many layers of process and stakeholder management that it can feel like you are doing less. You are not. You are just doing different things.
+
+The other thing no one tells you is how much your resume does not translate. I had real experience. But because the company names were unfamiliar and the tools were slightly different, I had to basically re-prove everything. I rewrote my resume four times. I learned to talk about my work in a way that made sense here, which meant unlearning how I used to talk about it.
+
+What transferred well: SQL, Python, the ability to debug something that makes no sense. What I had to relearn: how to position myself, how to read a room, how to operate in a culture where being right is less important than being collaborative.
+
+Would I do it again? Yes. But I would go in knowing that the gap is not just technical. It is everything around the technical work. The way decisions get made. The way people communicate. The way you have to sell your own work even when the work is solid.
+
+If you are thinking about making this move, just know it is going to take longer than you think. And that is fine.
+
+#DataAnalytics #CareerTransition #DataEngineering #AnalyticsEngineering #TechCareers
+
+---
+
 ## July 17, 2026
 **Topic:** The metric that actually tells you if your data team is working
 **Tone:** Credible Insight / Domain Authority | **Length:** Long
