@@ -1,3 +1,27 @@
+## July 21, 2026
+**Topic:** The real difference between a junior and senior data analyst
+**Tone:** Credible Insight / Domain Authority | **Length:** Medium
+
+A junior analyst hears "we need to reduce churn" and starts writing SQL.
+
+A senior analyst asks "which churn?" 
+
+Contract cancellations? Usage drop-off? Feature abandonment? Payment failures that look like churn but aren't?
+
+I've seen this pattern across three different industries now. The junior person optimizes for speed. They want to look useful. They pull the data, build the dashboard, send the insight.
+
+The senior person optimizes for clarity. They know that answering the wrong question fast is worse than answering the right question slow.
+
+Same with uncertainty. A junior will say "conversion is down 8%." A senior will say "conversion is down 8%, but the sample size is small and we changed the signup flow last week, so I wouldn't act on this yet."
+
+It's not about being difficult. It's about not wasting everyone's time two weeks from now when the data was misleading and decisions were made on it.
+
+The real skill is knowing when to slow down.
+
+#DataAnalytics #AnalyticsEngineering #DataScience #CareerGrowth
+
+---
+
 ## July 20, 2026
 **Topic:** Moving from India to the US for a data career
 **Tone:** Relatable | **Length:** Long
