@@ -1,3 +1,19 @@
+## July 22, 2026
+**Topic:** What I'd do differently if I started my data career today
+**Tone:** Something I learned / observed / did at work | **Length:** Short
+
+I spent the first year of my career learning tools I barely use now.
+
+What I wish I learned instead: how to ask better questions before writing a single query.
+
+Most junior analysts jump straight into SQL. But if you don't understand what decision the data is supposed to inform, you just build faster reports that no one trusts.
+
+The skill that compounds: figuring out what actually matters before you start building.
+
+#DataAnalytics #AnalyticsEngineering #CareerAdvice #DataScience #SQL
+
+---
+
 ## July 21, 2026
 **Topic:** The real difference between a junior and senior data analyst
 **Tone:** Credible Insight / Domain Authority | **Length:** Medium
