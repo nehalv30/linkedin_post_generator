@@ -1,3 +1,35 @@
+## July 23, 2026
+**Topic:** SQL patterns most analysts get wrong
+**Tone:** Funny / Witty | **Length:** Long
+
+NULL handling in SQL is one of those things that looks fine until it quietly ruins your entire metric.
+
+I spent three weeks debugging a revenue report once. The numbers looked reasonable. Stakeholders were happy. Then someone manually spot-checked a few customers and found we were undercounting by about 15%.
+
+Turns out we had a SUM() wrapped around a CASE statement. Something like:
+
+SUM(CASE WHEN status = 'completed' THEN revenue END)
+
+Looks fine, right? Except when the status isn't 'completed', the CASE returns NULL. And SUM() just ignores NULLs. Which is great if that's what you want. Except we also had a COUNT(*) in the same query to calculate average revenue per transaction.
+
+So the denominator counted every row. The numerator only counted rows where revenue wasn't NULL. The average was wrong. Not wildly wrong. Just wrong enough that no one noticed for three weeks.
+
+The fix was obvious once I saw it. Either use COALESCE to turn NULLs into zeros, or use COUNT(revenue) instead of COUNT(*) so both aggregations ignore the same rows.
+
+But here's the thing. This kind of mistake doesn't throw an error. It doesn't fail a test. It just sits there in production, confidently returning incorrect numbers, until someone happens to check the math by hand.
+
+I've seen the same thing happen with LEFT JOINs. You join a fact table to a lookup table, forget to filter out the NULLs from unmatched rows, and suddenly your COUNT is off. Or someone uses COUNT(column_name) when they meant COUNT(*) and accidentally excludes half the dataset.
+
+The worst part is how normal the query looks. You can read it five times and not see the issue. It only becomes obvious when you actually run it on a subset of data and manually verify the output.
+
+So now I just assume every aggregate I write is wrong until I prove otherwise. Paranoid? Maybe. But I've been burned enough times that I'd rather spend an extra ten minutes checking than another three weeks debugging.
+
+Anyone else have a NULL story that still makes them wince?
+
+#SQL #DataAnalytics #AnalyticsEngineering #DataQuality #LessonsLearned
+
+---
+
 ## July 22, 2026
 **Topic:** What I'd do differently if I started my data career today
 **Tone:** Something I learned / observed / did at work | **Length:** Short
