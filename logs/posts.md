@@ -1,3 +1,31 @@
+## July 27, 2026
+**Topic:** What good stakeholder communication looks like in data roles
+**Tone:** Funny / Witty | **Length:** Medium
+
+You know what no one tells you about data work?
+
+The technical part is maybe 40% of the job.
+
+The other 60% is explaining to a VP why "revenue by customer segment" can't be ready in 20 minutes when the segment definitions don't exist yet.
+
+Or why adding "just one more filter" means rewriting half the SQL because the data isn't structured that way.
+
+Or gently telling someone that the dashboard they asked for three months ago, that you built exactly to spec, doesn't actually answer the question they're now asking.
+
+The hardest skill isn't writing efficient queries. It's saying "I don't know yet, but I'll find out" without sounding like you don't know what you're doing.
+
+It's pushing back on a request that sounds reasonable but would produce garbage output.
+
+It's presenting a model that's 73% accurate and explaining why that's actually pretty good given what we're working with.
+
+Most boot camps teach you Python and SQL. None of them teach you how to say no to a stakeholder in a way that keeps you in the room.
+
+Anyone else spend more time managing expectations than managing data?
+
+#DataAnalytics #AnalyticsEngineering #DataScience #CareerAdvice #TechCareers
+
+---
+
 ## July 24, 2026
 **Topic:** Why most data pipelines fail silently
 **Tone:** Relatable | **Length:** Medium
