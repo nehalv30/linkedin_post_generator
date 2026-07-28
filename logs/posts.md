@@ -1,3 +1,19 @@
+## July 28, 2026
+**Topic:** Everyone says they're data-driven. Almost nobody is.
+**Tone:** Relatable | **Length:** Short
+
+Everyone calls themselves data-driven until the data disagrees with what the VP already decided.
+
+Then suddenly it's "let's revisit the methodology" or "this doesn't capture the full picture" or my favorite, "what does your gut say?"
+
+The tools work. The people are good. But if every analysis is just finding proof for a conclusion someone already made, you're not data-driven. You're just PowerPoint-driven with extra steps.
+
+Anyone else spend more time defending the data than actually using it?
+
+#DataAnalytics #DataDriven #Analytics #DataScience #BusinessIntelligence
+
+---
+
 ## July 27, 2026
 **Topic:** What good stakeholder communication looks like in data roles
 **Tone:** Funny / Witty | **Length:** Medium
