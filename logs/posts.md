@@ -1,3 +1,29 @@
+## July 29, 2026
+**Topic:** What fintech data actually looks like
+**Tone:** Credible Insight / Domain Authority | **Length:** Long
+
+Most people think fintech data is rows of clean transactions in a database.
+
+What you actually get is nested JSON with field names that change depending on which bank sent it. Amount sometimes stored as integer cents, sometimes float dollars, sometimes a string with a currency symbol in it. Transaction timestamps that don't account for time zones. Or they do, but inconsistently.
+
+You get duplicate events because retry logic fired twice and now the same transaction has two IDs. You get missing fields that were required last month but optional this month because some partner couldn't support it. You get enumerated status codes that mean different things across processors.
+
+The schema says a field is always present. It's not. The docs say refunds have negative amounts. Half of them don't. You write a SUM() and the number is wrong because three records had nulls that got coerced to zero, and one had a string that Redshift decided to cast as zero instead of erroring.
+
+You can't trust event order. A settlement record arrives before the authorization it's supposed to reference. A chargeback appears in the data before the original transaction clears. You build a state machine and it breaks because events from two systems don't line up the way the API docs promised they would.
+
+And then there are the timing issues. You aggregate yesterday's transactions and get one number. You run the same query today and it's different because some records got backfilled, or late-arriving data finally landed, or someone corrected a batch from three days ago.
+
+This isn't an edge case. It's Tuesday.
+
+The only way to deal with it is to stop assuming anything. Write tests for every transformation. Build idempotency into everything. Accept that the data will lie to you and design around it.
+
+Financial data in production is a negotiation between what the systems say happened and what actually happened. Your job is to figure out the difference.
+
+#DataEngineering #Fintech #DataQuality #Analytics #SQL
+
+---
+
 ## July 28, 2026
 **Topic:** Everyone says they're data-driven. Almost nobody is.
 **Tone:** Relatable | **Length:** Short
