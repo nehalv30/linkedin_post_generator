@@ -1,3 +1,25 @@
+## July 30, 2026
+**Topic:** The problem with how companies hire data people
+**Tone:** Something I learned / observed / did at work | **Length:** Medium
+
+I sat through a data analyst interview yesterday where the candidate couldn't answer "what is a primary key" but had memorized every LeetCode window function problem.
+
+We didn't hire them.
+
+Here's what I've noticed about how data hiring is broken. Companies test syntax memorization. They make candidates write recursive CTEs on a whiteboard. They ask them to optimize queries they will never write in production.
+
+But nobody asks: can you talk to a product manager? Can you tell when a metric is lying? Can you build something that still works six months later when the schema changes?
+
+I've worked with analysts who can't write a perfect join from memory but know exactly which question to ask before they touch the data. And I've worked with people who crush the technical round and then build dashboards nobody uses.
+
+The best signal I've found so far is just asking someone to walk me through something they actually built. What broke. What they would do differently. How they knew it was working.
+
+That tells me more than any SQL quiz ever will.
+
+#DataAnalytics #Hiring #DataEngineering #AnalyticsEngineering #SQL
+
+---
+
 ## July 29, 2026
 **Topic:** What fintech data actually looks like
 **Tone:** Credible Insight / Domain Authority | **Length:** Long
