@@ -1,3 +1,23 @@
+## July 31, 2026
+**Topic:** When ML makes things worse
+**Tone:** Funny / Witty | **Length:** Short
+
+Someone built an ML model to predict whether a transaction was suspicious.
+
+It took three weeks to train. It needed retraining every month. The data team spent hours explaining why certain flags got missed.
+
+The old system? A SQL query checking if the amount was over $10k or the account was flagged twice in 48 hours.
+
+Caught 90% of the same cases. Took ten minutes to write. Everyone understood it.
+
+Sometimes the smartest solution is the boring one.
+
+Anyone else seen a model replace something that actually worked?
+
+#DataScience #MachineLearning #Analytics #DataEngineering #SQL
+
+---
+
 ## July 30, 2026
 **Topic:** The problem with how companies hire data people
 **Tone:** Something I learned / observed / did at work | **Length:** Medium
