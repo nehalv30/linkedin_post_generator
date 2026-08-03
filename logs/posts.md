@@ -1,3 +1,17 @@
+## August 03, 2026
+**Topic:** Hot take on dbt
+**Tone:** Something I learned / observed / did at work | **Length:** Short
+
+I've been using dbt long enough now to know what it actually fixes: it standardizes how we write transforms, and it makes pipelines testable. That's real.
+
+But it's not magic. Half the time we're still debugging upstream data quality issues that no amount of testing catches. And honestly? The learning curve for someone who just writes good SQL is steeper than people admit.
+
+It's a good tool. Just not the only tool that matters.
+
+#DataEngineering #AnalyticsEngineering #dbt #DataQuality #SQL
+
+---
+
 ## July 31, 2026
 **Topic:** When ML makes things worse
 **Tone:** Funny / Witty | **Length:** Short
