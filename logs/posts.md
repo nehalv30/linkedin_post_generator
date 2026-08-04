@@ -1,3 +1,35 @@
+## August 04, 2026
+**Topic:** Stop building data models nobody asked for
+**Tone:** Funny / Witty | **Length:** Long
+
+You spend three weeks building a star schema that would make Kimball weep with pride.
+
+Slowly changing dimensions. Incremental loads. Data quality tests at every layer. Partitioning that shaves 40% off query time. Documentation so clean it could be framed.
+
+You present it to the business team. They nod politely. They say it looks great. They thank you for your hard work.
+
+Then they go back to pulling data straight from the raw layer in a Google Sheet.
+
+This happens more than anyone wants to admit. You build something technically beautiful. Something that scales, that handles edge cases, that follows every best practice you learned. And it sits there, unused, while stakeholders keep pinging you on Slack asking for CSV exports.
+
+The problem is not that the model is bad. The problem is that nobody asked for a model. They asked for an answer to a question.
+
+And somewhere between the question and the answer, we decided we needed to solve for every possible future question too. We built flexibility they did not ask for. We abstracted logic they were never going to reuse. We optimized for scale they were not going to hit.
+
+I have done this. Multiple times. Once I spent two weeks building a dimension table for customer segmentation that I was sure the marketing team would love. They used it exactly once. Turns out they just needed last quarter's campaign performance in a pivot table. That was it.
+
+The worst part is, building the model feels productive. It feels like real work. You are in your IDE, writing SQL, running tests, committing to Git. You are doing analytics engineering.
+
+But if the thing you are building does not connect to a decision someone is trying to make, it is just a very well-organized pile of data that nobody opens.
+
+So now I try to ask one question before I start: what decision does this unlock? If I cannot answer that in one sentence, I probably should not be building it yet.
+
+Has anyone else built the world's most beautiful unused data model, or is it just me?
+
+#DataEngineering #AnalyticsEngineering #DataModeling #BusinessIntelligence #DataAnalytics
+
+---
+
 ## August 03, 2026
 **Topic:** Hot take on dbt
 **Tone:** Something I learned / observed / did at work | **Length:** Short
