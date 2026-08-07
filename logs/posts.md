@@ -1,3 +1,33 @@
+## August 07, 2026
+**Topic:** The data quality problem nobody wants to own
+**Tone:** Something I learned / observed / did at work | **Length:** Long
+
+I spent two hours yesterday fixing a dashboard that showed Q1 revenue 15% higher than what finance had in their books.
+
+Engineering had changed a join condition in the upstream pipeline three weeks ago. Analytics hadn't been looped in. Finance was using the old logic in their internal models. Nobody caught it until the monthly review, and by then the executive deck had already gone out with the wrong numbers.
+
+This is the part nobody puts in the engineering blog posts about data quality. You can have every possible test in dbt. You can write the cleanest SQL you've ever written. You can build alerting systems that catch nulls and duplicates and schema drift.
+
+And it still breaks because the person who changed the pipeline didn't know there was a dependency downstream.
+
+The actual problem isn't technical. It's that data quality lives in the space between teams, and nobody has real authority there.
+
+Engineering owns the infrastructure. Analytics owns the logic. Finance owns the definitions. Product owns the metrics. Everyone is accountable for their own part. Nobody is accountable for whether the parts still connect correctly after someone makes a change.
+
+What actually fixes it is not better tooling. It's a person whose job includes noticing when things don't line up anymore.
+
+At one of my clients, we started doing something simple: every time someone changes a core data model, they have to update a shared doc that lists every downstream report and dashboard that uses it. Then analytics has 48 hours to verify nothing broke.
+
+It sounds basic. But it works because it makes the dependency visible before the mistake compounds.
+
+Most data quality problems I've seen aren't caused by bad engineering. They're caused by invisible handoffs. Someone changed something on their side and assumed the other side would adapt. The business found out three weeks later when the numbers stopped matching.
+
+You fix that by making someone responsible for the seam, not just the pieces.
+
+#DataQuality #Analytics #DataEngineering #BusinessIntelligence #DataPipelines
+
+---
+
 ## August 06, 2026
 **Topic:** The metric that actually tells you if your data team is working
 **Tone:** Credible Insight / Domain Authority | **Length:** Short
