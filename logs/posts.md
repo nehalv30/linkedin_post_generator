@@ -1,3 +1,31 @@
+## August 10, 2026
+**Topic:** The real difference between a junior and senior data analyst
+**Tone:** Credible Insight / Domain Authority | **Length:** Long
+
+The real difference between a junior and senior analyst isn't the tools. It's what happens before the tools.
+
+A junior gets asked to build a dashboard showing customer churn by region. They open Tableau, pull the data, build the viz, send it over. Done.
+
+A senior stops and asks: what decision is this informing? Are we trying to figure out where to focus retention efforts, or are we trying to justify headcount in a specific market? Because those need different cuts of the data.
+
+That's not about being difficult. It's about noticing that most requests come pre-framed, and the frame is often wrong.
+
+Junior hears "can you add this metric to the report?" and adds it. Senior asks why it matters, realizes it conflicts with two other definitions already in use, and comes back with a proposal to clean up the whole section instead of making it worse.
+
+Junior treats ambiguity like a gap in the instructions. Senior treats it like information. If the stakeholder can't explain what they need, that's not a data problem yet. That's a strategy problem, and no amount of SQL is going to fix it.
+
+When the data is messy, junior says "the data is bad" and waits. Senior says "here's what's missing, here's the workaround I can do now, and here's what we'd need to fix it properly." They ship something useful while being honest about the gaps.
+
+The other thing: senior people get comfortable saying no. Not in a gatekeeping way. But if someone asks for a metric that doesn't make sense, or a report that will get misread, or an analysis on a sample size too small to mean anything, they say it. Politely. With a better option if there is one.
+
+Junior analysts add. Senior analysts edit. They take the vague thing someone asked for and turn it into the clear thing that actually helps.
+
+None of this shows up on a resume. You only learn it by working on enough projects that shipped the wrong thing because nobody asked the right question up front.
+
+#DataAnalytics #AnalyticsEngineering #DataStrategy #CareerDevelopment
+
+---
+
 ## August 07, 2026
 **Topic:** The data quality problem nobody wants to own
 **Tone:** Something I learned / observed / did at work | **Length:** Long
