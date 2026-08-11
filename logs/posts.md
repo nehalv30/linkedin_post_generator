@@ -1,3 +1,23 @@
+## August 11, 2026
+**Topic:** What I'd do differently if I started my data career today
+**Tone:** Something I learned / observed / did at work | **Length:** Medium
+
+I spent the last two days fixing a pipeline that broke because someone renamed a column in production.
+
+No warning. No documentation. Just a Slack message at 9 PM asking why the dashboard was empty.
+
+If I could tell someone starting in data today what actually matters, it wouldn't be learning the tenth Python library or chasing MLOps tutorials. It would be this: learn how to make your work survive other people.
+
+That means writing SQL that doesn't assume column names will stay the same. Building checks that catch breaks before your stakeholders do. Documenting not because it's professional, but because you won't remember why you did something six months from now.
+
+The stuff that compounds in this job isn't the clever code. It's the boring discipline that keeps things running when you're not looking.
+
+Most people optimize for building things. I think the real skill is building things that don't need you to keep them alive.
+
+#DataAnalytics #AnalyticsEngineering #DataEngineering #SQL #DataPipelines
+
+---
+
 ## August 10, 2026
 **Topic:** The real difference between a junior and senior data analyst
 **Tone:** Credible Insight / Domain Authority | **Length:** Long
