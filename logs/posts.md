@@ -1,3 +1,27 @@
+## August 12, 2026
+**Topic:** SQL patterns most analysts get wrong
+**Tone:** Funny / Witty | **Length:** Short
+
+NULL makes every COUNT lie.
+
+Most people think COUNT(*) and COUNT(column_name) do the same thing.
+
+They don't.
+
+COUNT(*) counts rows. COUNT(column_name) counts non-NULL values in that column.
+
+So if you've got 1,000 rows and 200 NULLs in email_address, COUNT(email_address) returns 800.
+
+I've seen entire executive dashboards built on the wrong one. Nobody noticed until the numbers stopped adding up to the total.
+
+Now I check. Every time.
+
+Anyone else debug a dashboard only to find out the problem was literally one character?
+
+#DataAnalytics #SQL #DataEngineering #AnalyticsEngineering #DataQuality
+
+---
+
 ## August 11, 2026
 **Topic:** What I'd do differently if I started my data career today
 **Tone:** Something I learned / observed / did at work | **Length:** Medium
