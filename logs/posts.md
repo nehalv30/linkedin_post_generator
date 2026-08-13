@@ -1,3 +1,33 @@
+## August 13, 2026
+**Topic:** Why most data pipelines fail silently
+**Tone:** Relatable | **Length:** Long
+
+The worst bugs I've ever shipped didn't throw errors.
+
+They just quietly wrote bad data to a table and let everyone keep using it.
+
+A few months ago, one of our Kafka consumers had a schema mismatch. Not big enough to fail the job. Just enough to write nulls in a field that used to be strings. The pipeline ran green. The Airflow DAG showed success. The table loaded on schedule.
+
+Two weeks later, a finance team sent over a dashboard that showed customer churn spiking 40% in Q3. Panic call. Root cause meeting. Turns out it wasn't churn. It was null values getting counted as churned users because someone wrote a WHERE clause that didn't account for missing data.
+
+The pipeline didn't fail. It just lied.
+
+This happens all the time. A join drops 5% of rows because someone renamed a key in an upstream API and nobody noticed. A batch job pulls yesterday's data twice because the date logic uses server time instead of event time. A dbt model runs fine but the incremental logic silently skips half the new records.
+
+You can write tests, sure. But most teams don't test the actual data. They test that the job finishes. And a finished job is not the same thing as correct data.
+
+What actually helps: row count checks before and after every transform. Schema validation on ingestion, not just at the warehouse. Alerts when key metrics move more than X% week over week. A staging layer where you can diff new data against prod before it goes live.
+
+And maybe the most important one: actually looking at the data. Not the dashboard. The table. Sample 100 rows after the job runs and just scan it. You will catch things your tests won't.
+
+Silent failures happen because pipelines optimize for running, not for being right. And nobody checks until it's already in a deck.
+
+Anyone else spend more time explaining why the data was wrong than actually fixing it?
+
+#DataEngineering #Analytics #DataPipelines #DataQuality #SQL
+
+---
+
 ## August 12, 2026
 **Topic:** SQL patterns most analysts get wrong
 **Tone:** Funny / Witty | **Length:** Short
