@@ -1,3 +1,27 @@
+## August 14, 2026
+**Topic:** Python for data analysts — what to actually learn
+**Tone:** Credible Insight / Domain Authority | **Length:** Medium
+
+Most analysts I've worked with don't need to learn Python. They need to learn four things in Python.
+
+Pandas for transforming data. That's it. Not the whole library. Just filtering, grouping, merging, and handling nulls. If you can do a left join and a group by in pandas, you're already more useful than someone who took a general Python course.
+
+List comprehensions. Because you'll write the same transformation 50 times and you need it to not look terrible.
+
+Working with APIs. Half the data you need isn't in a database. It's behind an endpoint. Learn `requests`. Learn how to parse JSON. Learn how pagination works.
+
+And basic file handling. CSV, JSON, parquet. Reading them, writing them, not breaking them.
+
+That's the list. You can learn all of it in a weekend.
+
+What you don't need: classes, decorators, async, pytest, or anything that makes you feel like a real engineer. That stuff matters if you're shipping production code. Most analysts aren't.
+
+Focus on the thing that makes Python worth learning in the first place. It gets data from point A to point B faster than Excel.
+
+#DataAnalytics #Python #DataScience #AnalyticsEngineering #SQL
+
+---
+
 ## August 13, 2026
 **Topic:** Why most data pipelines fail silently
 **Tone:** Relatable | **Length:** Long
