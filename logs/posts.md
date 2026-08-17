@@ -1,3 +1,27 @@
+## August 17, 2026
+**Topic:** Everyone says they're data-driven. Almost nobody is.
+**Tone:** Relatable | **Length:** Medium
+
+Everyone says they're data-driven.
+
+Then you join the meeting with a dashboard no one asked for, answer questions nobody really wanted answered, and watch the decision get made exactly how it was going to anyway.
+
+The data is decoration. It's there to back up the thing someone already decided.
+
+I've seen it happen so many times. A team pulls three weeks of analysis. Clear trends. Concrete numbers. Then the exec says "I hear you, but my gut says we should go the other way" and everyone nods.
+
+Or worse, they challenge the data. Not the decision. The data. Suddenly the methodology is the problem. The sample size. The seasonality. Anything to avoid looking at what it actually says.
+
+It's not a tools problem. It's not even a talent problem.
+
+It's that most orgs say they want data-driven culture but actually want data-supported culture. The decision comes first. The data comes after.
+
+Anyone else?
+
+#DataAnalytics #DataDriven #Analytics #DataCulture #BusinessIntelligence
+
+---
+
 ## August 14, 2026
 **Topic:** Python for data analysts — what to actually learn
 **Tone:** Credible Insight / Domain Authority | **Length:** Medium
