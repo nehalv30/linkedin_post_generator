@@ -1,3 +1,21 @@
+## August 18, 2026
+**Topic:** What fintech data actually looks like
+**Tone:** Credible Insight / Domain Authority | **Length:** Short
+
+Most people outside fintech think transaction data is a clean table with amount, timestamp, merchant.
+
+It's not.
+
+It's nested JSON with inconsistent schemas across processors. Fields that exist for Visa but not Mastercard. Duplicate events because retries don't have IDs. Timestamps in three different zones depending on which system touched it last.
+
+You can't just GROUP BY and trust the number.
+
+Half the work is deciding what even counts as a transaction.
+
+#DataEngineering #Fintech #Analytics #DataQuality
+
+---
+
 ## August 17, 2026
 **Topic:** Everyone says they're data-driven. Almost nobody is.
 **Tone:** Relatable | **Length:** Medium
