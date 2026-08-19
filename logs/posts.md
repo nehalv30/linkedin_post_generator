@@ -1,3 +1,31 @@
+## August 19, 2026
+**Topic:** The problem with how companies hire data people
+**Tone:** Something I learned / observed / did at work | **Length:** Long
+
+I spent the last two days interviewing for a senior analytics role and it reminded me how broken data hiring still is.
+
+Five rounds. Four of them were either hackerrank SQL or a take-home that wanted me to write predictive models for a fake dataset with zero context about the business.
+
+Not once did anyone ask me how I would define a metric. Or how I would explain variance in a dashboard to a VP who doesn't care about your clever window function. Or what I do when the data is bad and the project is due anyway.
+
+The SQL test had three nested CTEs and a self-join. I solved it. I also know it has nothing to do with whether I can actually do the job.
+
+Because here is what I actually did this week at work. A product team asked why engagement dropped 8% last month. The data was messy. Three different source tables. One had duplicates. Another was missing a week because someone deprecated an API without telling us.
+
+I did not write a brilliant query. I wrote a decent one, found the gaps, told them what we could and couldn't trust, and then helped them figure out what signal was real and what was noise. We made a call. That is the job.
+
+Good data hiring would test for that. Give someone a real but broken dataset. Ask them to present findings to someone who is not a data person. See if they can explain what they do not know as clearly as what they do.
+
+Or just talk to them about a project they actually did. What went wrong. What they would do differently. Whether they can talk about their work without jargon or deflection.
+
+I have hired people. The ones who succeed are not the ones who crush leetcode. They are the ones who ask good questions, communicate clearly, and do not panic when the data is bad. Which is most of the time.
+
+We keep hiring for the wrong skills and then wondering why data teams underdeliver.
+
+#DataAnalytics #Hiring #AnalyticsEngineering #DataScience #CareerAdvice
+
+---
+
 ## August 18, 2026
 **Topic:** What fintech data actually looks like
 **Tone:** Credible Insight / Domain Authority | **Length:** Short
