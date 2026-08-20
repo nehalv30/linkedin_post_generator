@@ -1,3 +1,27 @@
+## August 20, 2026
+**Topic:** When ML makes things worse
+**Tone:** Funny / Witty | **Length:** Medium
+
+We spent two weeks building a churn model. Random forest, feature engineering, the whole thing. It predicted which customers were about to leave with 82% accuracy.
+
+Then someone asked what the model was actually doing.
+
+Turns out it was basically checking: did they log in last month? Yes or no.
+
+That's it. That was the feature doing all the work.
+
+We could have written that as a SQL WHERE clause. Taken 20 minutes. Instead we built a thing that needs retraining, monitoring, a deployment pipeline, and three people to explain it in meetings.
+
+The worst part? The model performed worse than the heuristic once we tested them side by side. Because the heuristic was clear enough that the product team could actually use it to decide what to do next.
+
+ML is great. But sometimes the smartest thing you can build is a rule that everyone understands.
+
+Anyone else spent a sprint building something a CASE WHEN could have handled?
+
+#DataScience #MachineLearning #Analytics #DataEngineering #ProductAnalytics
+
+---
+
 ## August 19, 2026
 **Topic:** The problem with how companies hire data people
 **Tone:** Something I learned / observed / did at work | **Length:** Long
