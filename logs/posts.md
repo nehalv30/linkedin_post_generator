@@ -1,3 +1,21 @@
+## August 21, 2026
+**Topic:** The honest take on Azure vs AWS vs GCP for data
+**Tone:** Relatable | **Length:** Short
+
+I've used all three clouds for data work. Here's what nobody puts in the comparison charts.
+
+AWS has the most tools. Also the most ways to accidentally spend $3,000 in a weekend.
+
+GCP has the cleanest APIs and BigQuery is genuinely great. But good luck finding someone on your team who's used it before.
+
+Azure works if you're already deep in the Microsoft world. Otherwise you're just paying to learn a new way to do the same thing.
+
+Pick the one your company already pays for.
+
+#DataEngineering #CloudComputing #AWS #Azure #GCP
+
+---
+
 ## August 20, 2026
 **Topic:** When ML makes things worse
 **Tone:** Funny / Witty | **Length:** Medium
