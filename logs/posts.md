@@ -1,3 +1,21 @@
+## August 24, 2026
+**Topic:** Stop building data models nobody asked for
+**Tone:** Funny / Witty | **Length:** Short
+
+You spend three weeks building a star schema that would make Kimball weep. 
+
+The business uses it once, says "can we just get this in Excel?", and goes back to querying the raw table with 47 joins.
+
+Meanwhile the dashboard they said was "urgent" has been viewed twice. Both times by you. Checking if it still works.
+
+I've started asking "who will actually use this?" before I model anything now. 
+
+Saves time. Saves feelings.
+
+#DataAnalytics #AnalyticsEngineering #DataModeling #BusinessIntelligence #DataEngineering
+
+---
+
 ## August 21, 2026
 **Topic:** The honest take on Azure vs AWS vs GCP for data
 **Tone:** Relatable | **Length:** Short
