@@ -1,3 +1,35 @@
+## August 25, 2026
+**Topic:** Kafka is overkill for most companies
+**Tone:** Relatable | **Length:** Long
+
+Most companies don't need Kafka.
+
+I said it.
+
+You know what they do need? A batch job that runs every hour and writes to a table. Maybe every 15 minutes if things are actually moving fast. That's it.
+
+But somewhere along the way we convinced ourselves that if data isn't streaming in real time, we're doing it wrong. And now there are teams running Kafka clusters for use cases that could have been a cron job and a well-indexed Postgres table.
+
+I've seen this twice now. Once at a fintech client where we built a whole streaming pipeline because "fraud detection needs to be real time." Fine. Except the fraud analysts checked the dashboard once a day. And the compliance team reviewed flagged transactions in batches anyway. The streaming infrastructure was solving a problem no one actually had.
+
+The other time was at an enterprise client tracking usage metrics. Real-time ingestion, real-time processing, real-time everything. The executive dashboard refreshed once a week.
+
+Here's the thing. Kafka is incredible when you actually need it. When you have events that need to trigger other events immediately. When latency genuinely affects the business outcome. When you're processing enough volume that batch windows don't work anymore.
+
+But most of the time? You don't.
+
+Most of the time you need data that's consistent, queryable, and arrives predictably. A batch job gives you that. It also gives you way fewer moving parts, way less operational overhead, and way fewer 3am pages because a consumer fell behind.
+
+The question isn't "can we stream this?" It's "what happens if this data shows up 10 minutes late instead of 10 seconds late?" If the answer is "nothing," you don't need Kafka.
+
+If the answer is "someone makes a worse decision" or "we lose money," then maybe you do.
+
+I think we've just gotten really good at building things because we can, not because we should.
+
+#DataEngineering #Kafka #Analytics #DataPipelines #RealTimeData
+
+---
+
 ## August 24, 2026
 **Topic:** Stop building data models nobody asked for
 **Tone:** Funny / Witty | **Length:** Short
