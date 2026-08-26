@@ -1,3 +1,27 @@
+## August 26, 2026
+**Topic:** The metric that actually tells you if your data team is working
+**Tone:** Credible Insight / Domain Authority | **Length:** Medium
+
+Most data teams get measured on how much they build.
+
+Dashboards shipped. Pipelines deployed. Models in production.
+
+None of that tells you if the data team is actually useful.
+
+Here's what does: how often people ask follow-up questions.
+
+If someone uses your dashboard once and never comes back, it didn't help them decide anything. If they fire off a Slack question two days later because something doesn't add up, that's when you know they're actually using it to think.
+
+The best data work creates more questions, not fewer. It surfaces something people didn't expect. It makes them want to dig deeper. It starts a conversation they weren't having before.
+
+I've worked on pipelines that ran flawlessly for months and nobody noticed. I've also seen a rough SQL query shared in Slack kick off three meetings because it surfaced something that mattered.
+
+If your stakeholders go quiet after you deliver something, you probably just gave them a report. If they come back with "wait, what about this", you gave them something useful.
+
+#DataAnalytics #AnalyticsEngineering #DataStrategy #BusinessIntelligence #DataTeams
+
+---
+
 ## August 25, 2026
 **Topic:** Kafka is overkill for most companies
 **Tone:** Relatable | **Length:** Long
