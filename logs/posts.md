@@ -1,3 +1,19 @@
+## August 27, 2026
+**Topic:** The data quality problem nobody wants to own
+**Tone:** Something I learned / observed / did at work | **Length:** Short
+
+I spent three hours today chasing a discrepancy in a fraud report. Found it. A timestamp field that didn't account for daylight saving time.
+
+Engineering assumed we were handling timezone conversions in our SQL. We assumed the raw data was already standardized. Nobody documented which it was.
+
+The report had been wrong for six weeks. Nobody noticed until a VP asked.
+
+Data quality breaks in the gap between two teams who both think it's handled.
+
+#DataQuality #DataEngineering #Analytics #DataAnalytics #SQL
+
+---
+
 ## August 26, 2026
 **Topic:** The metric that actually tells you if your data team is working
 **Tone:** Credible Insight / Domain Authority | **Length:** Medium
