@@ -1,3 +1,35 @@
+## August 28, 2026
+**Topic:** Dashboards don't drive decisions — here's what does
+**Tone:** Funny / Witty | **Length:** Long
+
+I built a dashboard once that had 47 different slices of the same metric.
+
+Revenue by region. Revenue by product. Revenue by region AND product. Revenue by customer segment. Revenue by customer segment within region. Revenue by time. Revenue by time within region within product.
+
+It took three weeks. The stakeholder loved it in the demo. Called it "exactly what we needed."
+
+Nobody opened it after launch week.
+
+You know what they used instead? A Slack message I sent two months later that said "West region is down 18% this quarter because the enterprise renewal cycle shifted and one big client churned."
+
+That is the thing nobody says out loud about dashboards. They do not drive decisions. They just make it look like we are being data driven.
+
+Actual decisions happen when someone is in a meeting, or writing a strategy doc, or trying to defend a budget line, and they need an answer to a specific question right now. They do not have time to log into Tableau, apply six filters, cross reference two dashboards, and export a CSV to do the math themselves.
+
+The dashboard answers the question "what is happening?" but decisions need "why is it happening?" and "what should we do?" and "how confident are we?"
+
+Those answers do not come from a dashboard. They come from an analyst who understands the context, has already poked around the data, knows which numbers are real and which ones are just reporting artifacts, and can say the answer in two sentences.
+
+I still build dashboards. But I have stopped pretending they are the product. The product is the answer. The dashboard is just documentation for people who want to check my work later.
+
+If you want analytics to drive decisions, stop building dashboards for nobody in particular. Start answering specific questions for specific people who are actually making a specific decision this week.
+
+Anyone else spent a month building something beautiful that nobody uses?
+
+#DataAnalytics #AnalyticsEngineering #BusinessIntelligence #DataDriven #DataStrategy
+
+---
+
 ## August 27, 2026
 **Topic:** The data quality problem nobody wants to own
 **Tone:** Something I learned / observed / did at work | **Length:** Short
