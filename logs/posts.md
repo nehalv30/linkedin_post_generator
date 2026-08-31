@@ -1,3 +1,35 @@
+## August 31, 2026
+**Topic:** What I'd do differently if I started my data career today
+**Tone:** Something I learned / observed / did at work | **Length:** Long
+
+I've been thinking about what I'd tell someone starting in data today.
+
+Not the usual stuff. You'll figure out SQL and Python. Everyone does eventually.
+
+What actually matters is learning to ask better questions before you write a single line of code.
+
+Most people I see coming into data spend six months optimizing queries and building pipelines for metrics no one asked for. Or worse, metrics someone asked for once in a meeting and never looked at again.
+
+The skill that compounds fastest is learning how decisions actually get made. Not how they should get made. How they do get made.
+
+I worked on a project last year where I built this entire dashboard breaking down customer churn by 12 different attributes. Took three weeks. Beautiful segmentation. The VP looked at it once, said "so what do we do", and never opened it again.
+
+The problem was not the dashboard. The problem was I never asked what decision this was supposed to change. Turns out they just wanted to know if churn was up or down, and if it was up, in which region. That's it. I could have answered that in a Slack message.
+
+If I started today, I'd spend way less time learning the 47th way to do a window function and way more time sitting in on product meetings, listening to how stakeholders talk about problems, watching what they ignore versus what makes them lean forward.
+
+I'd also get comfortable being wrong out loud faster. I used to sit on analysis for days making sure it was perfect before sharing anything. Now I'll throw a rough cut in front of someone and say "this is what I'm seeing so far, does this even matter to you". Half the time the answer is no, and I just saved myself two days.
+
+The other thing is learning to build for maintenance, not just for launch. Everyone wants to ship the cool model or the real time pipeline. Almost no one wants to be the person who makes sure it still works in three months when the API changes or the schema drifts.
+
+But that person is invaluable. Be that person.
+
+The work that lasts is not the work that impresses people in the demo. It's the work that someone can still use six months later without calling you.
+
+#DataAnalytics #DataScience #CareerAdvice #AnalyticsEngineering #DataCareers
+
+---
+
 ## August 28, 2026
 **Topic:** Dashboards don't drive decisions — here's what does
 **Tone:** Funny / Witty | **Length:** Long
