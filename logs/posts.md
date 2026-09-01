@@ -1,3 +1,27 @@
+## September 01, 2026
+**Topic:** SQL patterns most analysts get wrong
+**Tone:** Funny / Witty | **Length:** Medium
+
+You know what SQL pattern breaks my brain every single time?
+
+`COUNT(column_name)` vs `COUNT(*)`.
+
+I spent three days last month debugging a dashboard that showed 12,000 users but only 11,400 "active" sessions. Turned out someone had written `COUNT(last_login)` in a query, and about 600 users had never logged in. So their `last_login` was NULL. And `COUNT()` just skips NULLs.
+
+Nobody asked for "count of non-null values". They asked for "count of users". But that's what they got.
+
+The worst part? The query looked completely fine in the pull request. It ran without errors. It returned a number. Just the wrong number.
+
+I've done this to myself at least twice. You're in a hurry, you write `COUNT(user_id)` instead of `COUNT(*)`, and now your metrics are quietly off by 5%. You won't even know until someone asks why the totals don't match.
+
+If you're counting rows, use `COUNT(*)`. If you're counting non-null values, make it extremely obvious why.
+
+Anyone else lose a week to this?
+
+#DataAnalytics #SQL #DataEngineering #AnalyticsEngineering #DataQuality
+
+---
+
 ## August 31, 2026
 **Topic:** What I'd do differently if I started my data career today
 **Tone:** Something I learned / observed / did at work | **Length:** Long
