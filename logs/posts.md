@@ -1,3 +1,19 @@
+## September 02, 2026
+**Topic:** Why most data pipelines fail silently
+**Tone:** Relatable | **Length:** Short
+
+The worst bug I ever shipped wasn't a crash. It was a join condition that silently dropped 8% of rows for three months.
+
+Nobody noticed because the dashboard still loaded. The numbers still looked reasonable. Stakeholders kept making decisions off it.
+
+We only caught it because someone manually cross-checked a total in Excel.
+
+Silent failures don't break pipelines. They just quietly ruin every decision downstream.
+
+#DataEngineering #Analytics #DataQuality #DataPipelines #SQL
+
+---
+
 ## September 01, 2026
 **Topic:** SQL patterns most analysts get wrong
 **Tone:** Funny / Witty | **Length:** Medium
