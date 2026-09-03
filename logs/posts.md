@@ -1,3 +1,43 @@
+## September 03, 2026
+**Topic:** Python for data analysts — what to actually learn
+**Tone:** Credible Insight / Domain Authority | **Length:** Long
+
+I've been doing data work for four years now. Python keeps coming up in every job description. Everyone says "learn Python." Almost nobody says what to actually learn.
+
+So here's what matters for data analysts. And what doesn't.
+
+Things you will actually use every week:
+
+Pandas. Not all of it. Just enough to read a CSV, filter rows, group by a column, join two dataframes, handle nulls, and export clean data. That's 80% of what you'll do. You don't need to memorize every method. You'll look up the syntax each time anyway.
+
+Basic data manipulation. Renaming columns. Changing data types. Splitting strings. Handling dates. These come up constantly. You should be comfortable doing them without thinking too hard.
+
+Writing functions. Not classes. Not decorators. Just functions. So you can wrap repetitive logic into something you can reuse and not copy-paste 12 times.
+
+SQL via Python. Using libraries like SQLAlchemy or even just executing raw queries through a connection object. Most of your data lives in a database. Python is often just the layer that talks to it.
+
+Simple automation. Reading files from a folder. Looping through a list of accounts or date ranges. Scheduling a script to run daily. This is where Python actually saves you time.
+
+Things people tell you to learn that don't matter for most analyst work:
+
+Object-oriented programming. You're not building software. You're cleaning data and running reports. Classes are overkill 95% of the time.
+
+Web scraping. Unless your job specifically requires it, you will almost never do this. And if you do need it once, you'll figure it out then.
+
+Deep learning or advanced ML. That's a different job. If you're an analyst, your job is to understand what happened and why. Not to build predictive models from scratch.
+
+Algorithm optimization or Big O notation. You're working with datasets that fit in memory. Pandas is fast enough.
+
+Here's the real test: can you take a messy Excel file, clean it in Python, join it with something from a database, calculate a few metrics, and export a summary table someone else can use?
+
+If yes, you know enough Python.
+
+Start there. Everything else you can learn when you actually need it.
+
+#DataAnalytics #Python #DataScience #AnalyticsEngineering #CareerAdvice
+
+---
+
 ## September 02, 2026
 **Topic:** Why most data pipelines fail silently
 **Tone:** Relatable | **Length:** Short
