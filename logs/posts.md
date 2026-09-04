@@ -1,3 +1,25 @@
+## September 04, 2026
+**Topic:** What Snowflake, Databricks, and BigQuery don't tell you
+**Tone:** Something I learned / observed / did at work | **Length:** Medium
+
+I've been running pipelines across Snowflake, BigQuery, and Redshift for the past year. The pitch decks never mention what actually costs you money.
+
+It's not the compute. That part scales fine. It's the stupid stuff.
+
+Snowflake: Every SELECT statement you run in the UI spins up a warehouse. Your analysts are burning credits on ad-hoc queries all day and nobody notices until the bill comes. We had to set default warehouse sizes and add query result caching just to stop the bleeding.
+
+BigQuery: Scanning cost. If your data isn't partitioned correctly, a single dashboard refresh can scan terabytes. I've seen $300 monthly dashboards because someone joined on the wrong field.
+
+Redshift: Vacuum and analyze operations. If you don't schedule them right, your queries slow to a crawl. But run them during peak hours and everything else suffers.
+
+None of this is in the demo. You learn it when finance asks why the data budget tripled.
+
+The tools work. But the real cost is in what they assume you already know.
+
+#DataEngineering #Snowflake #BigQuery #CloudCost #Analytics
+
+---
+
 ## September 03, 2026
 **Topic:** Python for data analysts — what to actually learn
 **Tone:** Credible Insight / Domain Authority | **Length:** Long
