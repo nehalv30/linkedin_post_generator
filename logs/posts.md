@@ -1,3 +1,23 @@
+## September 07, 2026
+**Topic:** What fintech data actually looks like
+**Tone:** Credible Insight / Domain Authority | **Length:** Medium
+
+Most people think fintech data looks like a clean Stripe API response.
+
+It doesn't.
+
+It's nested JSON with schema changes mid-stream. It's the same transaction showing up twice because a webhook retried. It's timezone fields that say UTC but aren't. It's a "currency" field that's sometimes a string, sometimes a float, sometimes missing entirely.
+
+You'll see transactions with negative amounts that aren't refunds. Timestamps that break your daily rollups because they landed one millisecond after midnight. Banks that send you 23 fields and banks that send you 8, and you're supposed to build one model on top of both.
+
+The hardest part isn't the tech. It's knowing which inconsistencies matter and which ones you can ignore. That only comes from seeing production break a few times.
+
+If your pipeline has never failed because a partner sent you an extra nested layer in their payload, you haven't worked with financial data long enough yet.
+
+#DataEngineering #Fintech #DataAnalytics #SQL #DataPipelines
+
+---
+
 ## September 04, 2026
 **Topic:** What Snowflake, Databricks, and BigQuery don't tell you
 **Tone:** Something I learned / observed / did at work | **Length:** Medium
