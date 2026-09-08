@@ -1,3 +1,21 @@
+## September 08, 2026
+**Topic:** The problem with how companies hire data people
+**Tone:** Something I learned / observed / did at work | **Length:** Short
+
+I ran a mock interview this week for a friend applying to data roles.
+
+First question they got asked: "Write a query to find the second highest salary."
+
+You know what wasn't on that interview? Build a data model that makes sense to finance. Explain why this metric went up. Tell me what's actually broken here.
+
+Companies keep testing trivia instead of judgment.
+
+The best data person I've worked with couldn't solve LeetCode mediums. But they could tell a PM exactly why their feature wasn't moving the number.
+
+#DataAnalytics #DataScience #Hiring #TechCareers #AnalyticsEngineering
+
+---
+
 ## September 07, 2026
 **Topic:** What fintech data actually looks like
 **Tone:** Credible Insight / Domain Authority | **Length:** Medium
