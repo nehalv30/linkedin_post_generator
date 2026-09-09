@@ -1,3 +1,41 @@
+## September 09, 2026
+**Topic:** When ML makes things worse
+**Tone:** Funny / Witty | **Length:** Long
+
+We had a stakeholder who wanted to predict which customers would churn next quarter.
+
+Fair enough. That's a real problem.
+
+So someone on the team spent three weeks building a gradient boosting model. Feature engineering, hyperparameter tuning, cross-validation, the works. Model performance looked decent on paper. AUC of 0.78. Everyone felt smart.
+
+Then we deployed it.
+
+Maintenance became a nightmare. The feature pipeline kept breaking because it depended on tables that other teams owned and changed without telling us. Retraining took forever. Explaining the model to the business team was basically impossible. They'd ask why a specific customer was flagged and we'd mumble something about SHAP values.
+
+Six months in, someone new joined and asked a simple question. What if we just filtered for customers who hadn't logged in for 60 days and had declining transaction volume?
+
+We wrote the query. Took 20 minutes.
+
+It caught 70% of the same customers the model caught. And when the business team asked why someone was flagged, we could actually tell them. Because they stopped using the product. Wild.
+
+The model wasn't wrong. It just wasn't worth it.
+
+I see this a lot. Someone hears "machine learning" and immediately thinks that's the sophisticated solution. But sophisticated doesn't mean better. It means more things that can break. More dependencies. More explaining. More "well actually the model says..."
+
+A good heuristic is:
+
+If you can't explain why the model is better than a rule in two sentences, you probably don't need the model yet.
+
+ML is incredible when you actually need it. When the pattern is too complex for a human to write down. When the scale makes manual rules impossible. When you've already tried the simple thing and it's not enough.
+
+But a lot of the time, the simple thing is sitting right there. Waiting. While everyone's off tuning learning rates.
+
+Anyone else spent weeks on a model that a WHERE clause could've handled?
+
+#DataScience #MachineLearning #DataAnalytics #AnalyticsEngineering #SQL
+
+---
+
 ## September 08, 2026
 **Topic:** The problem with how companies hire data people
 **Tone:** Something I learned / observed / did at work | **Length:** Short
