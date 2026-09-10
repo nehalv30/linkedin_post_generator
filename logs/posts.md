@@ -1,3 +1,23 @@
+## September 10, 2026
+**Topic:** The honest take on Azure vs AWS vs GCP for data
+**Tone:** Relatable | **Length:** Medium
+
+I've used all three clouds for data work. Here's what actually matters.
+
+AWS has the most tools. Also the most buried pricing surprises. Redshift works but costs more than you'd think. Glue is fine once you accept the UI. S3 is the standard for a reason.
+
+GCP feels the cleanest to me. BigQuery is genuinely fast and the pricing model is easier to predict. Composer (Airflow) just works. The whole ecosystem feels more recent, less patched together.
+
+Azure is what you use when the client uses Azure. Synapse tries to do everything and does most of it okay. Data Factory gets the job done. The documentation can be rough. Integration with Microsoft tools is the main reason anyone picks it.
+
+Honest answer: if you're building from scratch and no one cares which cloud, I'd pick GCP for data. If your company already has an AWS contract, you'll make AWS work. If you're in enterprise consulting, you'll learn Azure because that's where the clients are.
+
+None of them are bad. They're just different kinds of annoying.
+
+#DataEngineering #CloudComputing #DataAnalytics #AWS #Azure
+
+---
+
 ## September 09, 2026
 **Topic:** When ML makes things worse
 **Tone:** Funny / Witty | **Length:** Long
