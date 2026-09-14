@@ -1,3 +1,19 @@
+## September 14, 2026
+**Topic:** Kafka is overkill for most companies
+**Tone:** Relatable | **Length:** Short
+
+Most companies don't need Kafka.
+
+They just need a cron job that runs every 15 minutes and a table that updates fast enough that no one notices the delay.
+
+Real-time sounds impressive in the architecture review. But if the business decision still happens once a day, you've just added complexity you'll be maintaining forever.
+
+Ask what happens if the data is 10 minutes old. If the answer is "nothing", you don't need streaming.
+
+#DataEngineering #Kafka #Analytics #DataInfrastructure #RealTimeData
+
+---
+
 ## September 11, 2026
 **Topic:** Airflow is not the answer to your pipeline problems
 **Tone:** Credible Insight / Domain Authority | **Length:** Short
