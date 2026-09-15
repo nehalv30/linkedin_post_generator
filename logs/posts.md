@@ -1,3 +1,37 @@
+## September 15, 2026
+**Topic:** The metric that actually tells you if your data team is working
+**Tone:** Credible Insight / Domain Authority | **Length:** Long
+
+Most data teams measure how much they ship.
+
+Dashboards launched. Pipelines built. Models deployed. Tickets closed.
+
+None of that tells you if the data team is actually helping the business make better decisions.
+
+I have worked across banking clients, enterprise tech, consumer analytics. The pattern is the same everywhere. Teams that look busy on paper but nobody really knows if they matter.
+
+The metric that actually tells you if your data work is landing is simpler than you think. It is how often people ask follow-up questions.
+
+Not the first question. That one is easy. Someone asks for a report, you give them the report, they say thanks. That is output.
+
+The follow-up question is different. It means they used what you gave them. They thought about it. Now they want to go deeper. They want to segment it differently. They want to know why the number moved. They want to test a hypothesis.
+
+That only happens when the first thing you gave them was actually useful.
+
+I have seen this play out over and over. At Fiserv, the fraud detection dashboards I built started getting daily follow-ups from the ops team within two weeks. They were not just looking at the charts. They were using them to change how they triaged cases. That is when I knew the work mattered.
+
+At Universal, same thing. The guest flow dashboards went from "thanks for building this" to "can we add zone-level breakouts because we are changing staffing based on this" in about a month.
+
+When people stop asking follow-ups, that is your signal. Either the data is not useful, or they do not trust it, or they already got what they needed and moved on.
+
+You can track all the output metrics you want. But if nobody is coming back with a second question, your data team is not really part of how decisions get made.
+
+That is the metric.
+
+#DataAnalytics #AnalyticsEngineering #DataTeams #BusinessIntelligence #DataStrategy
+
+---
+
 ## September 14, 2026
 **Topic:** Kafka is overkill for most companies
 **Tone:** Relatable | **Length:** Short
