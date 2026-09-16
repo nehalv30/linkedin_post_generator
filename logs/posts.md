@@ -1,3 +1,21 @@
+## September 16, 2026
+**Topic:** The data quality problem nobody wants to own
+**Tone:** Something I learned / observed / did at work | **Length:** Medium
+
+I spent most of this week cleaning up data quality issues that started three sprints ago.
+
+The pattern is always the same. Engineering builds the pipeline. Analytics writes the queries. The dashboard goes live. Three weeks later someone notices the numbers don't match. By then the engineer who built it is on a different project and the analyst who wrote the SQL is working on something else.
+
+Nobody wants to own data quality because it's boring and it spans two teams. Engineering thinks their job is done once the data lands. Analytics thinks their job is to analyze what they're given.
+
+The only thing that's actually worked is what we did at one of my banking clients. We put data quality checks in the same repo as the pipeline code. Same PR. Same deploy. If the check fails, the pipeline fails.
+
+It's not elegant but it forces the conversation to happen when it matters. Before anyone has moved on.
+
+#DataEngineering #Analytics #DataQuality #SQL #DataPipelines
+
+---
+
 ## September 15, 2026
 **Topic:** The metric that actually tells you if your data team is working
 **Tone:** Credible Insight / Domain Authority | **Length:** Long
