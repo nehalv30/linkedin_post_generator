@@ -1,3 +1,23 @@
+## September 17, 2026
+**Topic:** Dashboards don't drive decisions — here's what does
+**Tone:** Funny / Witty | **Length:** Short
+
+I've built dashboards people swore they needed.
+
+Three weeks later, nobody's opened them.
+
+The problem isn't the viz. It's that we built it before anyone knew what they were actually deciding.
+
+The best analytics I've done? Started with "we need to figure out whether to keep doing this thing." Then we found the data. Then we built the dashboard.
+
+The rest just becomes proof we have dashboards.
+
+Anyone else sitting on a graveyard of perfectly functional reporting nobody asked for twice?
+
+#DataAnalytics #BusinessIntelligence #ProductAnalytics #DataDrivenDecisions #AnalyticsEngineering
+
+---
+
 ## September 16, 2026
 **Topic:** The data quality problem nobody wants to own
 **Tone:** Something I learned / observed / did at work | **Length:** Medium
