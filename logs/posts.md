@@ -1,3 +1,35 @@
+## September 18, 2026
+**Topic:** Moving from India to the US for a data career
+**Tone:** Relatable | **Length:** Long
+
+I moved to the US in 2022 for my master's. Before that, I had worked at a defense research lab and a fintech in India. I figured the transition would be mostly logistical. Visa stuff. Finding an apartment. Getting used to a different city.
+
+That part was fine.
+
+The part I wasn't prepared for was how much of what I thought I knew about data work didn't translate the way I expected.
+
+In India, I built pipelines, worked on ML models, did backend analytics for financial products. I knew SQL, Python, Spark. I thought that would be enough. And technically, it was. The tools are the same everywhere.
+
+But the way work happens is different.
+
+In the US, especially in consulting or enterprise environments, there's a lot more emphasis on storytelling. On making the work legible to non-technical stakeholders. On packaging insights in a way that fits into how decisions already get made. That wasn't really part of my training. I had to learn it by watching, by noticing what got used versus what got ignored.
+
+Also, the job market is just shaped differently. In India, a lot of data roles are still closer to engineering. You build something, you deploy it, you move on. Here, especially on the analytics side, you spend more time explaining, defending, iterating. The line between analysis and communication is blurrier.
+
+And small things. Email tone. Meeting culture. Knowing when to speak up versus when to just let a meeting happen. Nobody tells you this stuff in advance.
+
+What transferred well: technical skills. If you can write a good query or build a clean pipeline, that matters everywhere.
+
+What I had to relearn: how to present work. How to talk about impact. How to navigate ambiguity without waiting for someone to tell me exactly what to do.
+
+If you're considering the same move, my only real advice is this: the hard part isn't the visa or the job search. It's figuring out how your skills fit into a system that works a little differently than you expect. And that just takes time.
+
+Anyone else go through something similar?
+
+#DataAnalytics #CareerTransition #DataEngineering #MovingToTheUS #TechCareers
+
+---
+
 ## September 17, 2026
 **Topic:** Dashboards don't drive decisions — here's what does
 **Tone:** Funny / Witty | **Length:** Short
