@@ -1,3 +1,29 @@
+## September 21, 2026
+**Topic:** SQL patterns most analysts get wrong
+**Tone:** Funny / Witty | **Length:** Long
+
+I spent 4 hours last week rewriting a query because someone said the numbers "looked off."
+
+They weren't off. The query was doing exactly what it was supposed to do. The problem was a LEFT JOIN on a table with duplicates, and nobody mentioned that was possible until I asked.
+
+Here's the thing. SQL will not stop you from writing a query that looks correct, runs fast, and returns completely wrong results. It will just do it quietly.
+
+The one that gets people most often is COUNT with NULLs. You'd think COUNT(*) and COUNT(column_name) are basically the same. They're not. COUNT(*) counts rows. COUNT(column_name) counts rows where that column is not NULL. I have seen this break finance dashboards. Someone filters out NULLs thinking they're cleaning the data, then uses COUNT(*) and wonders why the totals don't match.
+
+Another fun one is window functions. Most people don't realize the default frame is RANGE BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW. Not the entire partition. If you're doing something like SUM(amount) OVER (PARTITION BY user_id ORDER BY date), you're getting a running total, not a total. The results will look fine in spot checks. Then someone sorts it differently and the numbers change.
+
+JOINs with duplicates are a nightmare. If your fact table has 1,000 rows and your dimension table has one duplicate key, your join result now has 1,001 rows. Everything downstream is wrong. Nobody notices until three dashboards are built and someone questions why revenue doubled.
+
+The worst part is these mistakes don't throw errors. They just silently mess up your aggregations, and you only catch it when someone eyeballs the final number and says "that seems high."
+
+I don't think this is a skill issue. I think SQL just lets you write bad queries that look good. And most people learn by doing, not by reading documentation about frame clauses and NULL handling.
+
+Anyway, if you've ever had someone say your numbers "don't look right" and spent hours debugging only to find it was a join issue, you're not alone.
+
+#SQL #DataAnalytics #AnalyticsEngineering #DataQuality #TechHumor
+
+---
+
 ## September 18, 2026
 **Topic:** Moving from India to the US for a data career
 **Tone:** Relatable | **Length:** Long
