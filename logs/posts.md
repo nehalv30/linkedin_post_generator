@@ -1,3 +1,27 @@
+## September 22, 2026
+**Topic:** Why most data pipelines fail silently
+**Tone:** Relatable | **Length:** Medium
+
+The scariest part of my job isn't fixing broken pipelines.
+
+It's the ones that run green every day and slowly drift away from reality.
+
+A schema change upstream that nobody flagged. A null handling rule that used to work but doesn't anymore. A join condition that's technically correct but silently drops 8% of rows because someone added a new account type three months ago.
+
+The pipeline runs. The dashboard loads. The exec uses the number in a meeting.
+
+Nobody knows it's wrong until someone manually spot-checks it, or worse, a stakeholder notices the downstream metric doesn't match their internal report.
+
+And then you're explaining why the data has been off for six weeks.
+
+I've started treating every pipeline like it's one deploy away from lying to me. Row count checks between every transform. Schema validation on ingestion. Anomaly detection on key metrics, even if it's just a Python script that emails me when something moves more than 20%.
+
+It's not elegant. But it's better than finding out your Kafka consumer has been skipping messages since Tuesday.
+
+#DataEngineering #Analytics #DataPipelines #DataQuality #AnalyticsEngineering
+
+---
+
 ## September 21, 2026
 **Topic:** SQL patterns most analysts get wrong
 **Tone:** Funny / Witty | **Length:** Long
