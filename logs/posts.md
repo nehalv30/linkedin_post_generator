@@ -1,3 +1,19 @@
+## September 23, 2026
+**Topic:** Python for data analysts — what to actually learn
+**Tone:** Credible Insight / Domain Authority | **Length:** Short
+
+Most analysts learning Python waste time on the wrong parts.
+
+You don't need to master classes. You don't need decorators or async functions. You probably don't need to build your own packages.
+
+What actually matters: pandas, list comprehensions, writing functions that don't break when someone else runs them, knowing when SQL is faster.
+
+That's it. The rest is noise unless you're moving into engineering.
+
+#DataAnalytics #Python #DataScience #AnalyticsEngineering #DataAnalysis
+
+---
+
 ## September 22, 2026
 **Topic:** Why most data pipelines fail silently
 **Tone:** Relatable | **Length:** Medium
