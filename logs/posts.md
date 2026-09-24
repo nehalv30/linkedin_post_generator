@@ -1,3 +1,33 @@
+## September 24, 2026
+**Topic:** What Snowflake, Databricks, and BigQuery don't tell you
+**Tone:** Something I learned / observed / did at work | **Length:** Long
+
+I've been running queries across Snowflake, BigQuery, and a bit of Databricks for the last year. Here's what nobody tells you in the sales deck.
+
+**The cost thing is real but not in the way you think.**
+
+Snowflake's per-second billing sounds great until you realize your BI tool is spinning up warehouses every time someone refreshes a dashboard. We had one exec dashboard that was costing us $400/month because it auto-refreshed every 15 minutes and nobody thought to check the warehouse size. The cost isn't the platform. It's how easy the platform makes it to be wasteful.
+
+BigQuery bills by bytes scanned. Sounds simple. Then you have analysts writing SELECT * on a 6TB table because they forgot the LIMIT and now you're explaining a $1,200 query to finance. The nice part is you can set query cost limits. The annoying part is you should have done that on day one.
+
+**Performance is not what you think it is.**
+
+Snowflake is fast when your data is clustered right. If it's not, you're doing full table scans and wondering why your 10-row result took 40 seconds. Clustering keys matter. Partitioning matters. You will not escape thinking about how your data is stored.
+
+BigQuery partitioning is easier to set up but you still need to know what you're doing. I've seen tables partitioned by event timestamp when every query filtered by user region. Fast platform, slow queries.
+
+Databricks is incredible for transformations if you already think in Spark. If you don't, the learning curve is steeper than the docs admit.
+
+**The documentation is good until it isn't.**
+
+All three have detailed docs. What they don't have is a page titled "here's why your join is taking 6 minutes when the tables are small". You learn that by reading GitHub issues and blog posts from people who got burned.
+
+Not saying don't use these platforms. Just saying the demo works because someone already did the hard part.
+
+#DataEngineering #Snowflake #BigQuery #DataAnalytics #AnalyticsEngineering
+
+---
+
 ## September 23, 2026
 **Topic:** Python for data analysts — what to actually learn
 **Tone:** Credible Insight / Domain Authority | **Length:** Short
