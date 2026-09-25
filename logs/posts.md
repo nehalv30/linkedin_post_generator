@@ -1,3 +1,23 @@
+## September 25, 2026
+**Topic:** What good stakeholder communication looks like in data roles
+**Tone:** Funny / Witty | **Length:** Medium
+
+The stakeholder who says "just add one more filter" after you've already presented the dashboard is the same person who will ask for three more filters next week and then never touch the dashboard again.
+
+I've built reports that were "urgent" on Monday and forgotten by Friday. I've been in meetings where someone spends 15 minutes debating whether a metric should round up or down, then doesn't look at it for two months.
+
+The worst part? You can't actually say no. Because maybe this time they will use it. Maybe this is the filter that unlocks the insight. So you add it. You update the SQL. You test it. You redeploy.
+
+And then two weeks later you check the usage logs and it's been opened twice. Once by you. Once by someone who clicked the wrong link.
+
+The technically perfect data model that nobody touches because the CSV export was "easier" is its own genre of pain.
+
+Anyone else have a dashboard graveyard or is that just me?
+
+#DataAnalytics #DataEngineering #Analytics #BusinessIntelligence #DataScience
+
+---
+
 ## September 24, 2026
 **Topic:** What Snowflake, Databricks, and BigQuery don't tell you
 **Tone:** Something I learned / observed / did at work | **Length:** Long
