@@ -1,3 +1,23 @@
+## September 28, 2026
+**Topic:** The problem with how companies hire data people
+**Tone:** Something I learned / observed / did at work | **Length:** Medium
+
+I was on a call with our recruiting team yesterday and they asked me what I look for when we interview data people.
+
+I told them the same thing I always tell them. Stop sending me candidates who can write a self join in 30 seconds but freeze when I ask them to explain why churn went up last quarter.
+
+Most data interviews are backward. We test syntax and speed. What we should test is whether someone can turn a messy stakeholder question into a clean problem statement. Whether they know when to stop analyzing and just ship the answer. Whether they can explain a regression result without saying the word "coefficient."
+
+I have worked with people who could build a flawless pipeline and still had no idea what the business actually needed from it.
+
+The best data people I have worked with were not the fastest at SQL. They were the ones who asked better questions before writing any code at all.
+
+We keep hiring for the wrong skill.
+
+#DataAnalytics #Hiring #DataScience #Analytics #DataEngineering
+
+---
+
 ## September 25, 2026
 **Topic:** What good stakeholder communication looks like in data roles
 **Tone:** Funny / Witty | **Length:** Medium
