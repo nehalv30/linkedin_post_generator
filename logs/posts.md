@@ -1,3 +1,21 @@
+## September 29, 2026
+**Topic:** When ML makes things worse
+**Tone:** Funny / Witty | **Length:** Short
+
+We added a fraud detection model last quarter that flags suspicious transactions.
+
+It works. Sort of. It catches 12% more fraud than the old ruleset. It also flags 40% more legitimate transactions, creates a backlog the ops team can't clear, and nobody on the product side can explain why transaction X got flagged and transaction Y didn't.
+
+The old ruleset was three SQL conditions. Everyone understood it. We could tune it in an afternoon.
+
+Now we retrain weekly and pray.
+
+Anyone else replace something simple with something accurate but unusable?
+
+#DataScience #MachineLearning #Analytics #DataEngineering #Fintech
+
+---
+
 ## September 28, 2026
 **Topic:** The problem with how companies hire data people
 **Tone:** Something I learned / observed / did at work | **Length:** Medium
