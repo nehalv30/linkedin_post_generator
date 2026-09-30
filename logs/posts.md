@@ -1,3 +1,27 @@
+## September 30, 2026
+**Topic:** The honest take on Azure vs AWS vs GCP for data
+**Tone:** Relatable | **Length:** Long
+
+I've worked in all three clouds for data work at this point. Not dabbled. Actually shipped pipelines, debugged live failures, and watched the bill come in.
+
+Here's what nobody puts in the comparison chart.
+
+AWS is the oldest kid. It shows. Redshift still feels like a 2013 product that got a UI refresh. Glue works, but you will write the weirdest Python you've ever written to make it do normal things. The upside is that every problem you run into has a Stack Overflow answer from 2017. The ecosystem is deep. If you need something, there's probably an AWS service for it. The pricing is a minefield, but at least the minefield is well-documented.
+
+GCP feels like it was built by people who actually do data work. BigQuery is genuinely good. The SQL dialect makes sense. Cloud Composer is just managed Airflow without the trauma. The developer experience is clean. You can get something running faster here than anywhere else. The problem is that GCP has this habit of deprecating things or just letting products sit in beta forever. And if you're at a company that isn't already in the Google ecosystem, good luck getting buy-in.
+
+Azure is the one I didn't expect to like. Synapse is clunky and has too many knobs. Data Factory XML configs feel like punishment. But if you're in an enterprise that runs on Microsoft, Azure just works with everything else they already paid for. The integration story is real. And weirdly, the documentation has gotten a lot better in the last year or two.
+
+The actual answer is that it depends on what you're already stuck with. If you're starting fresh and just doing data stuff, I'd pick GCP. If you're in a big company with existing Microsoft contracts, Azure makes your life easier even if it's not the prettiest. AWS if you need every possible service and have someone who understands the billing.
+
+None of them are wrong. They're just annoying in different ways.
+
+Anyone else end up working in all three and just learning to hate them equally?
+
+#DataEngineering #CloudComputing #DataAnalytics #AWS #Azure
+
+---
+
 ## September 29, 2026
 **Topic:** When ML makes things worse
 **Tone:** Funny / Witty | **Length:** Short
