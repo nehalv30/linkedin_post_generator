@@ -1,3 +1,29 @@
+## October 01, 2026
+**Topic:** Airflow is not the answer to your pipeline problems
+**Tone:** Credible Insight / Domain Authority | **Length:** Medium
+
+Airflow won't fix your pipeline if you don't know what your pipeline is supposed to do.
+
+I keep seeing teams adopt it because their data is messy and someone read that orchestration solves that. It doesn't. It just schedules the mess more reliably.
+
+Airflow is good at one thing: running tasks in order, on a schedule, with some retry logic. That's it. It doesn't fix bad SQL. It doesn't make your transformations idempotent. It doesn't clarify who owns what data or why a table exists.
+
+Before you write a single DAG, answer these:
+
+Can you draw your data flow on a whiteboard without checking the code?
+
+Do you know what happens if a task fails halfway through?
+
+Is your transformation logic the same every time you run it, or does it depend on when you run it?
+
+If you can't answer those, Airflow just gives you a UI to watch the chaos happen on schedule.
+
+Fix the logic first. Orchestrate second.
+
+#DataEngineering #Airflow #DataPipelines #Analytics #DataInfrastructure
+
+---
+
 ## September 30, 2026
 **Topic:** The honest take on Azure vs AWS vs GCP for data
 **Tone:** Relatable | **Length:** Long
