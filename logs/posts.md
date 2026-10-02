@@ -1,3 +1,19 @@
+## October 02, 2026
+**Topic:** Hot take on dbt
+**Tone:** Something I learned / observed / did at work | **Length:** Short
+
+I've been using dbt on three different client projects this year and I keep having the same thought.
+
+It's excellent at exactly one thing: giving SQL models version control, testing, and lineage. That alone is worth it.
+
+But the 'analytics engineer as the new data engineer' positioning is weird. You're still writing SQL. You still need someone who understands incremental logic, partitions, indexes. The tool didn't eliminate the hard parts. It just gave them a framework.
+
+Also, your dbt project will get messy. Everyone's does.
+
+#DataEngineering #AnalyticsEngineering #dbt #DataAnalytics #SQL
+
+---
+
 ## October 01, 2026
 **Topic:** Airflow is not the answer to your pipeline problems
 **Tone:** Credible Insight / Domain Authority | **Length:** Medium
