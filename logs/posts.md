@@ -1,3 +1,33 @@
+## October 06, 2026
+**Topic:** The data quality problem nobody wants to own
+**Tone:** Something I learned / observed / did at work | **Length:** Long
+
+I spent half of Tuesday fixing a number that was off by 12%.
+
+It was a dashboard the finance team uses to track customer lifetime value. The number had been sitting there for weeks. Then someone compared it to another report. The numbers didn't match. So they asked me to look into it.
+
+I traced it back. The problem wasn't the query. The problem was that three different teams were using slightly different definitions of "active customer." One team counted anyone who logged in. Another counted anyone who made a purchase. A third one counted anyone with an open subscription, even if they hadn't logged in.
+
+None of them were wrong. They just weren't the same thing.
+
+So the number in the dashboard was technically correct based on the logic someone wrote six months ago. But the business had moved on. The definition changed. Nobody updated the pipeline. And nobody caught it because the dashboard still worked fine. It just wasn't showing what people thought it was showing.
+
+This happens all the time. Engineering builds the pipeline. Analytics writes the query. The business uses the report. And somewhere in between, the assumptions drift.
+
+When something breaks, it becomes a blame game. Engineering says the source data is fine. Analytics says the transformation logic is solid. The business just sees a wrong number and stops trusting the whole thing.
+
+What actually fixes it is not better tooling. It's making one person responsible for the metric end to end. Not the table. Not the query. The metric itself.
+
+At one of my clients, we started assigning a single owner to each core metric. That person doesn't have to write all the code. But they have to know how the number is built, where the assumptions are, and who to talk to when something changes.
+
+Since we did that, I've spent way less time debugging mystery discrepancies. Because now when something drifts, someone notices before it becomes a fire.
+
+I still spent half of Tuesday on it though. Some fires you inherit.
+
+#DataQuality #DataAnalytics #AnalyticsEngineering #DataGovernance #DataEngineering
+
+---
+
 ## October 05, 2026
 **Topic:** The metric that actually tells you if your data team is working
 **Tone:** Credible Insight / Domain Authority | **Length:** Short
