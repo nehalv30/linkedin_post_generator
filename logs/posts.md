@@ -1,3 +1,27 @@
+## October 07, 2026
+**Topic:** Dashboards don't drive decisions — here's what does
+**Tone:** Funny / Witty | **Length:** Medium
+
+I've built dashboards that got presented to the VP, got nodded at, and were never opened again.
+
+The problem wasn't the viz. It was that nobody actually needed a dashboard. They needed someone to tell them what to do.
+
+Here's the thing. Most decisions don't happen in Tableau. They happen in a Slack thread on Tuesday morning when someone asks "should we keep doing this or not" and needs an answer by lunch.
+
+If your dashboard requires interpretation, it's decorative. If it takes three clicks to get to the number that matters, nobody's using it outside the meeting where you demoed it.
+
+What actually works: a Slack bot that surfaces the metric when it moves. A Google Sheet someone already has open. A single number in the subject line of an email. Boring stuff that shows up where decisions happen.
+
+I spent six months once building the perfect revenue dashboard. Beautiful star schema. Incremental loads. Three executives had access.
+
+The CFO still just asked me for the number directly every Monday.
+
+Anyone else have a dashboard graveyard?
+
+#DataAnalytics #BusinessIntelligence #Analytics #DataEngineering #ProductAnalytics
+
+---
+
 ## October 06, 2026
 **Topic:** The data quality problem nobody wants to own
 **Tone:** Something I learned / observed / did at work | **Length:** Long
