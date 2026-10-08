@@ -1,3 +1,21 @@
+## October 08, 2026
+**Topic:** Moving from India to the US for a data career
+**Tone:** Relatable | **Length:** Short
+
+I moved from India to the US for my master's in 2022.
+
+The technical skills transferred fine. SQL is SQL, Python is Python.
+
+What didn't transfer: how meetings work, how to disagree without sounding disagreeable, and the unspoken rule that you're supposed to 'sell' your work even after you've done it.
+
+Also, no one warned me that 'let's circle back' means absolutely nothing.
+
+Still figuring some of it out.
+
+#DataAnalytics #CareerTransition #InternationalStudents #TechCareers #DataJobs
+
+---
+
 ## October 07, 2026
 **Topic:** Dashboards don't drive decisions — here's what does
 **Tone:** Funny / Witty | **Length:** Medium
