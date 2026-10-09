@@ -1,3 +1,37 @@
+## October 09, 2026
+**Topic:** The real difference between a junior and senior data analyst
+**Tone:** Credible Insight / Domain Authority | **Length:** Long
+
+The difference between a junior and senior analyst isn't technical skill. I've seen juniors write better SQL than people two levels above them.
+
+The difference is what happens when someone from product walks up and says, "We need to understand why conversion dropped last week."
+
+A junior analyst opens their laptop and starts writing queries.
+
+A senior analyst asks: "What changed last week? New release? Marketing push? Did we change how we track conversions?"
+
+Because half the time, conversion didn't drop. The tracking broke. Or the cohort shifted. Or someone changed a definition in a dashboard and didn't tell anyone.
+
+Juniors treat every question like a data problem. Seniors know most questions are context problems that happen to involve data.
+
+I've been in both seats. Early on, I would spend two days pulling numbers, build a clean deck, present it, and then someone would say, "Oh, we're only worried about mobile users." And I'd realize I just analyzed the wrong thing because I didn't ask.
+
+Now I ask a lot of annoying questions up front. What decision are we making with this? Who else has looked at this? What answer would actually surprise you?
+
+It sounds simple, but it's not intuitive when you're starting out. You think your job is to be fast and accurate. And it is. But being accurate to the wrong question is worse than being slow.
+
+The other thing: seniors are comfortable saying "I don't know yet" or "This data isn't reliable enough to answer that."
+
+Juniors will run the query and report the number, even if the number is nonsense. They think their job is to have an answer.
+
+Seniors know their job is to not let a bad answer become a decision.
+
+I'm not saying juniors are bad at their jobs. I'm saying the job is different than it looks from the outside. The SQL part is table stakes. The hard part is knowing when not to run the query.
+
+#DataAnalytics #DataAnalyst #AnalyticsEngineering #CareerGrowth #DataScience
+
+---
+
 ## October 08, 2026
 **Topic:** Moving from India to the US for a data career
 **Tone:** Relatable | **Length:** Short
