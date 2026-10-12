@@ -1,3 +1,37 @@
+## October 12, 2026
+**Topic:** Why most data pipelines fail silently
+**Tone:** Relatable | **Length:** Long
+
+The worst bugs are the ones that don't throw errors.
+
+Your pipeline runs. It finishes on time. Airflow shows green. No one gets paged. The dashboard loads. Stakeholders open it in their Monday meeting and make a decision.
+
+Three weeks later someone notices the numbers feel off.
+
+You go back and find it. A schema change upstream. A join condition that used to match 98% of rows now matches 62%. An API that started returning nulls for a field you filter on. A Kafka topic that quietly started duplicating messages after a producer restart.
+
+None of it crashed. It just kept going.
+
+I have seen this more than I have seen actual failures. The data loads. It is just wrong. Or incomplete. Or subtly different in a way that no one notices until it is already in a decision.
+
+The problem is that most pipelines are built to succeed, not to validate. We check if the job ran. We do not check if the data makes sense. We assume the upstream source will stay stable. We assume joins will keep matching. We assume counts will stay in range.
+
+They do not.
+
+I started adding stupid simple checks. Row count compared to yesterday. Null rate by column. Join match rate. Duplication checks on keys that should be unique. Not sophisticated. Just enough to catch the obvious stuff before it gets downstream.
+
+It still does not catch everything. But it catches enough that I am no longer the person who finds out from Slack that the exec dashboard has been wrong for two weeks.
+
+The other thing that helps is just knowing your data. If you know a table usually has 4 million rows and today it has 600k, you notice. If you do not know, it loads fine and you move on.
+
+Most of the time the pipeline is working exactly as written. The problem is what we wrote does not account for what actually happens.
+
+Anyone else spend more time defending data quality than actually analyzing it?
+
+#DataEngineering #Analytics #DataQuality #DataPipelines #AnalyticsEngineering
+
+---
+
 ## October 09, 2026
 **Topic:** The real difference between a junior and senior data analyst
 **Tone:** Credible Insight / Domain Authority | **Length:** Long
