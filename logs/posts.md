@@ -1,3 +1,27 @@
+## October 13, 2026
+**Topic:** Python for data analysts — what to actually learn
+**Tone:** Credible Insight / Domain Authority | **Length:** Medium
+
+Most analysts waste months learning Python features they'll never use.
+
+Here's what you actually need.
+
+Start with pandas. That's 80% of your job. Read CSVs, filter rows, join tables, group and aggregate. If you can replicate what you do in Excel or SQL, you're already useful.
+
+Then learn to automate boring stuff. Reading from APIs, writing to databases, scheduling scripts. This is where Python starts saving you actual hours.
+
+Everyone will tell you to learn machine learning. Unless you're building models day to day, skip it. Scikit-learn basics are fine if you're curious. Don't burn time on neural networks.
+
+You don't need to be a software engineer. You need to solve data problems faster than you do in SQL or Excel.
+
+The best way to learn is to pick one annoying manual task you do every week and figure out how to script it. Not a tutorial. Your actual work.
+
+Start there. The rest will come when you need it.
+
+#DataAnalytics #Python #DataScience #AnalyticsEngineering #CareerAdvice
+
+---
+
 ## October 12, 2026
 **Topic:** Why most data pipelines fail silently
 **Tone:** Relatable | **Length:** Long
