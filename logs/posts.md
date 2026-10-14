@@ -1,3 +1,17 @@
+## October 14, 2026
+**Topic:** What Snowflake, Databricks, and BigQuery don't tell you
+**Tone:** Something I learned / observed / did at work | **Length:** Short
+
+You pick a data warehouse because the demo looks clean and someone wrote a Medium post saying it scales.
+
+Then you run your first query in production and it costs $47. Or it finishes in 90 seconds when the sales deck promised 3. Or you realize partitioning works totally differently than the tool you migrated from.
+
+The docs exist. But they don't tell you what actually breaks until you're already paying for it.
+
+#DataEngineering #Analytics #Snowflake #BigQuery #Databricks
+
+---
+
 ## October 13, 2026
 **Topic:** Python for data analysts — what to actually learn
 **Tone:** Credible Insight / Domain Authority | **Length:** Medium
