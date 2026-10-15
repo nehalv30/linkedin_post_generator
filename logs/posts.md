@@ -1,3 +1,49 @@
+## October 15, 2026
+**Topic:** What good stakeholder communication looks like in data roles
+**Tone:** Funny / Witty | **Length:** Long
+
+You spend weeks building a dashboard. Clean data model. Fast queries. Filters that actually make sense. Stakeholder is happy. You push to prod.
+
+Three days later: "Can we add just one more filter?"
+
+Sure. You add it.
+
+Two days after that: "Actually, can we slice by region AND product tier?"
+
+You add it.
+
+Week later: "This is great but can we also see last year's data for comparison?"
+
+You add it.
+
+Month later: "I think we need to add customer segment as a dimension."
+
+At this point the dashboard has 47 filters. The data model is pulling from six tables. Load time is creeping up. And here is the part that makes you want to walk into the ocean: you check the usage logs and exactly two people have opened it in the past three weeks.
+
+But wait, there is more.
+
+Someone emails you asking for the same analysis. You send them the dashboard link. They say "oh I don't really use dashboards, can you just pull the numbers into Excel?"
+
+You pull the numbers. Send the file. They reply: "Thanks! One more thing, can you add a pivot table?"
+
+You add the pivot table. Explain how to use it. Two days later they email asking if you can just send them the summary instead because Excel is confusing.
+
+So you write the summary. Three bullets. Clear as day. Send it off.
+
+Radio silence for a week.
+
+Then, in a meeting with six other people, they ask the same question you answered in the summary. You realize they never opened the email.
+
+And the dashboard you spent a month building? Still live. Still pulling data every morning. Still has 47 filters. Last opened 18 days ago.
+
+I love this job. But sometimes I think about what it would be like to build something people actually used the way it was designed to be used.
+
+Anyone else have a dashboard that is technically perfect and functionally ignored?
+
+#DataAnalytics #AnalyticsEngineering #DataLife #StakeholderManagement #BusinessIntelligence
+
+---
+
 ## October 14, 2026
 **Topic:** What Snowflake, Databricks, and BigQuery don't tell you
 **Tone:** Something I learned / observed / did at work | **Length:** Short
