@@ -1,3 +1,25 @@
+## October 16, 2026
+**Topic:** Everyone says they're data-driven. Almost nobody is.
+**Tone:** Relatable | **Length:** Medium
+
+Everyone says they're data-driven until the dashboard disagrees with what they already decided.
+
+Then suddenly it's "can we check the methodology" or "this doesn't feel right" or "let's wait for next quarter's numbers."
+
+I've sat in too many meetings where someone spent 20 minutes poking holes in clean data because the insight didn't match their gut. Same meetings where a half-baked hypothesis gets approved in 30 seconds because it sounds good.
+
+The problem isn't the stack. It's not the dashboards. It's that most orgs treat data like decoration. You build the thing, you show the thing, someone nods, and then they do what they were going to do anyway.
+
+Data-driven culture dies the moment leadership asks for analysis but doesn't actually want an answer. They want confirmation.
+
+And the worst part? After a while you stop fighting it. You just build what they ask for and move on.
+
+Anyone else just... tired?
+
+#DataAnalytics #DataDriven #AnalyticsEngineering #DataCulture #BusinessIntelligence
+
+---
+
 ## October 15, 2026
 **Topic:** What good stakeholder communication looks like in data roles
 **Tone:** Funny / Witty | **Length:** Long
