@@ -1,3 +1,29 @@
+## October 19, 2026
+**Topic:** When ML makes things worse
+**Tone:** Funny / Witty | **Length:** Medium
+
+I watched someone spend three weeks building a classification model to predict which invoices were high-risk.
+
+The model used gradient boosting. It had hyperparameter tuning. It had beautiful cross-validation scores.
+
+It replaced a rule that said "if amount > $50k and overdue > 30 days, flag it."
+
+The rule caught 94% of problem invoices. The model caught 96%.
+
+Now we have a model that needs retraining every quarter, breaks when the data schema changes, and nobody except the person who built it can explain why it flags what it flags.
+
+The rule fit in one line of SQL. Anyone could edit it. Finance actually understood it.
+
+I'm not anti-ML. I've built models that mattered. But sometimes the boring answer is the right answer, and we talk ourselves out of it because it doesn't feel like real work.
+
+If you can't explain why the model is better than the heuristic in a sentence, you probably don't need the model.
+
+Anyone else seen this?
+
+#DataScience #MachineLearning #Analytics #DataEngineering #MLOps
+
+---
+
 ## October 16, 2026
 **Topic:** Everyone says they're data-driven. Almost nobody is.
 **Tone:** Relatable | **Length:** Medium
