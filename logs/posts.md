@@ -1,3 +1,21 @@
+## October 20, 2026
+**Topic:** The honest take on Azure vs AWS vs GCP for data
+**Tone:** Relatable | **Length:** Short
+
+I've used all three clouds for data work. Here's what actually matters:
+
+AWS has the most mature tooling but the worst naming. You will spend real time just figuring out what service does what.
+
+GCP has the cleanest developer experience. BigQuery is fast. Everything just connects. Until you need something niche and realize the ecosystem is thin.
+
+Azure wins on enterprise integrations. If your company already runs on Microsoft, it makes sense. Otherwise, the learning curve is steep for no reason.
+
+None of them are cheap once you scale.
+
+#DataEngineering #CloudComputing #AWS #Azure #BigQuery
+
+---
+
 ## October 19, 2026
 **Topic:** When ML makes things worse
 **Tone:** Funny / Witty | **Length:** Medium
