@@ -1,3 +1,23 @@
+## October 22, 2026
+**Topic:** Hot take on dbt
+**Tone:** Something I learned / observed / did at work | **Length:** Medium
+
+I've been using dbt a lot this week and I keep thinking about how it solves a real problem but also quietly creates a new one.
+
+The good part is obvious. It makes your SQL transparent. Everyone can see how metrics are built, where they come from, what depends on what. Before dbt, most analytics pipelines were either black boxes or nested stored procedures that three people understood. So yes, it's better.
+
+But here's what no one mentions. dbt pushes a lot of complexity downstream. You end up with 50+ models in your DAG, half of them incremental, half of them full refresh, and now your build time is 40 minutes and debugging a failed test means chasing five layers of CTEs across different files.
+
+You traded SQL spaghetti for YAML spaghetti.
+
+I'm not saying don't use it. I am saying the pitch makes it sound like it eliminates complexity when really it just moves it around.
+
+And sometimes that's fine. You just need to know what you're signing up for.
+
+#DataEngineering #AnalyticsEngineering #dbt #DataAnalytics #SQL
+
+---
+
 ## October 21, 2026
 **Topic:** Airflow is not the answer to your pipeline problems
 **Tone:** Credible Insight / Domain Authority | **Length:** Long
