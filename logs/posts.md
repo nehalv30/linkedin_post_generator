@@ -1,3 +1,21 @@
+## October 23, 2026
+**Topic:** Stop building data models nobody asked for
+**Tone:** Funny / Witty | **Length:** Short
+
+I spent three weeks building a perfectly normalized data model with incremental loads, partition keys, and tests on every column.
+
+Business used it twice. Then asked if I could just pull the raw data into a spreadsheet instead.
+
+The model still runs every night. Nobody looks at it. I get alerts when it breaks. I fix it because technically it's my job.
+
+Sometimes I wonder if it's performance art at this point.
+
+Anyone else maintaining infrastructure for an audience of zero?
+
+#DataEngineering #Analytics #DataModeling #AnalyticsEngineering #DataHumor
+
+---
+
 ## October 22, 2026
 **Topic:** Hot take on dbt
 **Tone:** Something I learned / observed / did at work | **Length:** Medium
