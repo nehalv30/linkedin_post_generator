@@ -1,3 +1,19 @@
+## October 26, 2026
+**Topic:** The data quality problem nobody wants to own
+**Tone:** Something I learned / observed / did at work | **Length:** Short
+
+I watched a data quality issue bounce between three teams this week. Engineering said it's a reporting problem. Analytics said it's a pipeline problem. Product said someone just fix it.
+
+Turns out nobody owned the join logic between two tables. It lived in six different places. All slightly different.
+
+We fixed it by making one person responsible for one source of truth. Not a committee. Not a Slack thread. One name next to one table.
+
+Accountability fixes more than documentation ever will.
+
+#DataAnalytics #DataEngineering #DataQuality #AnalyticsEngineering #DataGovernance
+
+---
+
 ## October 23, 2026
 **Topic:** Stop building data models nobody asked for
 **Tone:** Funny / Witty | **Length:** Short
