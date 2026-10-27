@@ -1,3 +1,35 @@
+## October 27, 2026
+**Topic:** Dashboards don't drive decisions — here's what does
+**Tone:** Funny / Witty | **Length:** Long
+
+I spent two weeks building a dashboard that went live on a Tuesday and died by Thursday.
+
+Not because it was broken. Because nobody actually wanted the answer it gave them.
+
+Here's what happened. Stakeholder asks for visibility into customer churn by segment, tenure, product line, and region. Fair request. I build it. Fact tables, clean dimensions, incremental refresh, filters that actually work. The whole thing. I present it in a meeting. Everyone nods. Someone says "this is great, exactly what we need."
+
+Two days later I check the usage logs. Zero opens.
+
+I ask what happened. Turns out they already knew churn was bad in that one segment. They didn't need a dashboard to confirm it. What they actually needed was someone to approve budget to fix it. The dashboard was never going to do that.
+
+This is the thing nobody says out loud about analytics work. Dashboards do not drive decisions. Decisions drive dashboards.
+
+People build dashboards because they think if they just visualize the problem clearly enough, someone will act. But most decisions in an organization are not waiting on more data. They are waiting on alignment, or budget, or political capital, or someone willing to own the outcome.
+
+The dashboards that actually get used are the ones that help someone defend a decision they already made, or negotiate for something they already want, or prove they were right about something they suspected.
+
+Which means the real question is not "what should this dashboard show?" It's "what decision is someone trying to make, and what would actually move that forward?"
+
+Sometimes the answer is a dashboard. A lot of times it's a Slack message with three numbers in it.
+
+I still build dashboards. But now I ask what happens after they see the data. If the answer is vague, I know I'm about to spend two weeks on something nobody will open.
+
+Anyone else have a dashboard that launched to applause and died in silence?
+
+#DataAnalytics #BusinessIntelligence #Analytics #DataStrategy #AnalyticsEngineering
+
+---
+
 ## October 26, 2026
 **Topic:** The data quality problem nobody wants to own
 **Tone:** Something I learned / observed / did at work | **Length:** Short
