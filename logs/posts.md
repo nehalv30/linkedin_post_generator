@@ -1,3 +1,25 @@
+## October 28, 2026
+**Topic:** Moving from India to the US for a data career
+**Tone:** Relatable | **Length:** Medium
+
+I moved to the US thinking I knew what mattered for a data career. I had the degree, the skills, the technical background.
+
+What actually mattered was completely different.
+
+No one cared that I could build a neural net. They cared if I could explain why revenue went down last quarter in a way that didn't need a second meeting.
+
+Writing clean SQL wasn't enough. You had to write SQL that the next person could read without Slacking you six months later.
+
+The tools were the same. The work was the same. But the expectations around communication, documentation, and stakeholder management were things I had to relearn from scratch.
+
+And honestly, the hardest part wasn't technical. It was realizing that being good at the work was table stakes. What moved you forward was being someone people wanted to work with when things were unclear or broken.
+
+Would I do it again? Yes. But I'd spend way less time worrying about certifications and way more time learning how to show my work.
+
+#DataAnalytics #CareerGrowth #DataEngineering #AnalyticsEngineering #TechCareers
+
+---
+
 ## October 27, 2026
 **Topic:** Dashboards don't drive decisions — here's what does
 **Tone:** Funny / Witty | **Length:** Long
