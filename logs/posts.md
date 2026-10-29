@@ -1,3 +1,19 @@
+## October 29, 2026
+**Topic:** The real difference between a junior and senior data analyst
+**Tone:** Credible Insight / Domain Authority | **Length:** Short
+
+A junior analyst will spend three days building a dashboard because the VP asked for it.
+
+A senior analyst will ask what decision the VP is trying to make, realize they already have that data in a different format, and send it over in twenty minutes.
+
+The difference isn't technical skill. It's knowing when to say no, when to ask why, and when the real problem isn't the one being asked.
+
+Most of the job is just not building the wrong thing.
+
+#DataAnalytics #AnalyticsEngineering #DataAnalyst #CareerGrowth
+
+---
+
 ## October 28, 2026
 **Topic:** Moving from India to the US for a data career
 **Tone:** Relatable | **Length:** Medium
