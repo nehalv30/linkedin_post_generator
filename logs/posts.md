@@ -1,3 +1,35 @@
+## October 30, 2026
+**Topic:** What I'd do differently if I started my data career today
+**Tone:** Something I learned / observed / did at work | **Length:** Long
+
+I've been thinking about what I'd actually tell someone starting out in data today.
+
+Not the usual stuff. Everyone already knows you need SQL and Python. That's table stakes.
+
+What I'd focus on instead: how decisions get made.
+
+Most people starting out treat data like a technical problem. They optimize queries, build dashboards, learn dbt or Airflow. All useful. But none of it matters if the work doesn't change what someone does.
+
+The analysts I respect most spend time understanding how their stakeholders actually work. What meeting are they in when they need this number? What question is their boss asking them? What happens if they get the answer wrong?
+
+That context changes everything. It changes what you build, how you explain it, what you prioritize.
+
+I learned this the hard way. Early on I built a really clean pipeline for fraud scoring. Incremental loads, tests, the whole thing. Technically solid. But I didn't ask enough questions upfront about how the fraud team was using the data. Turned out they needed faster refreshes and a slightly different grain. I had to rebuild parts of it.
+
+Now I start every project by asking: what decision does this support? Who makes it? What do they need to feel confident?
+
+The other thing I'd do differently: I'd stop chasing tools.
+
+There's always a new framework. A new orchestrator. A new way to do transformations. And yes, you need to keep learning. But the people who grow fastest are the ones who get really good at the basics first. SQL that's clean and fast. Python that someone else can read. Data models that don't break when the business changes.
+
+If I could go back, I'd spend way less time worrying about what's on the job description and way more time getting good at explaining my work to people who don't care about the technical details.
+
+Because that's the skill that compounds.
+
+#DataAnalytics #DataEngineering #CareerAdvice #AnalyticsEngineering #DataScience
+
+---
+
 ## October 29, 2026
 **Topic:** The real difference between a junior and senior data analyst
 **Tone:** Credible Insight / Domain Authority | **Length:** Short
