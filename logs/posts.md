@@ -1,3 +1,33 @@
+## November 02, 2026
+**Topic:** Python for data analysts — what to actually learn
+**Tone:** Credible Insight / Domain Authority | **Length:** Long
+
+Most analysts are learning the wrong parts of Python.
+
+They spend weeks on machine learning libraries they will never use in production. They memorize syntax for advanced NumPy operations they will never write. They stress about object-oriented programming when 90% of their work will live in notebooks and pipelines that read like scripts.
+
+I have been writing Python for data work for four years now. I have also reviewed a lot of resumes and code from people trying to break into analytics roles. The gap is always the same. They know the impressive stuff. They can't do the boring stuff cleanly.
+
+Here is what actually matters if you are an analyst.
+
+Learn to read and write dataframes in pandas. Not fancy operations. Just filtering, grouping, merging, and reshaping data. If you can confidently use `merge`, `groupby`, `pivot_table`, and boolean indexing, you are ahead of most people.
+
+Learn to connect to databases and pull data into Python. `sqlalchemy` or `psycopg2` for Postgres. `pyodbc` for SQL Server. Just enough to run a query and get a dataframe back. This is something you will do every single day.
+
+Learn to automate the stuff you do more than once. Writing a function that takes parameters and returns clean output. Looping through files or API calls without breaking. Error handling that does not just crash silently. This is not sexy. It saves you hours every week.
+
+Learn to work with APIs. Most business data lives behind REST endpoints now. You need to know how to use the `requests` library, handle JSON responses, deal with pagination, and not hit rate limits like an idiot.
+
+Skip scikit-learn unless your job explicitly requires modeling. Skip TensorFlow entirely unless you are doing ML engineering. Skip classes and inheritance unless you are writing a package someone else will import.
+
+The analysts who get hired are not the ones with the most exotic skills. They are the ones who can pull data, clean it, and automate the next step without someone needing to check their work.
+
+That is the standard. Everything else is extra credit.
+
+#DataAnalytics #Python #DataScience #AnalyticsEngineering #CareerAdvice
+
+---
+
 ## October 30, 2026
 **Topic:** What I'd do differently if I started my data career today
 **Tone:** Something I learned / observed / did at work | **Length:** Long
