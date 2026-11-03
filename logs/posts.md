@@ -1,3 +1,21 @@
+## November 03, 2026
+**Topic:** What Snowflake, Databricks, and BigQuery don't tell you
+**Tone:** Something I learned / observed / did at work | **Length:** Medium
+
+I've been migrating a few clients from on-prem to cloud warehouses this year, and the cost conversations are getting weird.
+
+A client pushed back on our Snowflake estimate last week. Fair. So we ran the same workload on BigQuery for comparison. Same data, same queries, same schedule.
+
+BigQuery was cheaper. By a lot. But here's the thing: our Snowflake estimate was also wrong. We were way over on storage costs and way under on compute. The queries we thought would be expensive ran fine. The ones we thought were simple blew through credits because someone wrote a join that scanned the whole table every time.
+
+The demos make it look like you can predict this stuff. You can't. Not really. Usage patterns don't show up until people are actually using it. And by then you're explaining to finance why the bill is 40% higher than the deck you showed them.
+
+I'm not saying one platform is better. I'm saying the cost model only makes sense after you've already spent the money.
+
+#DataEngineering #Snowflake #BigQuery #CloudComputing #Analytics
+
+---
+
 ## November 02, 2026
 **Topic:** Python for data analysts — what to actually learn
 **Tone:** Credible Insight / Domain Authority | **Length:** Long
