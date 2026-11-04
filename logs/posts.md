@@ -1,3 +1,25 @@
+## November 04, 2026
+**Topic:** What good stakeholder communication looks like in data roles
+**Tone:** Funny / Witty | **Length:** Short
+
+You build a dashboard. Stakeholder loves it. Calls it a game changer. You feel good for 36 hours.
+
+Then the emails start.
+
+"Can we add just one filter?"
+"Actually, can this auto-refresh every 15 minutes?"
+"What if we split this by region AND product AND channel?"
+
+You add the filter. Then the next one. Then the next.
+
+Six weeks later the thing has 19 dropdown menus and loads in 40 seconds. Nobody uses it.
+
+Tell me I'm wrong.
+
+#DataAnalytics #DataEngineering #StakeholderManagement #BusinessIntelligence #AnalyticsEngineering
+
+---
+
 ## November 03, 2026
 **Topic:** What Snowflake, Databricks, and BigQuery don't tell you
 **Tone:** Something I learned / observed / did at work | **Length:** Medium
