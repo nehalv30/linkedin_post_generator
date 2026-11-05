@@ -1,3 +1,37 @@
+## November 05, 2026
+**Topic:** Everyone says they're data-driven. Almost nobody is.
+**Tone:** Relatable | **Length:** Long
+
+Everyone says they're data-driven.
+
+Almost nobody is.
+
+I've been in enough meetings to know how it actually works. Someone has already decided what they want to do. Then they ask for the data. Not to inform the decision. To defend it.
+
+The data that supports the conclusion gets highlighted. The data that doesn't gets questioned. "Can we segment this differently?" "What if we exclude this cohort?" "How confident are we in this number?"
+
+Which, fine. Healthy skepticism is good. But when the only numbers that get interrogated are the ones that contradict what leadership already wants, you're not data-driven. You're data-justified.
+
+I've also seen the opposite problem. Someone builds a beautiful dashboard. Tracks everything. Perfect data quality. Gets shown in exactly one meeting, gets a "this is great," and then nobody touches it again.
+
+Because being data-driven isn't about having the data. It's about actually changing your mind when the data says something uncomfortable.
+
+Most organizations can't do that. The data team reports to someone three levels down. The exec who makes the call hasn't looked at a query result in four years. The person who understands the data isn't in the room when the decision happens.
+
+So you end up in this weird middle ground. Everyone agrees data is important. Everyone has dashboards. Everyone has a BI tool. But when it's time to actually decide something, it's still gut feel, company politics, and whoever spoke last in the meeting.
+
+The tools aren't the problem. The SQL works. The pipelines run. The data is there.
+
+What's missing is the willingness to let data override intuition. To say "I thought X, but the data says Y, so we're doing Y." I've seen that happen maybe twice.
+
+The rest of the time we're just building very expensive scoreboards for decisions that already got made.
+
+Anyone else spend half their time answering questions nobody's actually going to use?
+
+#DataAnalytics #DataDriven #BusinessIntelligence #Analytics #DataCulture
+
+---
+
 ## November 04, 2026
 **Topic:** What good stakeholder communication looks like in data roles
 **Tone:** Funny / Witty | **Length:** Short
