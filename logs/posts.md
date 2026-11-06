@@ -1,3 +1,25 @@
+## November 06, 2026
+**Topic:** What fintech data actually looks like
+**Tone:** Credible Insight / Domain Authority | **Length:** Medium
+
+Most people think fintech data looks like a clean CSV with transaction_id, amount, timestamp.
+
+It doesn't.
+
+It's nested JSON with schemas that change mid-stream because one bank sends "transaction_type" and another sends "txn_category". Same field, different name, different format.
+
+You get duplicate events because retries aren't idempotent. You get missing fields because some institutions just don't send them. You get timing issues where a transaction shows up in three different places with three different timestamps, and nobody can tell you which one is correct.
+
+The fun part is when an aggregation looks right until you notice it's overcounting by 8% because of settlement lag, and that 8% compounds into someone's P&L.
+
+Working with financial data isn't about knowing fancy models. It's about building systems that assume the data will lie to you, and catching it before it gets into a dashboard someone actually trusts.
+
+Most of the job is just making the mess predictable.
+
+#DataEngineering #Fintech #DataQuality #AnalyticsEngineering #DataPipelines
+
+---
+
 ## November 05, 2026
 **Topic:** Everyone says they're data-driven. Almost nobody is.
 **Tone:** Relatable | **Length:** Long
