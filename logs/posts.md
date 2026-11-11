@@ -1,3 +1,29 @@
+## November 11, 2026
+**Topic:** Hot take on dbt
+**Tone:** Something I learned / observed / did at work | **Length:** Long
+
+I've been working in dbt pretty heavily the last few months and I have some thoughts.
+
+It genuinely solves a real problem. Writing SQL transformations as modular, version-controlled, testable models is better than scripts dumped in a folder somewhere. The lineage graph is useful. The documentation layer actually gets used. These are not small wins.
+
+But the hype has gotten ahead of what it actually is.
+
+dbt is a templating and orchestration layer for SQL. That's it. It does not make bad SQL good. It does not replace knowing how your warehouse works. It does not fix messy source data. If your logic is broken or your joins are inefficient, dbt will just version-control the mess and run it on a schedule.
+
+I see a lot of posts treating it like the foundation of the modern data stack. In reality, it is one tool in a longer chain. Your pipeline is only as reliable as your ingestion, your warehouse config, your job scheduler, and your data quality checks. dbt handles the transformation piece well, but that is maybe 30% of the work.
+
+The macro system is clever until it isn't. I have debugged Jinja that was nested three layers deep, referencing variables defined in a different repo, and I wanted to throw my laptop out the window. Macros are great for reusable logic. They are terrible when someone uses them to avoid writing SQL properly.
+
+Also, incremental models sound amazing in theory. In practice, they are where most of my bugs come from. You have to get the logic exactly right or you silently drop data or double-count records. The feedback loop is slow because you only catch it in production when the numbers look weird two days later.
+
+One thing I do respect: dbt forces you to be explicit. You define your models, your tests, your dependencies. That discipline is worth something. But it is not magic. It is structure. Structure helps, but it does not write the transformations for you.
+
+If you are building a data team from scratch, use it. Just do not expect it to solve problems it was not designed for.
+
+#DataEngineering #AnalyticsEngineering #dbt #DataPipelines #SQL
+
+---
+
 ## November 10, 2026
 **Topic:** Airflow is not the answer to your pipeline problems
 **Tone:** Credible Insight / Domain Authority | **Length:** Short
