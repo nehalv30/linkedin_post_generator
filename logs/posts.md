@@ -1,3 +1,25 @@
+## November 12, 2026
+**Topic:** Stop building data models nobody asked for
+**Tone:** Funny / Witty | **Length:** Medium
+
+I spent three weeks building a dimensional model for customer transactions. Star schema. Slowly changing dimensions. Incremental loads. Data quality checks. The works.
+
+My manager looked at it and said, "This is really nice. Can you just send me the raw CSV every Monday?"
+
+And here's the thing. She wasn't wrong.
+
+I built something technically correct but practically disconnected. Nobody on the business side cared about my grain or my surrogate keys. They wanted to answer three specific questions. I could have done that with a materialized view and saved two and a half weeks.
+
+Analytics engineers love to optimize for reusability. Business stakeholders optimize for next Tuesday's meeting. The gap between those two things is where a lot of good work goes to die.
+
+The trick isn't picking one over the other. It's knowing when to build infrastructure and when to just answer the question.
+
+Anyone else ever shipped something immaculate that absolutely nobody used?
+
+#DataAnalytics #AnalyticsEngineering #DataModeling #BusinessIntelligence #DataStrategy
+
+---
+
 ## November 11, 2026
 **Topic:** Hot take on dbt
 **Tone:** Something I learned / observed / did at work | **Length:** Long
