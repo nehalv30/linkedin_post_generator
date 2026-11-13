@@ -1,3 +1,19 @@
+## November 13, 2026
+**Topic:** Kafka is overkill for most companies
+**Tone:** Relatable | **Length:** Short
+
+Most companies don't need Kafka. They need a cron job that runs every hour.
+
+Real-time streaming sounds good in architecture meetings. But if your business logic works fine with a 30-minute delay, you just added weeks of setup and ongoing complexity for no actual reason.
+
+I've seen teams spend months building event pipelines when a scheduled SQL script would've shipped in two days and solved the same problem.
+
+If you can't explain why the data needs to be live, it probably doesn't.
+
+#DataEngineering #Kafka #Analytics #DataPipelines #RealTimeData
+
+---
+
 ## November 12, 2026
 **Topic:** Stop building data models nobody asked for
 **Tone:** Funny / Witty | **Length:** Medium
