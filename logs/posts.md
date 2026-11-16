@@ -1,3 +1,21 @@
+## November 16, 2026
+**Topic:** Dashboards don't drive decisions — here's what does
+**Tone:** Funny / Witty | **Length:** Short
+
+I've built exactly one dashboard that actually changed how the team operated.
+
+The other 47 are either archived or decorating a weekly email nobody opens.
+
+The one that worked? We built it because someone walked over and said "I need to know this by 10am Monday or we miss the window."
+
+Turns out urgency clarifies requirements better than three scoping meetings ever could.
+
+Anyone else have a graveyard of dashboards that look great in screenshots?
+
+#DataAnalytics #BusinessIntelligence #DataScience #Analytics
+
+---
+
 ## November 13, 2026
 **Topic:** Kafka is overkill for most companies
 **Tone:** Relatable | **Length:** Short
