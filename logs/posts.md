@@ -1,3 +1,29 @@
+## November 17, 2026
+**Topic:** Moving from India to the US for a data career
+**Tone:** Relatable | **Length:** Long
+
+I moved to the US for my master's in 2022. Before that, I had worked in India for a bit. Analytics jobs at a fintech, a defense lab, a foundation. Proper work. SQL, Python, some ML. I thought the technical part would just carry over.
+
+It did. But only technically.
+
+The first thing that hits you is how much resumes matter here. In India, if you had the degree and some experience, you got the interview. Here, your resume gets scanned by a system before a person even sees it. I rewrote mine four times before it started getting responses. Same skills. Different formatting. That was a weird thing to learn.
+
+Then there's the language around work. I could write SQL and Python fine. But explaining what I did in a way that mapped to what American companies were hiring for, that took longer. "Data analyst" in India can mean anything from Excel dashboards to building ETL pipelines. Here, every job description is weirdly specific. Analytics Engineer. BI Developer. Decision Scientist. I had done all of it, but I didn't know what to call myself.
+
+Interviews felt different too. In India, technical rounds were hard but predictable. Solve this. Optimize that. Here, half the questions were behavioural. Tell me about a time you influenced a stakeholder. I had influenced stakeholders. I just didn't have a neat three-part story about it ready to go.
+
+The work itself is not harder. It's just more collaborative. More Slack messages. More alignment meetings. More explaining your work to people who don't know SQL. I like that part now, but it was an adjustment. I was used to being heads down and delivering. Here, delivery includes the explanation.
+
+What actually transferred well: the ability to debug things, to work with messy data, to build something that works under constraints. That part doesn't change.
+
+What I had to relearn: how to talk about all of it in a way that fit the market I was in.
+
+If you're thinking about making the same move, the technical skills will carry you. But leave room to recalibrate everything else. It takes longer than you think.
+
+#DataAnalytics #CareerTransition #DataCareers #AnalyticsEngineering #WorkingInTech
+
+---
+
 ## November 16, 2026
 **Topic:** Dashboards don't drive decisions — here's what does
 **Tone:** Funny / Witty | **Length:** Short
