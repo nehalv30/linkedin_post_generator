@@ -1,3 +1,25 @@
+## November 18, 2026
+**Topic:** The real difference between a junior and senior data analyst
+**Tone:** Credible Insight / Domain Authority | **Length:** Medium
+
+A junior analyst gets a request and starts writing SQL.
+
+A senior analyst asks why the question is being asked in the first place.
+
+That's pretty much it.
+
+I've seen juniors spend three days building a perfect dashboard that answers the wrong question. They optimized the query, added filters, made it look clean. But nobody asked whether the metric even mattered.
+
+Senior analysts slow down at the beginning. They ask what decision this analysis is supposed to inform. They push back when the request doesn't make sense. They say "I can build that, but I don't think it'll tell you what you need" and suggest something else.
+
+Juniors treat every request like a task to complete. Seniors treat it like a problem to solve, and sometimes that means solving a different problem than the one that was asked.
+
+The technical gap closes fast. The judgment gap takes years.
+
+#DataAnalytics #AnalyticsEngineering #DataStrategy #CareerGrowth #DataScience
+
+---
+
 ## November 17, 2026
 **Topic:** Moving from India to the US for a data career
 **Tone:** Relatable | **Length:** Long
