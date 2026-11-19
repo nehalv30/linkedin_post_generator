@@ -1,3 +1,21 @@
+## November 19, 2026
+**Topic:** What I'd do differently if I started my data career today
+**Tone:** Something I learned / observed / did at work | **Length:** Short
+
+I spent three years learning tools.
+
+I wish I had spent three years learning how decisions actually get made.
+
+The SQL gets easier. The Python clicks. The dashboards get built.
+
+What doesn't click automatically: knowing which metric matters to finance vs product. Knowing when a dataset is too messy to trust. Knowing how to say "this will take two weeks" without killing the conversation.
+
+Nobody teaches you that part. You just notice it's missing after a year of building the wrong things really well.
+
+#DataAnalytics #Analytics #CareerAdvice #DataScience #SQL
+
+---
+
 ## November 18, 2026
 **Topic:** The real difference between a junior and senior data analyst
 **Tone:** Credible Insight / Domain Authority | **Length:** Medium
