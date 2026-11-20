@@ -1,3 +1,37 @@
+## November 20, 2026
+**Topic:** SQL patterns most analysts get wrong
+**Tone:** Funny / Witty | **Length:** Long
+
+You learn COUNT(*) vs COUNT(column_name) in week one of SQL. Everyone nods. Makes sense. You move on.
+
+Then six months later you're debugging why the conversion rate dashboard is off by 3% and it turns out someone wrote COUNT(user_id) in a query where user_id can be NULL for anonymous sessions.
+
+COUNT(*) counts all rows. COUNT(column_name) only counts rows where that column is not NULL.
+
+Sounds obvious when you say it out loud. But I've seen this break dashboards, pricing models, and one very confident exec presentation.
+
+The worst part is the query runs fine. No error. The numbers just quietly lie to you.
+
+Here's the other one that got me: LEFT JOINs with duplicates on the right table.
+
+You join a users table to an events table. You expect one row per user. You get 47,000 rows because three users each triggered 15,000 events and your LEFT JOIN just happily multiplied everything.
+
+Your totals are now catastrophically wrong. Your stakeholder is confused. You are also confused. Then you add a DISTINCT and it fixes it but you're not totally sure why and you're too tired to care.
+
+I once spent two hours debugging a revenue report because someone LEFT JOINed to a promo codes table that had duplicate rows per user. The join inflated the revenue by 80%. The finance team noticed. I did not enjoy that meeting.
+
+The thing nobody tells you is that SQL will let you write almost anything. It will not stop you. It will not warn you. It will just return a number, and that number will look correct enough that you'll ship it.
+
+And then someone in finance will email you three weeks later with a screenshot and the subject line "can we talk."
+
+So now I compulsively check for NULLs. I check for duplicates before every join. I write way more GROUP BY clauses than I probably need to. It's not elegance. It's scar tissue.
+
+Anyone else have a "small SQL mistake, large consequences" story or is it just me out here suffering.
+
+#DataAnalytics #SQL #AnalyticsEngineering #DataScience #BigData
+
+---
+
 ## November 19, 2026
 **Topic:** What I'd do differently if I started my data career today
 **Tone:** Something I learned / observed / did at work | **Length:** Short
