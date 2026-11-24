@@ -2,6 +2,32 @@
 **Topic:** What good stakeholder communication looks like in data roles
 **Tone:** Funny / Witty | **Length:** Medium
 
+The stakeholder will tell you they want "clean, reliable data."
+
+What they actually want is for you to build a dashboard with six dimensions, three date ranges, and a toggle that shows "just the good accounts."
+
+You ask what "good" means.
+
+They say "you know, the ones we care about."
+
+You build it. They love it. Two weeks later they email at 4:47pm on a Friday asking if you can add just one more filter. For a segmentation that doesn't exist in the data model. And also can you make sure it updates in real time.
+
+You explain that real time means rebuilding the entire pipeline and it will take three weeks.
+
+They ask if you can do it by Monday.
+
+This is stakeholder communication. It's not about being right. It's about managing the moment when someone realizes the data can't answer the question they didn't know they were asking until you already built the thing they said they wanted.
+
+Anyone else get "one small change" requests that are architecturally impossible? Just me?
+
+#DataAnalytics #StakeholderManagement #AnalyticsEngineering #DataHumor #DataLife
+
+---
+
+## November 24, 2026
+**Topic:** What good stakeholder communication looks like in data roles
+**Tone:** Funny / Witty | **Length:** Medium
+
 You know what's wild?
 
 The stakeholder who absolutely needs data "to make a decision" will ask for three more cuts after you've delivered the report.
