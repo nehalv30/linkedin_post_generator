@@ -1,3 +1,27 @@
+## November 24, 2026
+**Topic:** What good stakeholder communication looks like in data roles
+**Tone:** Funny / Witty | **Length:** Medium
+
+You know what's wild?
+
+The stakeholder who absolutely needs data "to make a decision" will ask for three more cuts after you've delivered the report.
+
+Then they'll schedule a meeting to "discuss the findings."
+
+Then they'll ask if you can add one more dimension. Just one.
+
+And after all of that, after you've rerun the query four times and updated the dashboard twice, they'll say something like "yeah this confirms what I thought" and go with their gut anyway.
+
+I'm not saying the work didn't matter. I'm saying the decision was already made and what they actually needed was permission to do the thing they wanted to do.
+
+Which is fine. Honestly. But it would save us all a lot of time if someone just said "hey can you build me a chart that shows I'm right" instead of "we need data to inform the strategy."
+
+Anyone else been the human rubber stamp disguised as analysis?
+
+#DataAnalytics #AnalyticsEngineering #DataAnalyst #Stakeholders #DataLife
+
+---
+
 ## November 20, 2026
 **Topic:** SQL patterns most analysts get wrong
 **Tone:** Funny / Witty | **Length:** Long
