@@ -1,3 +1,21 @@
+## November 25, 2026
+**Topic:** Everyone says they're data-driven. Almost nobody is.
+**Tone:** Relatable | **Length:** Short
+
+Everyone says they're data-driven until the data says something they don't want to hear.
+
+Then suddenly it's about sample size. Or seasonality. Or 'we need more context'.
+
+I've sat in meetings where someone spent 20 minutes poking holes in a dataset instead of questioning the decision it was challenging.
+
+The data isn't there to inform. It's there to confirm.
+
+And once you see that pattern, you can't unsee it.
+
+#DataAnalytics #DataDriven #Analytics #DataCulture #BusinessIntelligence
+
+---
+
 ## November 24, 2026
 **Topic:** What good stakeholder communication looks like in data roles
 **Tone:** Funny / Witty | **Length:** Medium
