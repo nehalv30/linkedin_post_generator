@@ -1,3 +1,29 @@
+## November 26, 2026
+**Topic:** What fintech data actually looks like
+**Tone:** Credible Insight / Domain Authority | **Length:** Long
+
+Most people outside fintech think financial data is clean rows in a database. Transaction ID, amount, timestamp. Done.
+
+It's not.
+
+It's nested JSON that changes structure between banks. It's the same transaction showing up three times because the upstream system retried and nobody told you. It's amounts stored as strings in one feed and decimals in another. It's a field called "merchant_category" that is an object in Chase's API, a code in Wells Fargo's, and completely missing in 40% of credit unions.
+
+You build a fraud model, and it works great. Then you realize one bank sends timestamps in UTC, another in local time without a zone identifier, and three more don't send timestamps at all for certain transaction types. Your aggregate counts are off by 11%. Nobody notices until a client calls.
+
+Or you join transaction data to account data and suddenly you have duplicate records because one source updates in real time and the other runs nightly, and the join key doesn't account for effective dates. The dashboard looks fine until someone filters by a date range that crosses a month boundary.
+
+The other thing nobody tells you is that "declined" doesn't always mean declined. Sometimes it means pending. Sometimes it means the transaction will clear tomorrow. Sometimes the status field updates three days later with no event emitted. You build logic assuming states are final. They are not.
+
+And the missing data isn't random. It's patterned. Smaller institutions send fewer fields. High-value transactions get routed differently and have different metadata. Cross-border payments are their own nightmare. If you just drop incomplete records, your analysis is biased in ways you won't see until it's in production.
+
+Working with this stuff reliably means you stop trusting the schema. You write tests for every edge case you've seen and a few you haven't. You build monitoring that flags when field distributions shift. You version your transformations and keep the messy intermediate layers so you can trace back when something breaks.
+
+It's not sexy. But it's the actual job. And honestly, that's the part I like. Figuring out how to make unreliable inputs produce reliable outputs. That's the work.
+
+#DataEngineering #Fintech #DataQuality #AnalyticsEngineering #DataPipelines
+
+---
+
 ## November 25, 2026
 **Topic:** Everyone says they're data-driven. Almost nobody is.
 **Tone:** Relatable | **Length:** Short
