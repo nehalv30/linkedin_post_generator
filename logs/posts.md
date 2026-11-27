@@ -1,3 +1,23 @@
+## November 27, 2026
+**Topic:** The problem with how companies hire data people
+**Tone:** Something I learned / observed / did at work | **Length:** Medium
+
+I interviewed twice this week.
+
+Both times they asked me to solve SQL problems I would never write in real life. Window functions wrapped in CTEs wrapped in subqueries. The kind of thing you'd refactor out of a production pipeline immediately.
+
+No one asked me how I would explain what a conversion rate actually means to a product manager. Or how I'd know if a metric was broken. Or what I do when the data doesn't match what the business thinks it should say.
+
+I spent four years building dashboards people use to make actual decisions. Modeling messy billing data. Explaining why the numbers don't add up the way finance expected. That work is about judgment and communication and knowing what questions to ask before you write the query.
+
+But the interview is optimized for someone who can invert a binary tree in SQL.
+
+I genuinely don't know what that proves.
+
+#DataAnalytics #Hiring #SQL #AnalyticsEngineering #DataCareers
+
+---
+
 ## November 26, 2026
 **Topic:** What fintech data actually looks like
 **Tone:** Credible Insight / Domain Authority | **Length:** Long
